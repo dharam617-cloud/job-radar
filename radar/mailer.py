@@ -30,6 +30,7 @@ def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active
   <a href="{e(j['url'])}" style="font:600 16px/1.3 Arial,sans-serif;color:#1f5f8b;text-decoration:none">{e(j['title'])}</a>
   <div style="font:14px/1.5 Arial,sans-serif;color:#152330;margin-top:3px"><b>{e(j['company'])}</b> &middot; {e(j['city'])} &middot; {e(j['source'])}{(' &middot; ' + e(j['exp'])) if j.get('exp') else ''}{(' &middot; ' + e(j['salary'])) if j.get('salary') else ''}</div>
   <div style="font:13.5px/1.5 Arial,sans-serif;color:#5b6b78;margin-top:4px">{e(j['why'])}</div>
+  <a href="{e(j['url'])}" style="display:inline-block;margin-top:9px;background:#1f5f8b;color:#ffffff;font:600 13px Arial,sans-serif;padding:7px 13px;border-radius:7px;text-decoration:none">Apply on {e(j['source'])} &#8599;</a>
 </td></tr>""")
     health = []
     for name, s in run["sources"].items():
