@@ -1,0 +1,31 @@
+{
+  "name": "Dharmendra Singh",
+  "summary": "14+ years Agile delivery. Senior Scrum Master on Commonwealth Bank Australia's CDAO Data Analytics & MLOps portfolio (Tableau, Alteryx, Alation, vulnerability management). Earlier Senior Scrum Master at B/S/H and Maersk, Scrum Master at JPMorgan Chase, PMO at KPIT and Accenture. Strengths: multi-team coordination, SAFe, RAID and dependency management, release readiness, capacity planning, Jira/Confluence/Azure DevOps. Certifications: CSM, Leading SAFe 6.0, AWS Cloud Practitioner, IIT Madras Agentic AI programme, IBM RAG/LangChain and GenAI. Not a hands-on engineer.",
+  "years": 14,
+  "experience_band": [10, 18],
+  "pay_floor_lpa": 50,
+  "queries": [
+    "senior scrum master",
+    "agile coach",
+    "technical program manager",
+    "release train engineer",
+    "ai program manager",
+    "data program manager"
+  ],
+  "cities": {
+    "Bengaluru": {
+      "naukri_slug": "bangalore", "naukri_l": "bangalore",
+      "linkedin": ["Bengaluru, Karnataka, India"]
+    },
+    "Hyderabad": {
+      "naukri_slug": "hyderabad", "naukri_l": "hyderabad",
+      "linkedin": ["Hyderabad, Telangana, India"]
+    },
+    "Delhi NCR": {
+      "naukri_slug": "delhi-ncr", "naukri_l": "delhi / ncr",
+      "linkedin": ["New Delhi, Delhi, India", "Gurugram, Haryana, India", "Noida, Uttar Pradesh, India"]
+    }
+  },
+  "remote_query": "scrum master OR agile coach OR technical program manager OR delivery manager",
+  "min_score": 60
+}

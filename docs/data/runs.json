@@ -1,0 +1,18 @@
+[
+ {
+  "at": "2026-10-25T11:45:00+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 180
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 80
+   }
+  },
+  "scanned": 260,
+  "added": 30,
+  "note": "Initial scan, Bengaluru + remote, past 7 days"
+ }
+]

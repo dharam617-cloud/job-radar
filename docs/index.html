@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Job Match Radar</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: control-room column. Masthead with scan health, KPI strip, two small charts, sticky filter rail, ranked match cards */
+:root{
+  --bg:#eef1f4; --surface:#ffffff; --sunk:#f6f8fa; --ink:#14212c; --muted:#5a6a77; --faint:#8b98a3; --line:#d9e0e6;
+  --accent:#1d5b86; --accent-ink:#ffffff; --accent-soft:#e1ecf5;
+  --strong:#1b7a4c; --strong-soft:#def1e7; --good:#a26a08; --good-soft:#f8ecd2; --stretch:#6c7a86; --stretch-soft:#e9edf1;
+  --c-blr:#1d5b86; --c-hyd:#b0562a; --c-ncr:#6b4fa0; --c-rem:#2c8a83;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --radius:12px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1318; --surface:#141e26; --sunk:#101920; --ink:#e3eaf0; --muted:#97a6b2; --faint:#6e7d89; --line:#24323d;
+  --accent:#7eb6df; --accent-ink:#0c1318; --accent-soft:#183245;
+  --strong:#6fd3a1; --strong-soft:#15342a; --good:#e5b65a; --good-soft:#382c14; --stretch:#8e9ba6; --stretch-soft:#1c2730;
+  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1318; --surface:#141e26; --sunk:#101920; --ink:#e3eaf0; --muted:#97a6b2; --faint:#6e7d89; --line:#24323d;
+  --accent:#7eb6df; --accent-ink:#0c1318; --accent-soft:#183245;
+  --strong:#6fd3a1; --strong-soft:#15342a; --good:#e5b65a; --good-soft:#382c14; --stretch:#8e9ba6; --stretch-soft:#1c2730;
+  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}
+[hidden]{display:none!important}
+.wrap{max-width:1120px;margin:0 auto;padding-block:28px 64px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* masthead */
+.mast{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px 24px;align-items:end}
+.eyebrow{font:500 12px var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(30px,5vw,46px)/1 var(--f-display);letter-spacing:-.02em;margin:6px 0 8px;text-wrap:balance}
+.lede{margin:0;color:var(--muted);max-width:62ch}
+.health{display:grid;gap:6px;justify-items:end;font-size:13px;color:var(--muted)}
+.pills{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font:500 12.5px var(--f-mono)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--strong)}
+.pill.bad .dot{background:var(--good)}
+@media (max-width:720px){.mast{grid-template-columns:1fr}.health{justify-items:start}.pills{justify-content:flex-start}}
+
+/* kpis */
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.kpi{padding:16px 18px;display:grid;gap:2px;border-left:1px solid var(--line)}
+.kpi:first-child{border-left:0}
+.kpi b{font:500 34px/1.05 var(--f-display);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.kpi span{font-size:13px;color:var(--muted)}
+.kpi.hl b{color:var(--strong)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(3){border-left:0}.kpi:nth-child(n+3){border-top:1px solid var(--line)}}
+
+/* charts */
+.charts{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:14px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;min-width:0}
+.panel h2{font:600 13px var(--f-body);margin:0 0 12px;color:var(--muted);letter-spacing:.02em}
+.panel h2 b{color:var(--ink);font-weight:600}
+#trend{width:100%;height:150px;display:block}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.split{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--sunk);margin-bottom:12px}
+.split span{display:block;height:100%}
+.cities{display:grid;gap:8px}
+.cityrow{display:grid;grid-template-columns:12px minmax(0,1fr) auto auto;gap:10px;align-items:center;font-size:14px;border:0;background:none;padding:2px 0;text-align:left;cursor:pointer;border-radius:6px}
+.cityrow:hover .cn{text-decoration:underline}
+.cityrow i{width:10px;height:10px;border-radius:2px}
+.cityrow .num{font:500 13px var(--f-mono);font-variant-numeric:tabular-nums}
+.cityrow .sub{font:12px var(--f-mono);color:var(--strong);min-width:4.5em;text-align:right}
+@media (max-width:760px){.charts{grid-template-columns:1fr}}
+
+/* filters */
+.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding-block:10px;display:grid;gap:10px;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.seg{display:flex;flex-wrap:wrap;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:3px}
+.seg button{border:0;background:transparent;color:var(--muted);padding:6px 11px;border-radius:6px;cursor:pointer;font-size:13.5px;font-weight:500}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.seg .n{font:500 11.5px var(--f-mono);margin-left:5px;opacity:.75}
+.search{flex:1 1 220px;min-width:0;position:relative}
+.search input{width:100%;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:8px 12px 8px 34px;font-size:14px}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--faint)}
+select{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:7px 10px;font-size:14px;max-width:100%}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip i{width:8px;height:8px;border-radius:50%}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--surface)}
+.count{font-size:13px;color:var(--muted);margin-left:auto}
+
+/* cards */
+.list{display:grid;gap:10px}
+.job{display:grid;grid-template-columns:66px minmax(0,1fr);gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+.job.is-new{box-shadow:inset 3px 0 0 var(--accent)}
+.job.dim{opacity:.55}
+.gauge{display:grid;justify-items:center;align-content:start;gap:5px}
+.ring{width:58px;height:58px;border-radius:50%;background:conic-gradient(var(--c) calc(var(--p)*1%),var(--sunk) 0);display:grid;place-items:center}
+.ring b{width:46px;height:46px;border-radius:50%;background:var(--surface);display:grid;place-items:center;font:600 17px var(--f-mono);font-variant-numeric:tabular-nums}
+.band{font:600 10.5px var(--f-mono);letter-spacing:.07em;text-transform:uppercase;color:var(--c)}
+.body{min-width:0;display:grid;gap:7px}
+.top{display:flex;gap:6px 12px;flex-wrap:wrap;align-items:baseline;justify-content:space-between}
+.title{font:500 19px/1.25 var(--f-display);color:var(--ink);text-decoration:none;overflow-wrap:anywhere;letter-spacing:-.005em}
+.title:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.tags{display:flex;gap:6px;align-items:center}
+.src{font:600 10.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
+.newtag{font:600 10.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.meta{display:flex;flex-wrap:wrap;gap:3px 14px;font-size:13.5px;color:var(--muted)}
+.meta strong{color:var(--ink);font-weight:600}
+.meta .city{display:inline-flex;align-items:center;gap:5px}
+.meta .city i{width:8px;height:8px;border-radius:50%}
+.why{margin:0;font-size:14px;max-width:76ch}
+.flags{display:flex;flex-wrap:wrap;gap:5px}
+.flag{font-size:12px;padding:2px 8px;border-radius:5px;background:var(--stretch-soft);color:var(--muted)}
+.flag.pos{background:var(--strong-soft);color:var(--strong)}
+.flag.warn{background:var(--good-soft);color:var(--good)}
+.actions{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:2px}
+.actions button{border:1px solid var(--line);background:var(--surface);padding:5px 11px;border-radius:7px;cursor:pointer;font-size:13px;font-weight:500}
+.actions button:hover{border-color:var(--accent);color:var(--accent)}
+.actions button[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.actions .when{margin-left:auto;font:12px var(--f-mono);color:var(--faint)}
+@media (max-width:520px){.job{grid-template-columns:1fr;padding:14px}.gauge{grid-auto-flow:column;justify-content:start;align-items:center;gap:10px}}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:32px;text-align:center;color:var(--muted)}
+.empty h3{font:600 20px var(--f-display);color:var(--ink);margin:0 0 6px}
+footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
+@media (prefers-reduced-motion:no-preference){.job{transition:opacity .2s,box-shadow .2s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <div class="eyebrow">Naukri + LinkedIn · daily 7:15 IST</div>
+      <h1>Job Match Radar</h1>
+      <p class="lede">Senior Scrum Master, Agile Coach, TPM, RTE and AI/Data programme roles in Bengaluru, Hyderabad, Delhi NCR and remote India, scored against Dharmendra Singh's 14 years of Agile delivery.</p>
+    </div>
+    <div class="health">
+      <div id="lastscan">Loading scan data…</div>
+      <div class="pills" id="pills"></div>
+    </div>
+  </header>
+
+  <section class="kpis" aria-label="Summary">
+    <div class="kpi"><b id="k-new">–</b><span>New in latest scan</span></div>
+    <div class="kpi hl"><b id="k-strong">–</b><span>Strong matches (80+)</span></div>
+    <div class="kpi"><b id="k-short">–</b><span>Shortlisted</span></div>
+    <div class="kpi"><b id="k-applied">–</b><span>Applied</span></div>
+  </section>
+
+  <section class="charts">
+    <div class="panel">
+      <h2><b>New matches per day</b> · last 14 days</h2>
+      <svg id="trend" role="img" aria-label="Bar chart of new matches per day"></svg>
+      <div class="legend"><span><i style="background:var(--strong)"></i>Strong (80+)</span><span><i style="background:var(--accent)"></i>Other matches</span></div>
+    </div>
+    <div class="panel">
+      <h2><b>Where the open matches are</b> · tap to filter</h2>
+      <div class="split" id="split"></div>
+      <div class="cities" id="cities"></div>
+    </div>
+  </section>
+
+  <section class="rail" aria-label="Filters">
+    <div class="row">
+      <div class="seg" id="status" role="group" aria-label="Status"></div>
+      <label class="search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Search title, company, skill" aria-label="Search"></label>
+    </div>
+    <div class="row">
+      <div class="chips" id="citychips" role="group" aria-label="City"></div>
+      <select id="family" aria-label="Role type"><option value="">All role types</option></select>
+      <select id="source" aria-label="Source"><option value="">Both sites</option><option>Naukri</option><option>LinkedIn</option></select>
+      <select id="min" aria-label="Minimum score"><option value="0">Any score</option><option value="65">65+</option><option value="70">70+</option><option value="80">80+</option></select>
+      <select id="sort" aria-label="Sort"><option value="score">Best match first</option><option value="new">Newest first</option></select>
+      <span class="count" id="count"></span>
+    </div>
+  </section>
+
+  <section class="list" id="list" aria-live="polite">
+    <div class="empty"><h3>Loading matches…</h3><p>Openings from the daily scan appear here, ranked by fit.</p></div>
+  </section>
+
+  <footer>
+    <div>Scores (0–100) weigh role fit 35, experience band 15, Agile/SAFe tooling 15, data and AI overlap 15, BFSI domain 10, and location plus pay 10. Listings with disclosed pay under ₹50 LPA are dropped; hidden pay is kept and flagged.</div>
+    <div>Shortlisted, Applied and Skipped marks are saved in this browser only.</div>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const CITY = {"Bengaluru":"var(--c-blr)","Hyderabad":"var(--c-hyd)","Delhi NCR":"var(--c-ncr)","Remote":"var(--c-rem)"};
+  const STATUSES = [["open","Open"],["new","New"],["shortlisted","Shortlisted"],["applied","Applied"],["skipped","Skipped"]];
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const store = {
+    get(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+    set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+  };
+  let jobs = [], runs = [], marks = store.get("radar.marks", {});
+  const ui = Object.assign({status:"open", city:"", family:"", source:"", min:"0", sort:"score", q:""}, store.get("radar.ui", {}));
+  const latest = () => jobs.reduce((m, j) => j.first_seen > m ? j.first_seen : m, "");
+  const statusOf = j => marks[j.id] || "new";
+  const band = s => s >= 80 ? ["Strong","var(--strong)"] : s >= 65 ? ["Good","var(--good)"] : ["Stretch","var(--stretch)"];
+  const fmtDay = d => new Date(d + "T00:00:00").toLocaleDateString(undefined, {day:"numeric", month:"short"});
+
+  function saveUI(){ store.set("radar.ui", ui); }
+
+  function header(){
+    const r = runs[0];
+    if (!r){ $("lastscan").textContent = "No scans yet"; return; }
+    const when = new Date(r.at);
+    $("lastscan").textContent = `Last scan ${when.toLocaleString(undefined,{weekday:"short",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})} · ${r.scanned} listings checked`;
+    $("pills").innerHTML = Object.entries(r.sources || {}).map(([k, s]) =>
+      `<span class="pill ${s.ok ? "" : "bad"}" title="${esc(s.error || "")}"><span class="dot"></span>${esc(k)} ${s.ok ? s.fetched : "issue"}</span>`).join("");
+  }
+
+  function kpis(){
+    const L = latest(), open = jobs.filter(j => statusOf(j) !== "skipped");
+    $("k-new").textContent = jobs.filter(j => j.first_seen === L).length;
+    $("k-strong").textContent = open.filter(j => j.score >= 80).length;
+    $("k-short").textContent = jobs.filter(j => statusOf(j) === "shortlisted").length;
+    $("k-applied").textContent = jobs.filter(j => statusOf(j) === "applied").length;
+  }
+
+  function trend(){
+    const svg = $("trend"), W = svg.clientWidth || 600, H = 150, pad = {l:26, r:18, t:16, b:22};
+    const end = new Date((latest() || new Date().toISOString().slice(0,10)) + "T00:00:00Z");
+    const days = [...Array(14)].map((_, i) => new Date(end.getTime() - (13 - i) * 864e5).toISOString().slice(0,10));
+    const by = Object.fromEntries(days.map(d => [d, {all:0, strong:0}]));
+    jobs.forEach(j => { const b = by[j.first_seen]; if (b){ b.all++; if (j.score >= 80) b.strong++; } });
+    const max = Math.max(4, ...days.map(d => by[d].all));
+    const step = Math.ceil(max / 4), top = step * 4;
+    const iw = W - pad.l - pad.r, ih = H - pad.t - pad.b, bw = iw / 14;
+    const y = v => pad.t + ih - (v / top) * ih;
+    let g = "";
+    for (let v = 0; v <= top; v += step) g += `<line x1="${pad.l}" x2="${W - pad.r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1"/><text x="${pad.l - 6}" y="${y(v) + 4}" text-anchor="end" font-size="10.5" font-family="IBM Plex Mono,monospace" fill="var(--faint)">${v}</text>`;
+    days.forEach((d, i) => {
+      const x = pad.l + i * bw + bw * 0.18, w = bw * 0.64, b = by[d];
+      if (b.all){
+        g += `<rect x="${x}" y="${y(b.all)}" width="${w}" height="${y(0) - y(b.all)}" rx="3" fill="var(--accent)" opacity=".85"><title>${fmtDay(d)}: ${b.all} new, ${b.strong} strong</title></rect>`;
+        if (b.strong) g += `<rect x="${x}" y="${y(b.strong)}" width="${w}" height="${y(0) - y(b.strong)}" rx="3" fill="var(--strong)"/>`;
+        if (i === 13 || b.all === max) g += `<text x="${x + w/2}" y="${y(b.all) - 4}" text-anchor="middle" font-size="11" font-weight="600" font-family="IBM Plex Mono,monospace" fill="var(--ink)">${b.all}</text>`;
+      }
+      if (i % 3 === 1 || i === 13) g += `<text x="${x + w/2}" y="${H - 6}" text-anchor="middle" font-size="10.5" font-family="IBM Plex Mono,monospace" fill="var(--faint)">${fmtDay(d)}</text>`;
+    });
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    svg.innerHTML = g;
+  }
+
+  function cities(){
+    const open = jobs.filter(j => statusOf(j) !== "skipped");
+    const names = Object.keys(CITY);
+    const cnt = Object.fromEntries(names.map(n => [n, {all:0, strong:0}]));
+    open.forEach(j => { const c = cnt[j.city]; if (c){ c.all++; if (j.score >= 80) c.strong++; } });
+    const total = open.length || 1;
+    $("split").innerHTML = names.map(n => cnt[n].all ? `<span style="width:${cnt[n].all / total * 100}%;background:${CITY[n]}" title="${n}: ${cnt[n].all}"></span>` : "").join("");
+    $("cities").innerHTML = names.map(n => `<button type="button" class="cityrow" data-city="${n}"><i style="background:${CITY[n]}"></i><span class="cn">${n}</span><span class="num">${cnt[n].all}</span><span class="sub">${cnt[n].strong ? cnt[n].strong + " strong" : ""}</span></button>`).join("");
+    $("citychips").innerHTML = [["","All cities"], ...names.map(n => [n, n])].map(([v, l]) =>
+      `<button type="button" class="chip" data-city="${v}" aria-pressed="${ui.city === v}">${v ? `<i style="background:${CITY[v]}"></i>` : ""}${l}</button>`).join("");
+  }
+
+  function statusTabs(){
+    const c = {open:0, new:0, shortlisted:0, applied:0, skipped:0};
+    jobs.forEach(j => { const s = statusOf(j); c[s]++; if (s !== "skipped") c.open++; });
+    $("status").innerHTML = STATUSES.map(([k, l]) => `<button type="button" data-s="${k}" aria-pressed="${ui.status === k}">${l}<span class="n">${c[k]}</span></button>`).join("");
+  }
+
+  function list(){
+    const L = latest(), q = ui.q.trim().toLowerCase();
+    let rows = jobs.filter(j => {
+      const s = statusOf(j);
+      if (ui.status === "open" ? s === "skipped" : s !== ui.status) return false;
+      if (ui.city && j.city !== ui.city) return false;
+      if (ui.family && j.family !== ui.family) return false;
+      if (ui.source && j.source !== ui.source) return false;
+      if (j.score < +ui.min) return false;
+      if (q && !`${j.title} ${j.company} ${j.why} ${(j.flags||[]).join(" ")} ${j.location}`.toLowerCase().includes(q)) return false;
+      return true;
+    });
+    rows.sort(ui.sort === "new" ? (a, b) => b.first_seen.localeCompare(a.first_seen) || b.score - a.score : (a, b) => b.score - a.score || b.first_seen.localeCompare(a.first_seen));
+    $("count").textContent = `${rows.length} of ${jobs.length}`;
+    if (!rows.length){
+      $("list").innerHTML = `<div class="empty"><h3>${jobs.length ? "Nothing matches these filters" : "No matches yet"}</h3><p>${jobs.length ? "Clear the search or pick another city or status." : "The first daily scan will fill this page."}</p></div>`;
+      return;
+    }
+    $("list").innerHTML = rows.map(j => {
+      const [bl, bc] = band(j.score), s = statusOf(j), isNew = j.first_seen === L && s === "new";
+      const flags = (j.flags || []).map(f => {
+        const pos = f.startsWith("+"), warn = /required|hands-on|lower|stack|confirm|walk-in/i.test(f);
+        return `<span class="flag ${pos ? "pos" : warn ? "warn" : ""}">${esc(pos ? f.slice(1) : f)}</span>`;
+      }).join("");
+      return `<article class="job${isNew ? " is-new" : ""}${s === "skipped" ? " dim" : ""}" data-id="${esc(j.id)}">
+        <div class="gauge" style="--c:${bc}"><div class="ring" style="--p:${j.score};--c:${bc}" role="img" aria-label="Match score ${j.score} out of 100"><b>${j.score}</b></div><span class="band">${bl}</span></div>
+        <div class="body">
+          <div class="top"><a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+            <span class="tags">${isNew ? '<span class="newtag">New</span>' : ""}<span class="src">${esc(j.source)}</span></span></div>
+          <div class="meta"><strong>${esc(j.company)}</strong><span class="city"><i style="background:${CITY[j.city] || "var(--faint)"}"></i>${esc(j.location || j.city)}</span>${j.exp ? `<span>${esc(j.exp)}</span>` : ""}<span>${esc(j.salary || "Pay not disclosed")}</span><span>${esc(j.family || "")}</span></div>
+          ${j.why ? `<p class="why">${esc(j.why)}</p>` : ""}
+          ${flags ? `<div class="flags">${flags}</div>` : ""}
+          <div class="actions">
+            <button type="button" data-m="shortlisted" aria-pressed="${s === "shortlisted"}">Shortlist</button>
+            <button type="button" data-m="applied" aria-pressed="${s === "applied"}">Applied</button>
+            <button type="button" data-m="skipped" aria-pressed="${s === "skipped"}">Skip</button>
+            <span class="when">Found ${fmtDay(j.first_seen)}${j.posted ? " · posted " + esc(String(j.posted).toLowerCase()) : ""}</span>
+          </div>
+        </div></article>`;
+    }).join("");
+  }
+
+  function render(){ kpis(); cities(); statusTabs(); list(); trend(); }
+
+  // events
+  $("status").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; ui.status = b.dataset.s; saveUI(); render(); });
+  const pickCity = e => { const b = e.target.closest("[data-city]"); if (!b) return; ui.city = ui.city === b.dataset.city ? "" : b.dataset.city; saveUI(); render(); };
+  $("citychips").addEventListener("click", pickCity);
+  $("cities").addEventListener("click", pickCity);
+  ["family","source","min","sort"].forEach(id => { $(id).addEventListener("change", e => { ui[id] = e.target.value; saveUI(); list(); }); });
+  $("q").addEventListener("input", e => { ui.q = e.target.value; list(); });
+  $("list").addEventListener("click", e => {
+    const b = e.target.closest("button[data-m]"); if (!b) return;
+    const id = b.closest(".job").dataset.id, m = b.dataset.m;
+    if (marks[id] === m) delete marks[id]; else marks[id] = m;
+    store.set("radar.marks", marks); render();
+  });
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(trend, 150); });
+
+  Promise.all([fetch("data/jobs.json", {cache:"no-store"}).then(r => r.json()), fetch("data/runs.json", {cache:"no-store"}).then(r => r.json()).catch(() => [])])
+    .then(([j, r]) => {
+      jobs = j; runs = r;
+      const fams = [...new Set(jobs.map(x => x.family).filter(Boolean))].sort();
+      $("family").innerHTML = `<option value="">All role types</option>` + fams.map(f => `<option>${esc(f)}</option>`).join("");
+      ["family","source","min","sort"].forEach(id => { $(id).value = ui[id]; });
+      $("q").value = ui.q;
+      header(); render();
+    })
+    .catch(() => { $("list").innerHTML = `<div class="empty"><h3>Couldn't load the scan data</h3><p>Refresh the page. If this keeps happening, check the latest run on GitHub Actions.</p></div>`; $("lastscan").textContent = "Scan data unavailable"; });
+})();
+</script>
+</body>
+</html>
