@@ -148,7 +148,7 @@ def score(job: dict, profile: dict) -> dict | None:
     pay = _salary_max_lpa(job)
     if pay is not None and pay < profile["pay_floor_lpa"]:
         return None
-    pay_pts = 5 if pay is not None else 3
+    pay_pts = 5  # undisclosed pay is never penalised; only a disclosed max below the floor drops a job
     if pay is None:
         flags.append("Pay not disclosed")
 

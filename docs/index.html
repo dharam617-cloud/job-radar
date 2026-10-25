@@ -219,7 +219,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     const when = new Date(r.at);
     $("lastscan").textContent = `Last scan ${when.toLocaleString(undefined,{weekday:"short",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})} · ${r.scanned} listings checked`;
     $("pills").innerHTML = Object.entries(r.sources || {}).map(([k, s]) =>
-      `<span class="pill ${s.ok ? "" : "bad"}" title="${esc(s.error || "")}"><span class="dot"></span>${esc(k)} ${s.ok ? s.fetched : "issue"}</span>`).join("");
+      `<span class="pill ${s.ok ? "" : "bad"}" title="${esc([s.error, s.diag].filter(Boolean).join(' · '))}"><span class="dot"></span>${esc(k)} ${s.ok ? s.fetched : "issue"}</span>`).join("");
   }
 
   function kpis(){

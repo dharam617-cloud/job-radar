@@ -98,11 +98,27 @@ class Naukri:
 
     def __enter__(self):
         from playwright.sync_api import sync_playwright
+        import os
         self.pw = sync_playwright().start()
-        self.browser = self.pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        self.ctx = self.browser.new_context(user_agent=UA, locale="en-IN", timezone_id="Asia/Kolkata",
+        # A real Chrome window (on a virtual display in CI) looks far less like a bot than headless Chromium.
+        headed = bool(os.environ.get("DISPLAY"))
+        try:
+            self.browser = self.pw.chromium.launch(channel="chrome", headless=not headed,
+                                                   args=["--disable-blink-features=AutomationControlled"])
+        except Exception:
+            self.browser = self.pw.chromium.launch(headless=not headed, args=["--disable-blink-features=AutomationControlled"])
+        self.ctx = self.browser.new_context(locale="en-IN", timezone_id="Asia/Kolkata",
                                             viewport={"width": 1366, "height": 900})
         self.ctx.add_init_script("Object.defineProperty(navigator,'webdriver',{get:()=>undefined})")
+        self.diag = []
+        try:  # warm up on the home page so the site sets its normal cookies first
+            p = self.ctx.new_page()
+            r = p.goto("https://www.naukri.com/", wait_until="domcontentloaded", timeout=45000)
+            p.wait_for_timeout(3000)
+            self.diag.append(f"home {r.status if r else '?'} '{p.title()[:40]}'")
+            p.close()
+        except Exception as e:
+            self.diag.append(f"home failed: {type(e).__name__}")
         return self
 
     def __exit__(self, *a):
@@ -119,13 +135,17 @@ class Naukri:
         url = (f"https://www.naukri.com/{slug}-jobs-in-{city_slug}?"
                + up.urlencode({"k": query, "l": city_l, "experience": 14, "jobAge": days}))
         page = self.ctx.new_page()
-        data = None
+        data, api, nav = None, [], None
+        page.on("response", lambda r: api.append(r.status) if "/jobapi/v3/search" in r.url else None)
         try:
             with page.expect_response(lambda r: "/jobapi/v3/search" in r.url and r.status == 200, timeout=30000) as resp:
-                page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                nav = page.goto(url, wait_until="domcontentloaded", timeout=45000)
             data = resp.value.json()
         except Exception as e:
-            self.log(f"Naukri {query} / {city_slug}: {type(e).__name__}: {str(e)[:120]}")
+            msg = f"{query}/{city_slug}: page {nav.status if nav else '?'}, api {api or 'none'}, '{page.title()[:30]}'"
+            self.log("Naukri " + msg + f" ({type(e).__name__})")
+            if len(self.diag) < 4:
+                self.diag.append(msg)
         finally:
             page.close()
         time.sleep(2)

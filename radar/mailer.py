@@ -15,12 +15,10 @@ def _band(s: int) -> tuple[str, str, str]:
     return "Stretch", "#5b6b78", "#eef1f3"
 
 
-def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active: int) -> str:
+def _rows(jobs: list[dict]) -> str:
     e = html.escape
-    top = sorted(new_jobs, key=lambda j: -j["score"])[:15]
-    strong = sum(1 for j in new_jobs if j["score"] >= 80)
     rows = []
-    for j in top:
+    for j in jobs:
         label, fg, bg = _band(j["score"])
         rows.append(f"""
 <tr><td style="padding:14px 0;border-top:1px solid #dde3e8;vertical-align:top;width:58px">
@@ -32,13 +30,26 @@ def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active
   <div style="font:13.5px/1.5 Arial,sans-serif;color:#5b6b78;margin-top:4px">{e(j['why'])}</div>
   <a href="{e(j['url'])}" style="display:inline-block;margin-top:9px;background:#1f5f8b;color:#ffffff;font:600 13px Arial,sans-serif;padding:7px 13px;border-radius:7px;text-decoration:none">Apply on {e(j['source'])} &#8599;</a>
 </td></tr>""")
+    return "".join(rows)
+
+
+def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active: int, top_open: list[dict] | None = None) -> str:
+    e = html.escape
+    top = sorted(new_jobs, key=lambda j: -j["score"])[:15]
+    strong = sum(1 for j in new_jobs if j["score"] >= 80)
+    rows = _rows(top)
+    open_html = ""
+    if top_open:
+        open_html = ('<h2 style="font:700 17px/1.3 Arial,sans-serif;color:#152330;margin:26px 0 2px">Your top open matches</h2>'
+                     '<p style="font:13px Arial,sans-serif;color:#5b6b78;margin:0 0 4px">Found in earlier scans and still worth a look.</p>'
+                     f"<table role='presentation' cellpadding='0' cellspacing='0' width='100%'>{_rows(top_open)}</table>")
     health = []
     for name, s in run["sources"].items():
         if not s.get("ok"):
             health.append(f"{name}: {e(s.get('error') or 'no results')}")
     health_html = (f'<p style="font:13px/1.5 Arial,sans-serif;color:#9a6a10;background:#f7eed9;padding:10px 12px;border-radius:8px">'
                    f'Heads-up: {"; ".join(health)}. Results from that site may be missing today.</p>') if health else ""
-    body = (f"<table role='presentation' cellpadding='0' cellspacing='0' width='100%'>{''.join(rows)}</table>"
+    body = (f"<table role='presentation' cellpadding='0' cellspacing='0' width='100%'>{rows}</table>"
             if rows else '<p style="font:15px/1.5 Arial,sans-serif;color:#152330">No new openings cleared the bar today. Your earlier matches are still on the dashboard.</p>')
     more = (f'<p style="font:13.5px Arial,sans-serif;color:#5b6b78">Showing the top 15 of {len(new_jobs)} new matches.</p>'
             if len(new_jobs) > 15 else "")
@@ -50,6 +61,7 @@ def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active
   {health_html}
   {body}
   {more}
+  {open_html}
   <p style="margin:22px 0 6px"><a href="{e(dashboard_url)}" style="display:inline-block;background:#1f5f8b;color:#ffffff;font:600 14px Arial,sans-serif;padding:11px 18px;border-radius:8px;text-decoration:none">Open the dashboard</a></p>
   <p style="font:12px/1.5 Arial,sans-serif;color:#8a95a0;margin-top:18px">Scores weigh role fit, experience band, Agile/SAFe and data/AI overlap, BFSI domain, and pay against your &#8377;50 LPA floor. Listings that hide pay are kept.</p>
 </div></body></html>"""

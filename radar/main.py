@@ -77,9 +77,11 @@ def main() -> int:
                     failures += 0 if res else 1
                     for j in res:
                         raw.setdefault(j["id"], j)
+            diag = "; ".join(nk.diag)
         n = len(raw) - before
         run["sources"]["Naukri"] = {"ok": n > 0, "fetched": n,
-                                    "error": None if n else "no results (the site may be blocking cloud servers)"}
+                                    "error": None if n else "no results (the site may be blocking cloud servers)",
+                                    "diag": diag}
     except Exception as e:
         traceback.print_exc()
         run["sources"]["Naukri"]["error"] = f"{type(e).__name__}: {e}"[:160]
@@ -141,7 +143,10 @@ def main() -> int:
         subject = (f"{len(added)} new job matches ({strong} strong) · {now.strftime('%d %b')}" if added
                    else f"No new job matches today · {now.strftime('%d %b')}")
         try:
-            mailer.send(sender, pw, to or sender, subject, mailer.build_html(added, run, dashboard, len(jobs)))
+            new_ids = {j["id"] for j in added}
+            top_open = [j for j in sorted(jobs, key=lambda j: -j["score"]) if j["id"] not in new_ids][:5]
+            mailer.send(sender, pw, to or sender, subject,
+                        mailer.build_html(added, run, dashboard, len(jobs), top_open))
             log("Email sent")
         except Exception as e:
             log(f"Email failed: {e}")
