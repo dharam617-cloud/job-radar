@@ -127,6 +127,11 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:9px;
 .actions button[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
 .apply{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;font-size:13.5px;padding:6px 13px;border-radius:7px;margin-right:4px}
 .apply:hover{filter:brightness(1.1)}
+.actions .toapply[aria-pressed="true"]{background:var(--strong-soft);border-color:var(--strong);color:var(--strong)}
+.applybar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:20;display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:center;background:var(--ink);color:var(--surface);padding:10px 12px 10px 18px;border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.25);max-width:calc(100% - 32px);font-size:14px}
+.applybar button{border:0;border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer;background:var(--strong);color:#fff;font-size:14px}
+.applybar .ghost{background:transparent;color:var(--surface);opacity:.8;font-weight:500;padding:8px 8px}
+.wrap{padding-bottom:110px}
 .actions .when{margin-left:auto;font:12px var(--f-mono);color:var(--faint)}
 @media (max-width:520px){.job{grid-template-columns:1fr;padding:14px}.gauge{grid-auto-flow:column;justify-content:start;align-items:center;gap:10px}}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:32px;text-align:center;color:var(--muted)}
@@ -190,14 +195,15 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
 
   <footer>
     <div>Scores (0–100) weigh role fit 35, experience band 15, Agile/SAFe tooling 15, data and AI overlap 15, BFSI domain 10, and location plus pay 10. Listings with disclosed pay under ₹50 LPA are dropped; hidden pay is kept and flagged.</div>
-    <div>Shortlisted, Applied and Skipped marks are saved in this browser only.</div>
+    <div>To apply, Shortlisted, Applied and Skipped marks are saved in this browser only. Add jobs with “+ To apply”, then use “Copy my apply list” and paste it to Claude to have the applications filled in for your review.</div>
   </footer>
+  <div class="applybar" id="applybar" hidden role="region" aria-label="Apply list"><span id="applytext"></span><button type="button" id="copyapply">Copy my apply list</button><button type="button" class="ghost" id="showapply">View</button></div>
 </div>
 
 <script>
 (() => {
   const CITY = {"Bengaluru":"var(--c-blr)","Hyderabad":"var(--c-hyd)","Delhi NCR":"var(--c-ncr)","Remote":"var(--c-rem)"};
-  const STATUSES = [["open","Open"],["new","New"],["shortlisted","Shortlisted"],["applied","Applied"],["skipped","Skipped"]];
+  const STATUSES = [["open","Open"],["new","New"],["toapply","To apply"],["shortlisted","Shortlisted"],["applied","Applied"],["skipped","Skipped"]];
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const store = {
@@ -268,7 +274,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
   }
 
   function statusTabs(){
-    const c = {open:0, new:0, shortlisted:0, applied:0, skipped:0};
+    const c = {open:0, new:0, toapply:0, shortlisted:0, applied:0, skipped:0};
     jobs.forEach(j => { const s = statusOf(j); c[s]++; if (s !== "skipped") c.open++; });
     $("status").innerHTML = STATUSES.map(([k, l]) => `<button type="button" data-s="${k}" aria-pressed="${ui.status === k}">${l}<span class="n">${c[k]}</span></button>`).join("");
   }
@@ -307,6 +313,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
           ${flags ? `<div class="flags">${flags}</div>` : ""}
           <div class="actions">
             <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">Apply on ${esc(j.source)}<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            <button type="button" class="toapply" data-m="toapply" aria-pressed="${s === "toapply"}">${s === "toapply" ? "✓ In apply list" : "+ To apply"}</button>
             <button type="button" data-m="shortlisted" aria-pressed="${s === "shortlisted"}">Shortlist</button>
             <button type="button" data-m="applied" aria-pressed="${s === "applied"}">Applied</button>
             <button type="button" data-m="skipped" aria-pressed="${s === "skipped"}">Skip</button>
@@ -316,7 +323,16 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     }).join("");
   }
 
-  function render(){ kpis(); cities(); statusTabs(); list(); trend(); }
+  function applyBar(){
+    const n = jobs.filter(j => statusOf(j) === "toapply").length;
+    $("applybar").hidden = !n;
+    $("applytext").textContent = `${n} job${n === 1 ? "" : "s"} in your apply list`;
+  }
+  function applyListText(){
+    const picks = jobs.filter(j => statusOf(j) === "toapply").sort((a, b) => b.score - a.score);
+    return "Apply to these jobs for me:\n" + picks.map((j, i) => `${i + 1}. ${j.title} — ${j.company} (${j.source}, ${j.city}) ${j.url}`).join("\n");
+  }
+  function render(){ kpis(); cities(); statusTabs(); list(); trend(); applyBar(); }
 
   // events
   $("status").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; ui.status = b.dataset.s; saveUI(); render(); });
@@ -325,6 +341,13 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
   $("cities").addEventListener("click", pickCity);
   ["family","source","min","sort"].forEach(id => { $(id).addEventListener("change", e => { ui[id] = e.target.value; saveUI(); list(); }); });
   $("q").addEventListener("input", e => { ui.q = e.target.value; list(); });
+  $("showapply").addEventListener("click", () => { ui.status = "toapply"; saveUI(); render(); scrollTo({top: $("status").getBoundingClientRect().top + scrollY - 20, behavior: "smooth"}); });
+  $("copyapply").addEventListener("click", async () => {
+    const t = applyListText(), b = $("copyapply");
+    try { await navigator.clipboard.writeText(t); b.textContent = "Copied — paste it to Claude"; }
+    catch { const ta = document.createElement("textarea"); ta.value = t; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); b.textContent = "Copied — paste it to Claude"; } catch { b.textContent = "Select and copy manually"; } ta.remove(); }
+    setTimeout(() => { b.textContent = "Copy my apply list"; }, 3000);
+  });
   $("list").addEventListener("click", e => {
     const b = e.target.closest("button[data-m]"); if (!b) return;
     const id = b.closest(".job").dataset.id, m = b.dataset.m;
