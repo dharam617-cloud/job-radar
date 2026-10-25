@@ -1,5 +1,28 @@
 [
  {
+  "id": "li-4482618735",
+  "source": "LinkedIn",
+  "title": "Lead Technical Program Manager Fraud Technology",
+  "company": "Citi",
+  "location": "Chennai, Tamil Nadu, India",
+  "city": "Remote",
+  "exp": "",
+  "salary": "",
+  "posted": "21 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4482618735",
+  "score": 97,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; asks 10+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "+Remote",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-25"
+ },
+ {
   "id": "li-4479733036",
   "source": "LinkedIn",
   "title": "Agile Delivery Steward - Assistant Vice President",
@@ -677,6 +700,26 @@
   "why": "Senior TPM at a SaaS company. Scored on title only.",
   "flags": [
    "JD not read yet"
+  ],
+  "first_seen": "2026-10-25"
+ },
+ {
+  "id": "nk-040926018581",
+  "source": "Naukri",
+  "title": "Project Manager - AI Solution",
+  "company": "Epam Systems",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "14-18 Yrs",
+  "salary": "",
+  "posted": "Today",
+  "url": "https://www.naukri.com/job-listings-project-manager-ai-solution-epam-systems-hyderabad-14-to-18-years-040926018581",
+  "score": 63,
+  "family": "Project Manager",
+  "why": "Project Manager role; 14-18 Yrs fits your 14 years; overlaps on Jira, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
   ],
   "first_seen": "2026-10-25"
  },
