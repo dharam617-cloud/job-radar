@@ -1,5 +1,22 @@
 [
  {
+  "at": "2026-10-25T12:28:02+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 186,
+    "error": null
+   },
+   "Naukri": {
+    "ok": false,
+    "fetched": 0,
+    "error": "no results (the site may be blocking cloud servers)"
+   }
+  },
+  "scanned": 186,
+  "added": 1
+ },
+ {
   "at": "2026-10-25T12:00:49+05:30",
   "sources": {
    "LinkedIn": {
