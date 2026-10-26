@@ -11,7 +11,7 @@ EXCLUDE_TITLE = re.compile(
     r"\b(developer|software engineer|data engineer|ml engineer|devops engineer|qa engineer|test engineer|"
     r"engineering manager|architect|scientist|designer|recruiter|sales|account executive|business analyst|"
     r"asic|soc\b|firmware|hardware|silicon|cpu|gpu|embedded|mechanical|civil|construction|npi|supply chain|"
-    r"intern|trainee|associate program manager|junior|jr\.?)\b", re.I)
+    r"intern|trainee|associate (technical )?(program|project|product) manager|junior|jr\.?)\b", re.I)
 RTE = re.compile(r"release train engineer|\brte\b", re.I)
 
 ROLE_RULES = [
