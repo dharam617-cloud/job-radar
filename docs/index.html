@@ -202,7 +202,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
 
 <script>
 (() => {
-  const CITY = {"Bengaluru":"var(--c-blr)","Hyderabad":"var(--c-hyd)","Delhi NCR":"var(--c-ncr)","Remote":"var(--c-rem)"};
+  const CITY = {"Bengaluru":"var(--c-blr)","Hyderabad":"var(--c-hyd)","Delhi NCR":"var(--c-ncr)","Remote":"var(--c-rem)","Other":"var(--faint)"};
   const STATUSES = [["open","Open"],["new","New"],["toapply","To apply"],["shortlisted","Shortlisted"],["applied","Applied"],["skipped","Skipped"]];
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));

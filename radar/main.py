@@ -10,7 +10,7 @@ import sys
 import traceback
 
 from . import mailer
-from .scoring import score
+from .scoring import city_of, score
 from .sources import LinkedIn, Naukri
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -39,6 +39,13 @@ def main() -> int:
     now = dt.datetime.now(IST)
     today = now.date().isoformat()
     jobs: list[dict] = load("jobs.json", [])
+    for j in jobs:  # re-check city labels with the current rules (e.g. Pune jobs once tagged Remote)
+        c = city_of(j)
+        j["city"] = c or "Other"
+        if not c and j.get("flags") is not None:
+            j["flags"] = [f for f in j["flags"] if f != "+Remote"]
+            if "Outside your cities" not in j["flags"]:
+                j["flags"].append("Outside your cities")
     runs: list[dict] = load("runs.json", [])
     known = {j["id"] for j in jobs}
     known_keys = {(norm(j["company"]), norm(j["title"])) for j in jobs}

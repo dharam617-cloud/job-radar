@@ -43,15 +43,15 @@ CITY_PATTERNS = [
 
 
 def city_of(job: dict) -> str | None:
+    """Target city, or "Remote" only when the listing itself says remote / work from home.
+    LinkedIn's public feed ignores its remote filter, so a 'remote search' hit alone is not proof."""
     loc = job.get("location", "")
-    if re.search(r"remote", loc, re.I) or job.get("remote_search"):
-        for name, pat in CITY_PATTERNS:
-            if pat.search(loc):
-                return name
-        return "Remote"
+    text = " ".join([loc, job.get("desc", ""), job.get("tags", "")])
     for name, pat in CITY_PATTERNS:
         if pat.search(loc):
             return name
+    if re.search(r"\bremote\b|work from home|\bwfh\b|fully remote", text, re.I):
+        return "Remote"
     return None
 
 

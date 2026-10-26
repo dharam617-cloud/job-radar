@@ -2,7 +2,7 @@ name: Job Match Radar
 
 on:
   schedule:
-    - cron: "47 1 * * *"   # 07:17 IST every day (GitHub may start it a few minutes late)
+    - cron: "13 0 * * *"   # 05:43 IST; GitHub often starts scheduled runs 15-60 min late, so mail lands by ~7 IST
   workflow_dispatch:
     inputs:
       days:
