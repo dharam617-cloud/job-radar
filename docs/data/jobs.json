@@ -1,5 +1,130 @@
 [
  {
+  "id": "li-4484280291",
+  "source": "LinkedIn",
+  "title": "Senior Manager, Program Mgmt, Strategy & AI-Enabled Delivery",
+  "company": "PayPal",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "2 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4484280291",
+  "score": 89,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 25+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, data, AI.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-28"
+ },
+ {
+  "id": "li-4484018750",
+  "source": "LinkedIn",
+  "title": "Engineering and Product Hub, India AI-First Service Delivery & PMO Manager(not project management",
+  "company": "Softobiz",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4484018750",
+  "score": 87,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 10+ yrs, in line with your 14; overlaps on Jira, Confluence, sprint, data, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-28"
+ },
+ {
+  "id": "li-4483663369",
+  "source": "LinkedIn",
+  "title": "Senior Program Manager – Data, Analytics & AI",
+  "company": "Aarvian",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "10 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4483663369",
+  "score": 84,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-28"
+ },
+ {
+  "id": "nk-271026024287",
+  "source": "Naukri",
+  "title": "Technical Program Manager",
+  "company": "Deloitte Shared Services India",
+  "location": "Hybrid - Bengaluru, Delhi / NCR, Mumbai (All Areas)",
+  "city": "Bengaluru",
+  "exp": "12-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-program-manager-deloitte-shared-services-india-bengaluru-delhi-ncr-mumbai-all-areas-12-to-20-years-271026024287",
+  "score": 84,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 12-20 Yrs fits your 14 years; overlaps on SAFe, scrum, agile, data, AWS.",
+  "flags": [
+   "+SAFe",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-28"
+ },
+ {
+  "id": "li-4474661124",
+  "source": "LinkedIn",
+  "title": "Agile Consultant/Scrum Master",
+  "company": "Infosys",
+  "location": "Bengaluru East, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4474661124",
+  "score": 75,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; overlaps on scrum, agile, data, MLOps.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-28"
+ },
+ {
+  "id": "nk-281026000056",
+  "source": "Naukri",
+  "title": "Scrum Master / Project Manager",
+  "company": "Infosys",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-16 Yrs",
+  "salary": "",
+  "posted": "Today",
+  "url": "https://www.naukri.com/job-listings-scrum-master-project-manager-infosys-bengaluru-10-to-16-years-281026000056",
+  "score": 70,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 10-16 Yrs fits your 14 years; overlaps on scrum, agile, sprint.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-28"
+ },
+ {
   "id": "li-4477428764",
   "source": "LinkedIn",
   "title": "IN-Senior Manager_PMO + Scrum Master_Data and Analytics_Advisory_Bangalore",
