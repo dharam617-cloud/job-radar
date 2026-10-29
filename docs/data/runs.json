@@ -1,5 +1,23 @@
 [
  {
+  "at": "2026-10-29T07:30:44+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 224,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 50,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 274,
+  "added": 9
+ },
+ {
   "at": "2026-10-28T11:14:05+05:30",
   "sources": {
    "LinkedIn": {
