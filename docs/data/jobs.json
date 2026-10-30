@@ -1,5 +1,170 @@
 [
  {
+  "id": "li-4476938458",
+  "source": "LinkedIn",
+  "title": "Senior Project Manager – AI Delivery",
+  "company": "Kapture CX",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "14 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4476938458",
+  "score": 95,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, LLMs, agentic.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
+  "id": "li-4475767964",
+  "source": "LinkedIn",
+  "title": "Associate Director – Solution Delivery Analytics Products",
+  "company": "Novartis India",
+  "location": "Greater Hyderabad Area",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4475767964",
+  "score": 78,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 12+ yrs, in line with your 14; overlaps on data, analytics.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
+  "id": "nk-291026502279",
+  "source": "Naukri",
+  "title": "Technical Project Manager (Data & AI Practices)",
+  "company": "Quarks Technosoft",
+  "location": "Noida",
+  "city": "Delhi NCR",
+  "exp": "12-18 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-data-ai-practices-quarks-noida-12-to-18-years-291026502279",
+  "score": 75,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-18 Yrs fits your 14 years; overlaps on SAFe, scrum, agile, data, AI.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
+  "id": "nk-291026020641",
+  "source": "Naukri",
+  "title": "Staff Technical Program Manager",
+  "company": "GreyOrange",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-staff-technical-program-manager-greyorange-bengaluru-10-to-20-years-291026020641",
+  "score": 72,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 10-20 Yrs fits your 14 years; overlaps on data, LLMs.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
+  "id": "li-4467978736",
+  "source": "LinkedIn",
+  "title": "Principal Technical Program Manager (Analytics or AI/ML Platform)",
+  "company": "Atlassian",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4467978736",
+  "score": 71,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; overlaps on data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
+  "id": "li-4476905084",
+  "source": "LinkedIn",
+  "title": "Manager II, Program Management, AI Model Evaluation, International Seller Growth - ISG",
+  "company": "Amazon",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4476905084",
+  "score": 69,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, LLMs.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
+  "id": "nk-291026502696",
+  "source": "Naukri",
+  "title": "Project Manager Channels",
+  "company": "Central Business Solutions",
+  "location": "New Delhi",
+  "city": "Delhi NCR",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-channels-central-business-solutions-inc-new-delhi-12-to-17-years-291026502696",
+  "score": 61,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on Jira.",
+  "flags": [
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
+  "id": "nk-291026009284",
+  "source": "Naukri",
+  "title": "Scrum Master Project Manager Oracle Apps Technical",
+  "company": "Infovision Labs",
+  "location": "Pune, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "9-14 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-scrum-master-project-manager-oracle-apps-technical-infovision-inc-pune-bengaluru-9-to-14-years-291026009284",
+  "score": 60,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 9-14 Yrs fits your 14 years; overlaps on scrum.",
+  "flags": [
+   "Pay not disclosed",
+   "Specific tech stack"
+  ],
+  "first_seen": "2026-10-30"
+ },
+ {
   "id": "li-4484761924",
   "source": "LinkedIn",
   "title": "MathCo - Technical Delivery Head - Data Analytics",
