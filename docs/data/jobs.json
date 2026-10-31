@@ -1,5 +1,90 @@
 [
  {
+  "id": "li-4485330263",
+  "source": "LinkedIn",
+  "title": "Technical Program Manager",
+  "company": "PayPal",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4485330263",
+  "score": 79,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; asks 25+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, data, analytics.",
+  "flags": [
+   "+SAFe",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-31"
+ },
+ {
+  "id": "li-4475969404",
+  "source": "LinkedIn",
+  "title": "Manager, External Data Acquisition and Delivery",
+  "company": "Regeneron",
+  "location": "Greater Hyderabad Area",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "14 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4475969404",
+  "score": 76,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on data, AWS.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-31"
+ },
+ {
+  "id": "nk-301026503679",
+  "source": "Naukri",
+  "title": "Project Manager / Scrum Master - SAFe Agile (Finance Technology)",
+  "company": "Papigen",
+  "location": "Remote",
+  "city": "Remote",
+  "exp": "8-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-scrum-master-safe-agile-finance-technology-papigen-private-limited-remote-8-to-15-years-301026503679",
+  "score": 73,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 8-15 Yrs fits your 14 years; overlaps on SAFe, scrum, agile.",
+  "flags": [
+   "+SAFe",
+   "+Remote",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-31"
+ },
+ {
+  "id": "li-4475205442",
+  "source": "LinkedIn",
+  "title": "Director, Program Data Lead",
+  "company": "Novartis India",
+  "location": "Greater Hyderabad Area",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "17 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4475205442",
+  "score": 67,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 15+ yrs, in line with your 14; overlaps on data.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-10-31"
+ },
+ {
   "id": "li-4476938458",
   "source": "LinkedIn",
   "title": "Senior Project Manager – AI Delivery",
