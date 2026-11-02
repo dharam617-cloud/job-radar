@@ -22,6 +22,114 @@
   "first_seen": "2026-11-02"
  },
  {
+  "id": "nk-021126502453",
+  "source": "Naukri",
+  "title": "Senior Technical Program Manager",
+  "company": "Coupang",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "13-15 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-senior-technical-program-manager-coupang-bengaluru-13-to-15-years-021126502453",
+  "score": 65,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 13-15 Yrs fits your 14 years; overlaps on data, analytics.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "li-4484351238",
+  "source": "LinkedIn",
+  "title": "Analytics Scrum Master - Assistant Director",
+  "company": "EY",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "2 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4484351238",
+  "score": 64,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; overlaps on scrum, analytics.",
+  "flags": [
+   "Experience not stated",
+   "+Data",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "li-4484358624",
+  "source": "LinkedIn",
+  "title": "AI Program Manager",
+  "company": "HCLTech",
+  "location": "Noida, Uttar Pradesh, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "4 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4484358624",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "li-4476003335",
+  "source": "LinkedIn",
+  "title": "Associate Director, Program Operations, AI Access Initiative (EAII Advisors)",
+  "company": "Evidence Action",
+  "location": "New Delhi, Delhi, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "21 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4476003335",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "li-4475696644",
+  "source": "LinkedIn",
+  "title": "Program Director, Agriculture, AI Access Initiative (EAII Advisors)",
+  "company": "Evidence Action",
+  "location": "New Delhi, Delhi, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "37 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4475696644",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "first_seen": "2026-11-02"
+ },
+ {
   "id": "nk-311026502882",
   "source": "Naukri",
   "title": "Senior Technical Program Manager II (Bangalore)",
