@@ -1,5 +1,29 @@
 [
  {
+  "id": "li-4486063386",
+  "source": "LinkedIn",
+  "title": "AI Product & Program Manager – Generative AI, LLMs, Roadmap Strategy, Agile/SAFe & Governance",
+  "company": "Synechron",
+  "location": "Bengaluru East, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "6 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4486063386",
+  "score": 100,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 10+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-03"
+ },
+ {
   "id": "li-4486816579",
   "source": "LinkedIn",
   "title": "Technical Program Manager",
@@ -148,6 +172,30 @@
   "sector": ""
  },
  {
+  "id": "nk-040926017429",
+  "source": "Naukri",
+  "title": "Delivery Manager - .NET/Java",
+  "company": "Epam Systems",
+  "location": "Hyderabad, Chennai, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "14-18 Yrs",
+  "salary": "",
+  "posted": "Today",
+  "url": "https://www.naukri.com/job-listings-delivery-manager-net-java-epam-systems-hyderabad-chennai-bengaluru-14-to-18-years-040926017429",
+  "score": 71,
+  "family": "Delivery Manager",
+  "why": "Delivery Manager role; 14-18 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile.",
+  "flags": [
+   "+SAFe",
+   "+BFSI",
+   "Pay not disclosed",
+   "Specific tech stack"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-03"
+ },
+ {
   "id": "nk-051026933073",
   "source": "Naukri",
   "title": "Senior Program Manager - HR",
@@ -189,6 +237,27 @@
   "first_seen": "2026-11-03",
   "gcc": false,
   "sector": ""
+ },
+ {
+  "id": "nk-031126020903",
+  "source": "Naukri",
+  "title": "Technical Program Manager",
+  "company": "Persistent",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "12-15 Yrs",
+  "salary": "",
+  "posted": "Few Hours Ago",
+  "url": "https://www.naukri.com/job-listings-technical-program-manager-persistent-hyderabad-12-to-15-years-031126020903",
+  "score": 65,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 12-15 Yrs fits your 14 years; overlaps on scrum, agile.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-03"
  },
  {
   "id": "nk-031126011072",

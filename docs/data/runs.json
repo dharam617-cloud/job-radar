@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-03T21:39:23+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 431,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 137,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 568,
+  "added": 3,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "Synechron",
+   "Persistent",
+   "Epam Systems"
+  ]
+ },
+ {
   "at": "2026-11-03T21:22:43+05:30",
   "sources": {
    "LinkedIn": {
