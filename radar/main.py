@@ -10,6 +10,9 @@ import sys
 import traceback
 
 from . import mailer
+from collections import Counter
+
+from .gcc import classify
 from .scoring import city_of, score
 from .sources import LinkedIn, Naukri
 
@@ -33,19 +36,36 @@ def norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
 
 
+def retag(jobs: list[dict], profile: dict) -> list[dict]:
+    """Re-check saved jobs with the current rules: city buckets, GCC status and sector."""
+    out = []
+    for j in jobs:
+        c = city_of(j)
+        j["city"] = c or "Other India"
+        flags = [f for f in (j.get("flags") or []) if f not in ("Outside your cities", "Outside first-preference cities")]
+        if j["city"] not in ("Bengaluru", "Hyderabad", "Delhi NCR", "Remote"):
+            flags.append("Outside first-preference cities")
+        if j["city"] != "Remote":
+            flags = [f for f in flags if f != "+Remote"]
+        j["flags"] = flags
+        if j.get("source") != "Curated":
+            g = classify(j.get("company", ""))
+            if profile.get("gcc_only", True) and not g["gcc"]:
+                continue
+            j["gcc"], j["sector"] = g["gcc"], g["sector"] or "Other GCC"
+            if g["own"] and "Your current employer: apply internally" not in j["flags"]:
+                j["flags"].append("Your current employer: apply internally")
+        out.append(j)
+    return out
+
+
 def main() -> int:
     profile = json.loads((ROOT / "profile.json").read_text())
     days = int(os.environ.get("RADAR_DAYS", "1"))
     now = dt.datetime.now(IST)
     today = now.date().isoformat()
     jobs: list[dict] = load("jobs.json", [])
-    for j in jobs:  # re-check city labels with the current rules (e.g. Pune jobs once tagged Remote)
-        c = city_of(j)
-        j["city"] = c or "Other"
-        if not c and j.get("flags") is not None:
-            j["flags"] = [f for f in j["flags"] if f != "+Remote"]
-            if "Outside your cities" not in j["flags"]:
-                j["flags"].append("Outside your cities")
+    jobs = retag(jobs, profile)
     runs: list[dict] = load("runs.json", [])
     known = {j["id"] for j in jobs}
     known_keys = {(norm(j["company"]), norm(j["title"])) for j in jobs}
@@ -54,7 +74,7 @@ def main() -> int:
     run = {"at": now.isoformat(timespec="seconds"), "date_label": now.strftime("%a %d %b %Y"),
            "sources": {"LinkedIn": {"ok": False, "fetched": 0}, "Naukri": {"ok": False, "fetched": 0}}}
 
-    # ---- LinkedIn
+    # ---- LinkedIn: each GCC hub city, then India-wide to catch the smaller hubs
     li = LinkedIn(log)
     try:
         seconds = 86400 * days
@@ -65,6 +85,9 @@ def main() -> int:
                         raw.setdefault(j["id"], j)
                     if li.blocked:
                         break
+            if not li.blocked:
+                for j in li.search(q, "India", seconds, pages=3):
+                    raw.setdefault(j["id"], j)
         for j in li.search(profile["remote_query"], "India", 86400 * days, remote=True, pages=3):
             raw.setdefault(j["id"], j)
         n = sum(1 for j in raw.values() if j["source"] == "LinkedIn")
@@ -116,19 +139,26 @@ def main() -> int:
         if d:
             j["desc"] = d
     # also give LinkedIn listings that just missed on title a chance once the JD is read
-    added = []
+    added, not_gcc = [], Counter()
     for j in fresh:
         s = score(j, profile)
         if not s:
+            if not classify(j.get("company", ""))["gcc"] and score(j, {**profile, "gcc_only": False}):
+                not_gcc[j.get("company", "?")] += 1
             continue
         added.append({
             "id": j["id"], "source": j["source"], "title": j["title"], "company": j["company"],
             "location": j.get("location", ""), "city": s["city"], "exp": j.get("exp", ""),
             "salary": j.get("salary", ""), "posted": j.get("posted", ""), "url": j["url"],
             "score": s["score"], "family": s["family"], "why": s["why"], "flags": s["flags"],
+            "gcc": True, "sector": s["sector"],
             "first_seen": today,
         })
     run["added"] = len(added)
+    run["not_gcc_dropped"] = sum(not_gcc.values())
+    run["not_gcc_top"] = [c for c, _ in not_gcc.most_common(12)]
+    if not_gcc:
+        log("Skipped non-GCC employers (add real GCCs to radar/gcc.py): " + ", ".join(run["not_gcc_top"]))
     log(f"Scanned {run['scanned']}, new {len(fresh)}, kept {len(added)}")
 
     # ---- save (keep 45 days of history)
@@ -147,8 +177,8 @@ def main() -> int:
     dashboard = os.environ.get("DASHBOARD_URL") or f"https://{owner.lower()}.github.io/{name}/"
     if sender and pw:
         strong = sum(1 for j in added if j["score"] >= 80)
-        subject = (f"{len(added)} new job matches ({strong} strong) · {now.strftime('%d %b')}" if added
-                   else f"No new job matches today · {now.strftime('%d %b')}")
+        subject = (f"GCC job alert: {len(added)} new match{'es' if len(added) != 1 else ''} ({strong} strong) · {now.strftime('%d %b')}" if added
+                   else f"GCC job alert: no new matches today · {now.strftime('%d %b')}")
         try:
             new_ids = {j["id"] for j in added}
             top_open = [j for j in sorted(jobs, key=lambda j: -j["score"]) if j["id"] not in new_ids][:5]

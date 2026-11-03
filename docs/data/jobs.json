@@ -19,28 +19,9 @@
    "+BFSI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-11-03"
- },
- {
-  "id": "li-4486031120",
-  "source": "LinkedIn",
-  "title": "AI Delivery manager",
-  "company": "Arohana Tech Solutions Private Limited",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "38 minutes ago",
-  "url": "https://www.linkedin.com/jobs/view/4486031120",
-  "score": 72,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on data, machine learning.",
-  "flags": [
-   "Experience not stated",
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-11-03"
+  "first_seen": "2026-11-03",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "nk-051026933073",
@@ -60,66 +41,416 @@
    "+AI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-11-03"
+  "first_seen": "2026-11-03",
+  "gcc": true,
+  "sector": "Healthcare & Pharma"
  },
  {
-  "id": "nk-031126909425",
-  "source": "Naukri",
-  "title": "Technical Scrum Master - Senior Lead",
-  "company": "Iris Software",
-  "location": "Noida",
-  "city": "Delhi NCR",
-  "exp": "10-15 Yrs",
+  "id": "cur-01",
+  "source": "Curated",
+  "title": "Manager, Technical Scrum Lead",
+  "company": "Vanguard",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
   "salary": "",
-  "posted": "Just Now",
-  "url": "https://www.naukri.com/job-listings-technical-scrum-master-senior-lead-iris-software-technologies-private-limited-noida-10-to-15-years-031126909425",
-  "score": 66,
+  "posted": "Reposted Oct–Nov 2026 (Built In, Foundit)",
+  "url": "https://builtin.com/job/manager-technical-scrum-lead/9761915",
+  "score": 84,
   "family": "Scrum Master",
-  "why": "Scrum Master role; 10-15 Yrs fits your 14 years; overlaps on scrum, agile.",
+  "why": "New AI/cloud tech centre; wants CSM or SAFe Agilist (you have both). People-manager role with BFSI asset-management domain.",
   "flags": [
-   "Pay not disclosed"
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+BFSI",
+   "+AI"
   ],
-  "first_seen": "2026-11-03"
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-02"
  },
  {
-  "id": "nk-071026031343",
-  "source": "Naukri",
-  "title": "Technical Program Manager- DevOps-Cloud Platform Engineering(12+Years)",
-  "company": "CGI",
-  "location": "Hyderabad, Pune, Bengaluru",
-  "city": "Bengaluru",
-  "exp": "12-22 Yrs",
+  "id": "cur-02",
+  "source": "Curated",
+  "title": "Lead Scrum Master – Data Asset Management (CAO Tech)",
+  "company": "Wells Fargo",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
   "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-technical-program-manager-devops-cloud-platform-engineering-12-years-cgi-hyderabad-pune-bengaluru-12-to-22-years-071026031343",
-  "score": 61,
-  "family": "Technical Program Manager",
-  "why": "Technical Program Manager role; 12-22 Yrs fits your 14 years.",
+  "posted": "Job ID R-400712",
+  "url": "https://themuse.com/jobs/wellsfargo/lead-scrum-master-ed6aca",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "Data asset management fits your Alation/CDAO data-governance work. SAFe experience asked for.",
   "flags": [
-   "Pay not disclosed"
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+BFSI"
   ],
-  "first_seen": "2026-11-03"
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-02"
  },
  {
-  "id": "nk-021126004368",
-  "source": "Naukri",
-  "title": "Technical Program Manager (Retail, E-commerce Domain)",
-  "company": "GSPANN",
+  "id": "cur-03",
+  "source": "Curated",
+  "title": "IAM – Senior Scrum Master",
+  "company": "Wells Fargo",
   "location": "Bengaluru",
   "city": "Bengaluru",
-  "exp": "14-22 Yrs",
+  "exp": "",
   "salary": "",
-  "posted": "Just Now",
-  "url": "https://www.naukri.com/job-listings-technical-program-manager-retail-e-commerce-domain-gspann-bengaluru-14-to-22-years-021126004368",
-  "score": 83,
-  "family": "Technical Program Manager",
-  "why": "Technical Program Manager role; 14-22 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, LLMs.",
+  "posted": "Reposted recently on Built In",
+  "url": "https://builtin.com/job/iam-senior-scrum-master/9145963",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "Identity & Access Management fits your vulnerability-management coordination at CBA. Bengaluru hybrid.",
   "flags": [
-   "+SAFe",
-   "+AI",
-   "+BFSI",
-   "Pay not disclosed"
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+BFSI"
   ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-04",
+  "source": "Curated",
+  "title": "Sr. Scrum Master – AI Products & Platforms",
+  "company": "Amgen",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Posted 16 Mar 2026 (R-238919) – check it's still open",
+  "url": "https://careers.amgen.com/en/job/hyderabad/sr-scrum-master-ai-products-and-platforms/87/92334117952",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "AI & Data org; CSM mandatory, 8+ yrs. Your Agentic AI / RAG certifications set you apart.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+AI"
+  ],
+  "gcc": true,
+  "sector": "Healthcare & Pharma",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-05",
+  "source": "Curated",
+  "title": "AI Platform Scrum Master",
+  "company": "Amgen",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Listed on Amgen job feed",
+  "url": "https://easterseals.dejobs.org/hyderabad-ind/ai-platform-scrum-master/4F8746C10037451DA3A9520CDCF8302A/job",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "Asks for 10–12 yrs with SAFe; servant-leader role for a platform team.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+AI"
+  ],
+  "gcc": true,
+  "sector": "Healthcare & Pharma",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-07",
+  "source": "Curated",
+  "title": "Senior Staff Scrum Master – Modernization Engineering",
+  "company": "TJX",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Seen in similar-jobs lists (refresh.cv)",
+  "url": "https://refresh.cv/jobs/amgen/e252be14-5d83-4b12-b604-491407f9a27c?lang=zh",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "Retail GCC; senior staff level matches your 14 yrs.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open"
+  ],
+  "gcc": true,
+  "sector": "Retail & Consumer",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-08",
+  "source": "Curated",
+  "title": "Sr Scrum Master, Enterprise Platforms",
+  "company": "Invesco",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Seen in similar-jobs lists – search Invesco careers",
+  "url": "https://careers.invesco.com",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "Asset-management GCC; enterprise platforms like your CBA platform-team coordination.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+BFSI"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-06",
+  "source": "Curated",
+  "title": "Sr. Manager, AI Platforms – Agile & Product",
+  "company": "Amgen",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Posted 16 Dec 2025 (R-230860) – may be closed",
+  "url": "https://careers.amgen.com/en/job/hyderabad/sr-manager-ai-platforms-agile-and-product/87/89576099440",
+  "score": 72,
+  "family": "Agile leadership",
+  "why": "Leads agile transformation for AI platforms; values Scrum Master/RTE background and GenAI exposure. A step up to manager level.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+AI"
+  ],
+  "gcc": true,
+  "sector": "Healthcare & Pharma",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-09",
+  "source": "Curated",
+  "title": "Principal IT Technologist – Scrum Master",
+  "company": "Medtronic",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Seen in similar-jobs lists – search Medtronic careers",
+  "url": "https://jobs.medtronic.com",
+  "score": 72,
+  "family": "Scrum Master",
+  "why": "Principal-level title; MedTech domain is new to you, but the Scrum work is the same.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open"
+  ],
+  "gcc": true,
+  "sector": "Healthcare & Pharma",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-10",
+  "source": "Curated",
+  "title": "Sr Specialist Scrum Master (Kubernetes/AKS delivery)",
+  "company": "AT&T",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "Foundit, Oct 2026",
+  "url": "https://www.foundit.in/search/scrum-master-jobs-in-bengaluru-bangalore",
+  "score": 72,
+  "family": "Scrum Master",
+  "why": "8–10 yrs; platform/observability work. Your Prometheus/Grafana/CloudWatch knowledge helps here.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-11",
+  "source": "Curated",
+  "title": "Senior Scrum Master / Scrum of Scrums Master (SAFe)",
+  "company": "Schneider Electric",
+  "location": "Gurugram",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "Listed on The Muse",
+  "url": "https://www.themuse.com/jobs/schneiderelectric/senior-scrum-master-95a46b",
+  "score": 72,
+  "family": "Scrum Master",
+  "why": "10+ yrs, SAFe, launching ARTs, coaching. IoT/hardware domain is new to you.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open"
+  ],
+  "gcc": true,
+  "sector": "Manufacturing & Engineering",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-13",
+  "source": "Curated",
+  "title": "Release Train Engineer",
+  "company": "S&P Global",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Glassdoor, 30d+",
+  "url": "https://www.glassdoor.co.in/Job/release-train-engineer-jobs-SRCH_KO0,22.htm",
+  "score": 72,
+  "family": "Release Train Engineer",
+  "why": "Financial data GCC; SAFe, Jira, CI/CD. Your Big Room Planning experience is close to PI Planning.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+BFSI"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-14",
+  "source": "Curated",
+  "title": "Release Train Engineer – Merchandise Analytics & Automation",
+  "company": "TJX",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Glassdoor",
+  "url": "https://www.glassdoor.co.in/Job/safe-release-train-engineer-rte-jobs-SRCH_KO0,31.htm",
+  "score": 72,
+  "family": "Release Train Engineer",
+  "why": "Data/analytics ART, close to your CDAO analytics workstreams (Tableau, Alteryx).",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open"
+  ],
+  "gcc": true,
+  "sector": "Retail & Consumer",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-17",
+  "source": "Curated",
+  "title": "Lead Technical Program Manager – Service Center Tech (GenAI)",
+  "company": "Target",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "Valid through 18 Dec 2026",
+  "url": "https://getmereferred.com/job-listing/lead-technical-program-manager-target-bengaluru-5-to-10-years-experience-7e4abc14-629b-4d26-a932-27d97e706488",
+  "score": 72,
+  "family": "Technical Program Manager",
+  "why": "8–10+ yrs; modernization plus a GenAI roadmap. Jira/Confluence and change management fit you.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+AI"
+  ],
+  "gcc": true,
+  "sector": "Retail & Consumer",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-19",
+  "source": "Curated",
+  "title": "Senior Technology Operations Professional (TPM – InfoSec)",
+  "company": "Walmart Global Tech",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "Foundit, Apr 2026 – may be closed",
+  "url": "https://www.foundit.in/job/senior-technology-operations-professional-technical-program-manager-walmart-bengaluru-bangalore-51514469",
+  "score": 72,
+  "family": "Technical Program Manager",
+  "why": "8–12 yrs; InfoSec programs line up with your vulnerability-management experience.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open"
+  ],
+  "gcc": true,
+  "sector": "Retail & Consumer",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-23",
+  "source": "Curated",
+  "title": "Technical Program Manager – AI, IT & InfoSec",
+  "company": "ChargePoint",
+  "location": "Gurugram",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "Indeed",
+  "url": "https://in.indeed.com/q-ai-program-manager-l-gurugram,-haryana-jobs.html",
+  "score": 72,
+  "family": "Technical Program Manager",
+  "why": "Explicitly wants program governance, RAID management and dependency tracking: your core skills.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+AI"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-24",
+  "source": "Curated",
+  "title": "Senior Technical Program Manager (AI solutions)",
+  "company": "Sprinklr",
+  "location": "Gurugram",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "Glassdoor, ~22d",
+  "url": "https://www.glassdoor.com/Job/noida-sr-technical-program-manager-jobs-SRCH_IL.0,5_IC4477468_KO6,34.htm",
+  "score": 72,
+  "family": "Technical Program Manager",
+  "why": "Works with data science and engineering on AI solutions; SAFe and Jira listed as skills.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+AI"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-25",
+  "source": "Curated",
+  "title": "Senior Technical Program Manager",
+  "company": "MongoDB",
+  "location": "Gurugram",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "Indeed",
+  "url": "https://in.indeed.com/q-technical-program-manager-l-gurugram,-haryana-jobs.html",
+  "score": 72,
+  "family": "Technical Program Manager",
+  "why": "HR-tech programs using Jira, Smartsheet and automation. Your PMO and process-automation background fits.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open"
+  ],
+  "gcc": true,
+  "sector": "Technology",
   "first_seen": "2026-11-02"
  },
  {
@@ -140,94 +471,126 @@
    "+Data",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
-  "id": "li-4484351238",
-  "source": "LinkedIn",
-  "title": "Analytics Scrum Master - Assistant Director",
-  "company": "EY",
-  "location": "Bengaluru, Karnataka, India",
+  "id": "cur-16",
+  "source": "Curated",
+  "title": "Release Train Engineer",
+  "company": "The Cigna Group",
+  "location": "Bengaluru",
   "city": "Bengaluru",
   "exp": "",
   "salary": "",
-  "posted": "2 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4484351238",
-  "score": 64,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; overlaps on scrum, analytics.",
+  "posted": "Foundit, Oct 2026",
+  "url": "https://www.foundit.in/search/rte-release-train-engineer-for-safe-program-jobs",
+  "score": 62,
+  "family": "Release Train Engineer",
+  "why": "Asks for SAFe RTE certification, which you don't have yet. Apply once you get it, or apply now and mention it's in progress.",
   "flags": [
-   "Experience not stated",
-   "+Data",
-   "Pay not disclosed",
-   "JD not read yet"
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+BFSI",
+   "Stretch role"
   ],
+  "gcc": true,
+  "sector": "BFSI",
   "first_seen": "2026-11-02"
  },
  {
-  "id": "li-4484358624",
-  "source": "LinkedIn",
-  "title": "AI Program Manager",
-  "company": "HCLTech",
-  "location": "Noida, Uttar Pradesh, India",
-  "city": "Delhi NCR",
+  "id": "cur-18",
+  "source": "Curated",
+  "title": "Staff Technical Program Manager – GDF (AI & Data)",
+  "company": "Walmart Global Tech",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
   "exp": "",
   "salary": "",
-  "posted": "4 minutes ago",
-  "url": "https://www.linkedin.com/jobs/view/4484358624",
-  "score": 61,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on AI.",
+  "posted": "Posted 14 Oct 2026; open till ~22 Nov",
+  "url": "https://www.dreamworkhq.com/job/495fa100-8f81-4774-b549-52ba37df3a3e",
+  "score": 62,
+  "family": "Technical Program Manager",
+  "why": "Data governance and discoverable data fit your Alation work. Wants 6+ yrs as a TPM leader and platform design depth. ₹48–65L listed.",
   "flags": [
-   "Experience not stated",
+   "Curated by Claude",
+   "Confirm it's still open",
    "+AI",
-   "Pay not disclosed",
-   "JD not read yet"
+   "Stretch role"
   ],
+  "gcc": true,
+  "sector": "Retail & Consumer",
   "first_seen": "2026-11-02"
  },
  {
-  "id": "li-4476003335",
-  "source": "LinkedIn",
-  "title": "Associate Director, Program Operations, AI Access Initiative (EAII Advisors)",
-  "company": "Evidence Action",
-  "location": "New Delhi, Delhi, India",
-  "city": "Delhi NCR",
+  "id": "cur-20",
+  "source": "Curated",
+  "title": "Senior TPM – Data Platform",
+  "company": "Warner Bros. Discovery",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
   "exp": "",
   "salary": "",
-  "posted": "21 minutes ago",
-  "url": "https://www.linkedin.com/jobs/view/4476003335",
-  "score": 61,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on AI.",
+  "posted": "Listed on Dreamwork / Bayt",
+  "url": "https://www.dreamworkhq.com/job/844fb373-36e6-435d-bd26-52bcec315dd2",
+  "score": 62,
+  "family": "Technical Program Manager",
+  "why": "Data & analytics platform program. Asks for 3+ yrs in engineering. ₹38–55L listed.",
   "flags": [
-   "Experience not stated",
-   "+AI",
-   "Pay not disclosed",
-   "JD not read yet"
+   "Curated by Claude",
+   "Confirm it's still open",
+   "Stretch role"
   ],
+  "gcc": true,
+  "sector": "Technology",
   "first_seen": "2026-11-02"
  },
  {
-  "id": "li-4475696644",
-  "source": "LinkedIn",
-  "title": "Program Director, Agriculture, AI Access Initiative (EAII Advisors)",
-  "company": "Evidence Action",
-  "location": "New Delhi, Delhi, India",
+  "id": "cur-22",
+  "source": "Curated",
+  "title": "Technical Program Manager, AI / Anti-Financial Crime",
+  "company": "Google",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "Glassdoor, several open",
+  "url": "https://www.glassdoor.com/Jobs/Google-Technical-Program-Manager-Hyder%C4%81b%C4%81d-India-Jobs-EI_IE9079.0,6_KO7,32_IL.33,48_IC2865319.htm",
+  "score": 62,
+  "family": "Technical Program Manager",
+  "why": "5+ yrs program management plus a technical degree (you have a BIT). Interviews are tough; the anti-financial-crime role uses your banking background.",
+  "flags": [
+   "Curated by Claude",
+   "Confirm it's still open",
+   "+AI",
+   "Stretch role"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-02"
+ },
+ {
+  "id": "cur-26",
+  "source": "Curated",
+  "title": "Sr. Technical Program Manager, ShipTech",
+  "company": "Amazon",
+  "location": "Gurugram",
   "city": "Delhi NCR",
   "exp": "",
   "salary": "",
-  "posted": "37 minutes ago",
-  "url": "https://www.linkedin.com/jobs/view/4475696644",
-  "score": 61,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on AI.",
+  "posted": "Glassdoor",
+  "url": "https://www.glassdoor.co.in/Job/greater-noida-technical-program-manager-jobs-SRCH_IL.0,13_IC4475367_KO14,39.htm",
+  "score": 62,
+  "family": "Technical Program Manager",
+  "why": "Wants 4+ yrs of TPM work directly with software engineers; the bar-raiser interview loop is demanding.",
   "flags": [
-   "Experience not stated",
-   "+AI",
-   "Pay not disclosed",
-   "JD not read yet"
+   "Curated by Claude",
+   "Confirm it's still open",
+   "Stretch role"
   ],
+  "gcc": true,
+  "sector": "Technology",
   "first_seen": "2026-11-02"
  },
  {
@@ -247,7 +610,9 @@
   "flags": [
    "Pay not disclosed"
   ],
-  "first_seen": "2026-11-01"
+  "first_seen": "2026-11-01",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "li-4485330263",
@@ -269,7 +634,9 @@
    "+BFSI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-31"
+  "first_seen": "2026-10-31",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4475969404",
@@ -291,28 +658,9 @@
    "+BFSI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-31"
- },
- {
-  "id": "nk-301026503679",
-  "source": "Naukri",
-  "title": "Project Manager / Scrum Master - SAFe Agile (Finance Technology)",
-  "company": "Papigen",
-  "location": "Remote",
-  "city": "Remote",
-  "exp": "8-15 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-project-manager-scrum-master-safe-agile-finance-technology-papigen-private-limited-remote-8-to-15-years-301026503679",
-  "score": 73,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; 8-15 Yrs fits your 14 years; overlaps on SAFe, scrum, agile.",
-  "flags": [
-   "+SAFe",
-   "+Remote",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-31"
+  "first_seen": "2026-10-31",
+  "gcc": true,
+  "sector": "Healthcare & Pharma"
  },
  {
   "id": "li-4475205442",
@@ -332,29 +680,9 @@
    "+Data",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-31"
- },
- {
-  "id": "li-4476938458",
-  "source": "LinkedIn",
-  "title": "Senior Project Manager – AI Delivery",
-  "company": "Kapture CX",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "14 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4476938458",
-  "score": 95,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, LLMs, agentic.",
-  "flags": [
-   "Lower experience ask",
-   "+AI",
-   "+BFSI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-30"
+  "first_seen": "2026-10-31",
+  "gcc": true,
+  "sector": "Healthcare & Pharma"
  },
  {
   "id": "li-4475767964",
@@ -374,48 +702,9 @@
    "+AI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-30"
- },
- {
-  "id": "nk-291026502279",
-  "source": "Naukri",
-  "title": "Technical Project Manager (Data & AI Practices)",
-  "company": "Quarks Technosoft",
-  "location": "Noida",
-  "city": "Delhi NCR",
-  "exp": "12-18 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-technical-project-manager-data-ai-practices-quarks-noida-12-to-18-years-291026502279",
-  "score": 75,
-  "family": "Project Manager",
-  "why": "Project Manager role; 12-18 Yrs fits your 14 years; overlaps on SAFe, scrum, agile, data, AI.",
-  "flags": [
-   "+SAFe",
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-30"
- },
- {
-  "id": "nk-291026020641",
-  "source": "Naukri",
-  "title": "Staff Technical Program Manager",
-  "company": "GreyOrange",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-20 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-staff-technical-program-manager-greyorange-bengaluru-10-to-20-years-291026020641",
-  "score": 72,
-  "family": "Technical Program Manager",
-  "why": "Technical Program Manager role; 10-20 Yrs fits your 14 years; overlaps on data, LLMs.",
-  "flags": [
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-30"
+  "first_seen": "2026-10-30",
+  "gcc": true,
+  "sector": "Healthcare & Pharma"
  },
  {
   "id": "li-4467978736",
@@ -436,7 +725,9 @@
    "+AI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-30"
+  "first_seen": "2026-10-30",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "li-4476905084",
@@ -457,27 +748,9 @@
    "+AI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-30"
- },
- {
-  "id": "nk-301026010083",
-  "source": "Naukri",
-  "title": "Data Project Manager - Snowflake & Investment Book of Record",
-  "company": "Coforge",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-15 Yrs",
-  "salary": "",
-  "posted": "Just Now",
-  "url": "https://www.naukri.com/job-listings-data-project-manager-snowflake-investment-book-of-record-coforge-bengaluru-10-to-15-years-301026010083",
-  "score": 67,
-  "family": "Project Manager",
-  "why": "Project Manager role; 10-15 Yrs fits your 14 years; overlaps on agile, data, analytics.",
-  "flags": [
-   "+Data",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-30"
+  "first_seen": "2026-10-30",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "li-4484165932",
@@ -498,89 +771,9 @@
    "+Data",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-30"
- },
- {
-  "id": "nk-291026502696",
-  "source": "Naukri",
-  "title": "Project Manager Channels",
-  "company": "Central Business Solutions",
-  "location": "New Delhi",
-  "city": "Delhi NCR",
-  "exp": "12-17 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-project-manager-channels-central-business-solutions-inc-new-delhi-12-to-17-years-291026502696",
-  "score": 61,
-  "family": "Project Manager",
-  "why": "Project Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on Jira.",
-  "flags": [
-   "+BFSI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-30"
- },
- {
-  "id": "nk-291026009284",
-  "source": "Naukri",
-  "title": "Scrum Master Project Manager Oracle Apps Technical",
-  "company": "Infovision Labs",
-  "location": "Pune, Bengaluru",
-  "city": "Bengaluru",
-  "exp": "9-14 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-scrum-master-project-manager-oracle-apps-technical-infovision-inc-pune-bengaluru-9-to-14-years-291026009284",
-  "score": 60,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; 9-14 Yrs fits your 14 years; overlaps on scrum.",
-  "flags": [
-   "Pay not disclosed",
-   "Specific tech stack"
-  ],
-  "first_seen": "2026-10-30"
- },
- {
-  "id": "li-4484761924",
-  "source": "LinkedIn",
-  "title": "MathCo - Technical Delivery Head - Data Analytics",
-  "company": "MathCo",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "1 hour ago",
-  "url": "https://www.linkedin.com/jobs/view/4484761924",
-  "score": 86,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; asks 15+ yrs, in line with your 14; overlaps on agile, Jira, data, analytics.",
-  "flags": [
-   "+Data",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "nk-051026021993",
-  "source": "Naukri",
-  "title": "Senior Program Manager - Product Portfolio & Digital Transformation",
-  "company": "TVS Credit Services Ltd",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "12-15 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-senior-program-manager-product-portfolio-digital-transformation-tvs-credit-services-ltd-bengaluru-12-to-15-years-051026021993",
-  "score": 85,
-  "family": "Program Manager",
-  "why": "Program Manager role; 12-15 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data.",
-  "flags": [
-   "+SAFe",
-   "+Data",
-   "+BFSI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
+  "first_seen": "2026-10-30",
+  "gcc": true,
+  "sector": "Retail & Consumer"
  },
  {
   "id": "li-4484463088",
@@ -602,151 +795,9 @@
    "+AI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "li-4484413981",
-  "source": "LinkedIn",
-  "title": "Delivery Head - Data Science",
-  "company": "Tredence Inc.",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "19 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4484413981",
-  "score": 82,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; asks 17+ yrs, in line with your 14; overlaps on agile, data, analytics.",
-  "flags": [
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "li-4484906471",
-  "source": "LinkedIn",
-  "title": "Scrum Master",
-  "company": "Esse India | Canada immigration consultants in delhi | visa consultant delhi",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "4 minutes ago",
-  "url": "https://www.linkedin.com/jobs/view/4484906471",
-  "score": 81,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, kanban, data.",
-  "flags": [
-   "Experience not stated",
-   "+Data",
-   "+BFSI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "nk-021026013799",
-  "source": "Naukri",
-  "title": "Technical Project Manager-BI-FCHDC",
-  "company": "Bounteous",
-  "location": "Hybrid - Hyderabad, Chennai, Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-18 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-technical-project-manager-bi-fchdc-bounteous-hyderabad-chennai-bengaluru-10-to-18-years-021026013799",
-  "score": 77,
-  "family": "Project Manager",
-  "why": "Project Manager role; 10-18 Yrs fits your 14 years; overlaps on SAFe, agile, Jira, data, analytics.",
-  "flags": [
-   "+SAFe",
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "nk-281026008696",
-  "source": "Naukri",
-  "title": "Urgent opening For Scrum Master position with Virtusa(Pan India)",
-  "company": "Virtusa",
-  "location": "Hybrid - Hyderabad, Chennai, Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-20 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-urgent-opening-for-scrum-master-position-with-virtusa-pan-india-virtusa-hyderabad-chennai-bengaluru-10-to-20-years-281026008696",
-  "score": 73,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; 10-20 Yrs fits your 14 years; overlaps on SAFe, scrum, agile.",
-  "flags": [
-   "+SAFe",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "li-4484478355",
-  "source": "LinkedIn",
-  "title": "AI Program Manager",
-  "company": "The Career Company | India",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "11 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4484478355",
-  "score": 70,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on data, GenAI.",
-  "flags": [
-   "Lower experience ask",
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "nk-281026502279",
-  "source": "Naukri",
-  "title": "Project Manager",
-  "company": "Zensar",
-  "location": "Hyderabad, Pune",
-  "city": "Hyderabad",
-  "exp": "12-17 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-project-manager-zensar-technologies-hyderabad-pune-12-to-17-years-281026502279",
-  "score": 69,
-  "family": "Project Manager",
-  "why": "Project Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, Azure DevOps, data.",
-  "flags": [
-   "+Data",
-   "+BFSI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
- },
- {
-  "id": "nk-281026924665",
-  "source": "Naukri",
-  "title": "Principal Program Manager",
-  "company": "Luna Bearings",
-  "location": "Hyderabad",
-  "city": "Hyderabad",
-  "exp": "10-15 Yrs",
-  "salary": "",
-  "posted": "1 Day Ago",
-  "url": "https://www.naukri.com/job-listings-principal-program-manager-luna-technologies-private-limited-hyderabad-10-to-15-years-281026924665",
-  "score": 67,
-  "family": "Program Manager",
-  "why": "Program Manager role; 10-15 Yrs fits your 14 years; overlaps on scrum, Jira.",
-  "flags": [
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-29"
+  "first_seen": "2026-10-29",
+  "gcc": true,
+  "sector": "Healthcare & Pharma"
  },
  {
   "id": "li-4484280291",
@@ -768,49 +819,9 @@
    "+BFSI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-28"
- },
- {
-  "id": "li-4484018750",
-  "source": "LinkedIn",
-  "title": "Engineering and Product Hub, India AI-First Service Delivery & PMO Manager(not project management",
-  "company": "Softobiz",
-  "location": "Hyderabad, Telangana, India",
-  "city": "Hyderabad",
-  "exp": "",
-  "salary": "",
-  "posted": "16 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4484018750",
-  "score": 87,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; asks 10+ yrs, in line with your 14; overlaps on Jira, Confluence, sprint, data, AI.",
-  "flags": [
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-28"
- },
- {
-  "id": "li-4483663369",
-  "source": "LinkedIn",
-  "title": "Senior Program Manager – Data, Analytics & AI",
-  "company": "Aarvian",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "10 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4483663369",
-  "score": 84,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on SAFe, scrum, agile, data, analytics.",
-  "flags": [
-   "Lower experience ask",
-   "+SAFe",
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-28"
+  "first_seen": "2026-10-28",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "nk-271026024287",
@@ -831,131 +842,9 @@
    "+Data",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-28"
- },
- {
-  "id": "li-4474661124",
-  "source": "LinkedIn",
-  "title": "Agile Consultant/Scrum Master",
-  "company": "Infosys",
-  "location": "Bengaluru East, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "13 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4474661124",
-  "score": 75,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; overlaps on scrum, agile, data, MLOps.",
-  "flags": [
-   "Experience not stated",
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-28"
- },
- {
-  "id": "nk-281026000056",
-  "source": "Naukri",
-  "title": "Scrum Master / Project Manager",
-  "company": "Infosys",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-16 Yrs",
-  "salary": "",
-  "posted": "Today",
-  "url": "https://www.naukri.com/job-listings-scrum-master-project-manager-infosys-bengaluru-10-to-16-years-281026000056",
-  "score": 70,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; 10-16 Yrs fits your 14 years; overlaps on scrum, agile, sprint.",
-  "flags": [
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-28"
- },
- {
-  "id": "li-4477428764",
-  "source": "LinkedIn",
-  "title": "IN-Senior Manager_PMO + Scrum Master_Data and Analytics_Advisory_Bangalore",
-  "company": "PwC India",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "13 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4477428764",
-  "score": 64,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; overlaps on scrum, data, analytics.",
-  "flags": [
-   "Experience not stated",
-   "+Data",
-   "Pay not disclosed",
-   "JD not read yet"
-  ],
-  "first_seen": "2026-10-27"
- },
- {
-  "id": "li-4471750120",
-  "source": "LinkedIn",
-  "title": "FBS - Product Owner IV- Data Delivery",
-  "company": "Capgemini",
-  "location": "Hyderabad, Telangana, India",
-  "city": "Hyderabad",
-  "exp": "",
-  "salary": "",
-  "posted": "8 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4471750120",
-  "score": 87,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on agile, data, AI.",
-  "flags": [
-   "Lower experience ask",
-   "+AI",
-   "+BFSI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-26"
- },
- {
-  "id": "li-4470874540",
-  "source": "LinkedIn",
-  "title": "Delivery Leader- AI/ML",
-  "company": "Quantiphi",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "27 minutes ago",
-  "url": "https://www.linkedin.com/jobs/view/4470874540",
-  "score": 78,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; asks 15+ yrs, in line with your 14; overlaps on data, analytics.",
-  "flags": [
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-26"
- },
- {
-  "id": "nk-261026913770",
-  "source": "Naukri",
-  "title": "Legal Data Program Manager",
-  "company": "IBM",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "6-20 Yrs",
-  "salary": "",
-  "posted": "Just Now",
-  "url": "https://www.naukri.com/job-listings-legal-data-program-manager-ibm-india-pvt-limited-bengaluru-6-to-20-years-261026913770",
-  "score": 78,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; 6-20 Yrs fits your 14 years; overlaps on data, analytics.",
-  "flags": [
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-26"
+  "first_seen": "2026-10-28",
+  "gcc": true,
+  "sector": "Professional services (captive)"
  },
  {
   "id": "li-4466419224",
@@ -976,28 +865,9 @@
    "+AI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-26"
- },
- {
-  "id": "li-4483368781",
-  "source": "LinkedIn",
-  "title": "AI/ML delivery Lead – Azure AI and Gen AI",
-  "company": "Tachyon Technologies",
-  "location": "Hyderabad, Telangana, India",
-  "city": "Hyderabad",
-  "exp": "",
-  "salary": "",
-  "posted": "10 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4483368781",
-  "score": 73,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on data, analytics.",
-  "flags": [
-   "Lower experience ask",
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-26"
+  "first_seen": "2026-10-26",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "nk-261026501103",
@@ -1017,7 +887,9 @@
    "+AI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-26"
+  "first_seen": "2026-10-26",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4483542650",
@@ -1039,87 +911,9 @@
    "Pay not disclosed",
    "JD not read yet"
   ],
-  "first_seen": "2026-10-26"
- },
- {
-  "id": "li-4481443198",
-  "source": "LinkedIn",
-  "title": "AI Delivery Leader -Analytics - Senior Manager",
-  "company": "EY",
-  "location": "Bengaluru, Karnataka, India",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "1 hour ago",
-  "url": "https://www.linkedin.com/jobs/view/4481443198",
-  "score": 65,
-  "family": "AI/Data Program",
-  "why": "AI/Data Program role; overlaps on analytics, AI.",
-  "flags": [
-   "Experience not stated",
-   "+AI",
-   "Pay not disclosed",
-   "JD not read yet"
-  ],
-  "first_seen": "2026-10-26"
- },
- {
-  "id": "nk-261026505321",
-  "source": "Naukri",
-  "title": "Senior Technical Program Manager",
-  "company": "C5i",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-15 Yrs",
-  "salary": "",
-  "posted": "Just Now",
-  "url": "https://www.naukri.com/job-listings-senior-technical-program-manager-course5-bengaluru-10-to-15-years-261026505321",
-  "score": 65,
-  "family": "Technical Program Manager",
-  "why": "Technical Program Manager role; 10-15 Yrs fits your 14 years; overlaps on data, data governance.",
-  "flags": [
-   "+Data",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-26"
- },
- {
-  "id": "nk-131026027774",
-  "source": "Naukri",
-  "title": "Associate Director/ Director- Programme Management Office(PMO)",
-  "company": "Acuity Analytics",
-  "location": "Delhi / NCR, Gurugram, Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-15 Yrs",
-  "salary": "",
-  "posted": "Few Hours Ago",
-  "url": "https://www.naukri.com/job-listings-associate-director-director-programme-management-office-pmo-acuity-analytics-gurugram-bengaluru-delhi-ncr-10-to-15-years-131026027774",
-  "score": 63,
-  "family": "Program Manager",
-  "why": "Program Manager role; 10-15 Yrs fits your 14 years; overlaps on agile, Jira.",
-  "flags": [
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-26"
- },
- {
-  "id": "nk-261026011682",
-  "source": "Naukri",
-  "title": "Technical Project Manager",
-  "company": "Quest Global",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10-18 Yrs",
-  "salary": "",
-  "posted": "Few Hours Ago",
-  "url": "https://www.naukri.com/job-listings-technical-project-manager-quest-global-bengaluru-10-to-18-years-261026011682",
-  "score": 62,
-  "family": "Project Manager",
-  "why": "Project Manager role; 10-18 Yrs fits your 14 years; overlaps on scrum, agile, Jira.",
-  "flags": [
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-26"
+  "first_seen": "2026-10-26",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4482618735",
@@ -1127,7 +921,7 @@
   "title": "Lead Technical Program Manager Fraud Technology",
   "company": "Citi",
   "location": "Chennai, Tamil Nadu, India",
-  "city": "Other",
+  "city": "Chennai",
   "exp": "",
   "salary": "",
   "posted": "21 hours ago",
@@ -1140,9 +934,11 @@
    "+AI",
    "+BFSI",
    "Pay not disclosed",
-   "Outside your cities"
+   "Outside first-preference cities"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4479733036",
@@ -1164,7 +960,9 @@
    "+15–18 yrs",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4482474306",
@@ -1185,7 +983,9 @@
    "+Multi-team delivery",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4482474478",
@@ -1193,7 +993,7 @@
   "title": "Scrum Master- Kanban, Agile_2940",
   "company": "Allianz Technology",
   "location": "Pune Division, Maharashtra, India",
-  "city": "Other",
+  "city": "Pune",
   "exp": "",
   "salary": "",
   "posted": "2 days ago",
@@ -1207,9 +1007,11 @@
    "+AI",
    "+BFSI",
    "Pay not disclosed",
-   "Outside your cities"
+   "Outside first-preference cities"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4457308308",
@@ -1230,7 +1032,9 @@
    "+RAID / governance",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "li-4482871066",
@@ -1251,7 +1055,9 @@
    "+AWS",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "li-4481647540",
@@ -1273,49 +1079,9 @@
    "Mentions hands-on work",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "nk-221026501365",
-  "source": "Naukri",
-  "title": "Associate Principal - Program & Project Management",
-  "company": "LTM (LTIMindtree)",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "11–15 yrs",
-  "salary": "",
-  "posted": "1 day ago",
-  "url": "https://www.naukri.com/job-listings-associate-principal-program-project-management-mindtree-limited-bengaluru-11-to-15-years-221026501365",
-  "score": 80,
-  "family": "Program Manager",
-  "why": "Agile program management with AI solutions, data and Jira in the skill tags.",
-  "flags": [
-   "+Agile + AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "li-4483358196",
-  "source": "LinkedIn",
-  "title": "BSA/Scrum Master with Mobile Banking Experience",
-  "company": "CGI",
-  "location": "Hyderabad, Telangana, India",
-  "city": "Hyderabad",
-  "exp": "",
-  "salary": "",
-  "posted": "9 hours ago",
-  "url": "https://www.linkedin.com/jobs/view/4483358196",
-  "score": 80,
-  "family": "Scrum Master",
-  "why": "Scrum Master role; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, AI.",
-  "flags": [
-   "Lower experience ask",
-   "+AI",
-   "+BFSI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4473879033",
@@ -1323,7 +1089,7 @@
   "title": "AI Programme Engagement and Delivery - Vice President",
   "company": "Citi",
   "location": "Mumbai, Maharashtra, India",
-  "city": "Other",
+  "city": "Mumbai",
   "exp": "",
   "salary": "",
   "posted": "12 hours ago",
@@ -1336,9 +1102,11 @@
    "+AI",
    "+BFSI",
    "Pay not disclosed",
-   "Outside your cities"
+   "Outside first-preference cities"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4480680260",
@@ -1346,7 +1114,7 @@
   "title": "Scrum Master - VP",
   "company": "Barclays",
   "location": "Pune Division, Maharashtra, India",
-  "city": "Other",
+  "city": "Pune",
   "exp": "",
   "salary": "",
   "posted": "20 hours ago",
@@ -1360,9 +1128,11 @@
    "+Data",
    "+BFSI",
    "Pay not disclosed",
-   "Outside your cities"
+   "Outside first-preference cities"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4483127388",
@@ -1383,7 +1153,9 @@
    "+Data governance",
    "Experience not stated"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4454260637",
@@ -1403,27 +1175,9 @@
    "+Data & AI",
    "Mentions hands-on work"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "nk-250626500526",
-  "source": "Naukri",
-  "title": "Data / AI PM & Scrum Master",
-  "company": "Zensar",
-  "location": "Bengaluru",
-  "city": "Bengaluru",
-  "exp": "10–15 yrs",
-  "salary": "",
-  "posted": "3+ weeks ago",
-  "url": "https://www.naukri.com/job-listings-data-ai-pm-scrum-master-zensar-technologies-bengaluru-10-to-15-years-250626500526",
-  "score": 76,
-  "family": "Scrum Master",
-  "why": "Hybrid PM and Scrum Master role on data and AI work, close to your current scope.",
-  "flags": [
-   "+Data & AI",
-   "Older listing"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Manufacturing & Engineering"
  },
  {
   "id": "li-4478942811",
@@ -1444,7 +1198,9 @@
    "+Data platform",
    "Asks 5+ yrs: pay may sit below floor"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Manufacturing & Engineering"
  },
  {
   "id": "li-4483199710",
@@ -1467,27 +1223,9 @@
    "+BFSI",
    "Pay not disclosed"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "nk-040926019943",
-  "source": "Naukri",
-  "title": "Delivery Management Leader – AI productivity solutions",
-  "company": "EPAM Systems",
-  "location": "Bengaluru, Hyderabad, Pune",
-  "city": "Bengaluru",
-  "exp": "14–18 yrs",
-  "salary": "",
-  "posted": "Few hours ago",
-  "url": "https://www.naukri.com/job-listings-delivery-management-leader-ai-productivity-solutions-epam-systems-hyderabad-pune-bengaluru-14-to-18-years-040926019943",
-  "score": 74,
-  "family": "AI/Data Program",
-  "why": "Delivery leadership for AI and RPA productivity programs at your experience band.",
-  "flags": [
-   "+14–18 yrs",
-   "RPA/UiPath stack"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "nk-221026503617",
@@ -1507,7 +1245,9 @@
    "+Title match",
    "Embedded/industrial domain"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Manufacturing & Engineering"
  },
  {
   "id": "li-4482820995",
@@ -1528,7 +1268,9 @@
    "Hyderabad: confirm remote",
    "PMP mentioned"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4480605222",
@@ -1548,7 +1290,9 @@
    "+Data & AI",
    "Experience not stated"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Manufacturing & Engineering"
  },
  {
   "id": "nk-231026501917",
@@ -1567,7 +1311,9 @@
   "flags": [
    "Architecture-heavy"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Retail & Consumer"
  },
  {
   "id": "li-4482068620",
@@ -1588,7 +1334,9 @@
    "+SAFe",
    "Hyderabad: confirm remote"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Healthcare & Pharma"
  },
  {
   "id": "li-4481397139",
@@ -1608,7 +1356,9 @@
    "+Financial data",
    "Experience not stated"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4471315857",
@@ -1628,7 +1378,9 @@
    "+BFSI",
    "JD not read yet"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4479971995",
@@ -1647,7 +1399,9 @@
   "flags": [
    "JD not read yet"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Retail & Consumer"
  },
  {
   "id": "li-4482730632",
@@ -1667,26 +1421,9 @@
    "+BFSI",
    "Lower experience ask"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "nk-191026009163",
-  "source": "Naukri",
-  "title": "Walk-in: IT Delivery Manager",
-  "company": "EPAM Systems",
-  "location": "Bengaluru (hybrid)",
-  "city": "Bengaluru",
-  "exp": "13–19 yrs",
-  "salary": "",
-  "posted": "5 days ago",
-  "url": "https://www.naukri.com/job-listings-it-delivery-manager-epam-systems-bangalore-rural-bengaluru-13-to-19-years-191026009163",
-  "score": 70,
-  "family": "Delivery Manager",
-  "why": "Agile delivery manager with sprint planning and Jira. Walk-in drive is dated 25 Oct.",
-  "flags": [
-   "Walk-in 25 Oct (today)"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4479463470",
@@ -1706,7 +1443,9 @@
    "+GenAI",
    "Lower experience ask"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Retail & Consumer"
  },
  {
   "id": "li-4465846188",
@@ -1725,27 +1464,9 @@
   "flags": [
    "JD not read yet"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "li-4464483855",
-  "source": "LinkedIn",
-  "title": "Principal Technical Program Manager",
-  "company": "GitLab",
-  "location": "Bengaluru (remote)",
-  "city": "Bengaluru",
-  "exp": "",
-  "salary": "",
-  "posted": "2 days ago",
-  "url": "https://www.linkedin.com/jobs/view/4464483855",
-  "score": 70,
-  "family": "Technical Program Manager",
-  "why": "Remote principal TPM at a DevOps company. Likely engineering-heavy; scored on title only.",
-  "flags": [
-   "+Remote",
-   "JD not read yet"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Healthcare & Pharma"
  },
  {
   "id": "li-4481107226",
@@ -1765,26 +1486,9 @@
    "+SAFe",
    "Mid-level band"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "nk-080726012578",
-  "source": "Naukri",
-  "title": "Project Manager",
-  "company": "Dbiz.ai",
-  "location": "Bengaluru (hybrid)",
-  "city": "Bengaluru",
-  "exp": "12–22 yrs",
-  "salary": "",
-  "posted": "1 day ago",
-  "url": "https://www.naukri.com/job-listings-project-manager-dbiz-ai-bengaluru-12-to-22-years-080726012578",
-  "score": 70,
-  "family": "Program Manager",
-  "why": "Scrum-based technical project management with DevOps and cloud.",
-  "flags": [
-   "+Scrum + cloud"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "BFSI"
  },
  {
   "id": "li-4472300526",
@@ -1804,7 +1508,9 @@
    "+SAFe",
    "Hyderabad: confirm remote"
   ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "li-4473135766",
@@ -1823,27 +1529,9 @@
   "flags": [
    "JD not read yet"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "nk-040926018581",
-  "source": "Naukri",
-  "title": "Project Manager - AI Solution",
-  "company": "Epam Systems",
-  "location": "Hyderabad",
-  "city": "Hyderabad",
-  "exp": "14-18 Yrs",
-  "salary": "",
-  "posted": "Today",
-  "url": "https://www.naukri.com/job-listings-project-manager-ai-solution-epam-systems-hyderabad-14-to-18-years-040926018581",
-  "score": 63,
-  "family": "Project Manager",
-  "why": "Project Manager role; 14-18 Yrs fits your 14 years; overlaps on Jira, AI.",
-  "flags": [
-   "+AI",
-   "Pay not disclosed"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Technology"
  },
  {
   "id": "li-4481985177",
@@ -1863,26 +1551,8 @@
    "+AI platform",
    "Mid-level grade"
   ],
-  "first_seen": "2026-10-25"
- },
- {
-  "id": "nk-040926021975",
-  "source": "Naukri",
-  "title": "IT Delivery Manager - Java/.NET",
-  "company": "EPAM Systems",
-  "location": "Bengaluru, Hyderabad, Chennai",
-  "city": "Bengaluru",
-  "exp": "14–18 yrs",
-  "salary": "",
-  "posted": "Few hours ago",
-  "url": "https://www.naukri.com/job-listings-it-delivery-manager-java-net-epam-systems-hyderabad-chennai-bengaluru-14-to-18-years-040926021975",
-  "score": 62,
-  "family": "Delivery Manager",
-  "why": "SAFe and Kanban delivery management at your level, but tied to a Java/.NET engineering stack.",
-  "flags": [
-   "+SAFe",
-   "Java/.NET stack"
-  ],
-  "first_seen": "2026-10-25"
+  "first_seen": "2026-10-25",
+  "gcc": true,
+  "sector": "Technology"
  }
 ]

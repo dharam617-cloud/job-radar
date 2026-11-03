@@ -26,7 +26,7 @@ def _rows(jobs: list[dict]) -> str:
   <div style="font:600 10px/1.6 Arial,sans-serif;color:{fg};text-transform:uppercase;letter-spacing:.06em;text-align:center;width:52px">{label}</div>
 </td><td style="padding:14px 0 14px 14px;border-top:1px solid #dde3e8;vertical-align:top">
   <a href="{e(j['url'])}" style="font:600 16px/1.3 Arial,sans-serif;color:#1f5f8b;text-decoration:none">{e(j['title'])}</a>
-  <div style="font:14px/1.5 Arial,sans-serif;color:#152330;margin-top:3px"><b>{e(j['company'])}</b> &middot; {e(j['city'])} &middot; {e(j['source'])}{(' &middot; ' + e(j['exp'])) if j.get('exp') else ''}{(' &middot; ' + e(j['salary'])) if j.get('salary') else ''}</div>
+  <div style="font:14px/1.5 Arial,sans-serif;color:#152330;margin-top:3px"><b>{e(j['company'])}</b>{(' <span style="font-size:12px;color:#1f5f8b;background:#e1ecf5;border-radius:4px;padding:1px 6px">' + e(j['sector']) + ' GCC</span>') if j.get('sector') else ''} &middot; {e(j['location'] or j['city'])} &middot; {e(j['source'])}{(' &middot; ' + e(j['exp'])) if j.get('exp') else ''}{(' &middot; ' + e(j['salary'])) if j.get('salary') else ''}</div>
   <div style="font:13.5px/1.5 Arial,sans-serif;color:#5b6b78;margin-top:4px">{e(j['why'])}</div>
   <a href="{e(j['url'])}" style="display:inline-block;margin-top:9px;background:#1f5f8b;color:#ffffff;font:600 13px Arial,sans-serif;padding:7px 13px;border-radius:7px;text-decoration:none">Apply on {e(j['source'])} &#8599;</a>
 </td></tr>""")
@@ -55,22 +55,22 @@ def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active
             if len(new_jobs) > 15 else "")
     return f"""<!doctype html><html><body style="margin:0;background:#f3f5f7">
 <div style="max-width:640px;margin:0 auto;padding:24px 18px;background:#ffffff">
-  <div style="font:12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#5b6b78">Job Match Radar &middot; {e(run['date_label'])}</div>
-  <h1 style="font:700 24px/1.2 Arial,sans-serif;color:#152330;margin:6px 0 4px">{len(new_jobs)} new match{'es' if len(new_jobs) != 1 else ''}, {strong} strong</h1>
-  <p style="font:14px/1.5 Arial,sans-serif;color:#5b6b78;margin:0 0 16px">Naukri + LinkedIn &middot; Bengaluru, Hyderabad, Delhi NCR and remote India &middot; {run['scanned']} listings checked &middot; {total_active} open matches on your dashboard</p>
+  <div style="font:12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#5b6b78">GCC Job Alert &middot; {e(run['date_label'])}</div>
+  <h1 style="font:700 24px/1.2 Arial,sans-serif;color:#152330;margin:6px 0 4px">{len(new_jobs)} new GCC match{'es' if len(new_jobs) != 1 else ''}, {strong} strong</h1>
+  <p style="font:14px/1.5 Arial,sans-serif;color:#5b6b78;margin:0 0 16px">Global Capability Centres across India &middot; first preference Bengaluru, Hyderabad, Delhi NCR, then Pune, Chennai, Mumbai and other hubs &middot; Naukri + LinkedIn &middot; {run['scanned']} listings checked, {run.get('not_gcc_dropped', 0)} non-GCC matches left out &middot; {total_active} open matches on your dashboard</p>
   {health_html}
   {body}
   {more}
   {open_html}
   <p style="margin:22px 0 6px"><a href="{e(dashboard_url)}" style="display:inline-block;background:#1f5f8b;color:#ffffff;font:600 14px Arial,sans-serif;padding:11px 18px;border-radius:8px;text-decoration:none">Open the dashboard</a></p>
-  <p style="font:12px/1.5 Arial,sans-serif;color:#8a95a0;margin-top:18px">Scores weigh role fit, experience band, Agile/SAFe and data/AI overlap, BFSI domain, and pay against your &#8377;50 LPA floor. Listings that hide pay are kept.</p>
+  <p style="font:12px/1.5 Arial,sans-serif;color:#8a95a0;margin-top:18px">Only multinationals' own India centres (GCCs) are included; IT-services vendors, consultancies and recruiters are left out. Scores weigh role fit, experience band, Agile/SAFe and data/AI overlap, BFSI domain, and pay against your &#8377;50 LPA floor. Listings that hide pay are kept.</p>
 </div></body></html>"""
 
 
 def send(sender: str, app_password: str, to: str, subject: str, html_body: str) -> None:
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = f"Job Match Radar <{sender}>"
+    msg["From"] = f"GCC Job Alert <{sender}>"
     msg["To"] = to
     msg.attach(MIMEText("Open this email in an HTML-capable client to see your matches.", "plain"))
     msg.attach(MIMEText(html_body, "html"))

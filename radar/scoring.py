@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import re
 
+from .gcc import classify
+
 EXCLUDE_TITLE = re.compile(
     r"\b(developer|software engineer|data engineer|ml engineer|devops engineer|qa engineer|test engineer|"
     r"engineering manager|architect|scientist|designer|recruiter|sales|account executive|business analyst|"
@@ -36,22 +38,34 @@ BFSI_CO = ["jpmorgan", "jp morgan", "goldman", "state street", "deutsche", "hsbc
            "societe generale", "bnp", "hdfc", "icici", "axis bank", "kotak", "paypal", "razorpay", "phonepe", "the standard"]
 
 CITY_PATTERNS = [
+    # first preference
     ("Bengaluru", re.compile(r"bengaluru|bangalore", re.I)),
     ("Hyderabad", re.compile(r"hyderabad|secunderabad", re.I)),
     ("Delhi NCR", re.compile(r"delhi|gurugram|gurgaon|noida|ncr|faridabad|ghaziabad", re.I)),
+    # other GCC hubs across India
+    ("Pune", re.compile(r"\bpune\b", re.I)),
+    ("Chennai", re.compile(r"chennai", re.I)),
+    ("Mumbai", re.compile(r"mumbai|navi mumbai|thane|powai", re.I)),
+    ("Other India", re.compile(r"kolkata|ahmedabad|gandhinagar|gift city|kochi|cochin|coimbatore|jaipur|chandigarh|mohali|"
+                               r"indore|thiruvananthapuram|trivandrum|vadodara|bhubaneswar|mysuru|mysore|mangaluru|nagpur|"
+                               r"visakhapatnam|vizag|lucknow|\bindia\b", re.I)),
 ]
+FIRST_PREFERENCE = {"Bengaluru", "Hyderabad", "Delhi NCR"}
+HUBS = {"Pune", "Chennai", "Mumbai"}
 
 
 def city_of(job: dict) -> str | None:
-    """Target city, or "Remote" only when the listing itself says remote / work from home.
+    """City bucket for an India listing, or "Remote" only when the listing itself says remote / work from home.
     LinkedIn's public feed ignores its remote filter, so a 'remote search' hit alone is not proof."""
     loc = job.get("location", "")
     text = " ".join([loc, job.get("desc", ""), job.get("tags", "")])
-    for name, pat in CITY_PATTERNS:
+    for name, pat in CITY_PATTERNS[:-1]:
         if pat.search(loc):
             return name
     if re.search(r"\bremote\b|work from home|\bwfh\b|fully remote", text, re.I):
         return "Remote"
+    if CITY_PATTERNS[-1][1].search(loc):
+        return "Other India"
     return None
 
 
@@ -130,9 +144,21 @@ def score(job: dict, profile: dict) -> dict | None:
     elif "data" in d_hits or "analytics" in d_hits:
         flags.append("+Data")
 
+    # GCC only: a multinational's own India centre
+    g = classify(job.get("company", ""))
+    if profile.get("gcc_only", True) and not g["gcc"]:
+        return None
+    if g["own"]:
+        flags.append("Your current employer: apply internally")
+    sector = g["sector"] or "Other GCC"
+    if sector == "Other GCC":
+        why[0] = f"{family} role at a GCC"
+    else:
+        why[0] = f"{family} role at {'an' if sector[0] in 'AEIOU' else 'a'} {sector} GCC"
+
     # BFSI
     co = job.get("company", "").lower()
-    bfsi = any(k in co for k in BFSI_CO) or any(k in text for k in BFSI_TEXT)
+    bfsi = g["sector"] == "BFSI" or any(k in co for k in BFSI_CO) or any(k in text for k in BFSI_TEXT)
     bfsi_pts = 10 if bfsi else 0
     if bfsi:
         flags.append("+BFSI")
@@ -142,9 +168,17 @@ def score(job: dict, profile: dict) -> dict | None:
     city = city_of(job)
     if not city:
         return None
-    loc_pts = 5
-    if city == "Remote":
+    if city in FIRST_PREFERENCE:
+        loc_pts = 5
+    elif city == "Remote":
+        loc_pts = 4
         flags.append("+Remote")
+    elif city in HUBS:
+        loc_pts = 3
+        flags.append("Outside first-preference cities")
+    else:
+        loc_pts = 2
+        flags.append("Outside first-preference cities")
     pay = _salary_max_lpa(job)
     if pay is not None and pay < profile["pay_floor_lpa"]:
         return None
@@ -189,6 +223,8 @@ def score(job: dict, profile: dict) -> dict | None:
         "score": int(total),
         "family": family,
         "city": city,
+        "gcc": g["gcc"],
+        "sector": g["sector"] or "Other GCC",
         "why": sentence,
         "flags": list(dict.fromkeys(flags)),
     }

@@ -1,8 +1,8 @@
-name: Job Match Radar
+name: GCC Job Alert
 
 on:
   schedule:
-    - cron: "13 0 * * *"   # 05:43 IST; GitHub often starts scheduled runs 15-60 min late, so mail lands by ~7 IST
+    - cron: "30 1 * * *"   # 07:00 IST every day (01:30 UTC). GitHub can start scheduled runs a few minutes late.
   workflow_dispatch:
     inputs:
       days:
