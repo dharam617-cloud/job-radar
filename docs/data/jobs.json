@@ -1,5 +1,48 @@
 [
  {
+  "id": "li-4486816579",
+  "source": "LinkedIn",
+  "title": "Technical Program Manager",
+  "company": "Visa",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "33 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4486816579",
+  "score": 97,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; asks 12+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, machine learning.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-11-03"
+ },
+ {
+  "id": "li-4486031120",
+  "source": "LinkedIn",
+  "title": "AI Delivery manager",
+  "company": "Arohana Tech Solutions Private Limited",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "38 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4486031120",
+  "score": 72,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, machine learning.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-11-03"
+ },
+ {
   "id": "nk-051026933073",
   "source": "Naukri",
   "title": "Senior Program Manager - HR",
@@ -15,6 +58,25 @@
   "why": "Program Manager role; 12-17 Yrs fits your 14 years; overlaps on data, analytics.",
   "flags": [
    "+AI",
+   "Pay not disclosed"
+  ],
+  "first_seen": "2026-11-03"
+ },
+ {
+  "id": "nk-031126909425",
+  "source": "Naukri",
+  "title": "Technical Scrum Master - Senior Lead",
+  "company": "Iris Software",
+  "location": "Noida",
+  "city": "Delhi NCR",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-technical-scrum-master-senior-lead-iris-software-technologies-private-limited-noida-10-to-15-years-031126909425",
+  "score": 66,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 10-15 Yrs fits your 14 years; overlaps on scrum, agile.",
+  "flags": [
    "Pay not disclosed"
   ],
   "first_seen": "2026-11-03"
