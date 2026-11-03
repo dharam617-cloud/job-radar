@@ -24,9 +24,9 @@
   "first_seen": "2026-11-03",
   "jd_points": [
    "Agile delivery tools used to manage backlogs, sprints, releases, dependencies and delivery reporting",
-   "Experience with tools that support SAFe, Scrum, Agile planning and enterprise delivery governance. Overall Responsibilities Product Strategy and Roadmap",
-   "Ensure that production AI solutions have defined ownership, monitoring, support and escalation processes. Performance and Value Realization",
-   "Experience monitoring risks, controls, mitigation plans and governance decisions across AI programs. Preferred",
+   "Experience with tools that support SAFe, Scrum, Agile planning and enterprise delivery governance",
+   "Ensure that production AI solutions have defined ownership, monitoring, support and escalation processes",
+   "Experience monitoring risks, controls, mitigation plans and governance decisions across AI programs",
    "Candidates may qualify through equivalent experience in AI transformation, digital product management, technology program delivery, enterprise architecture or data and analytics leadership, provided they demonstrate…",
    "Review AI product roadmaps, use-case priorities, business cases, delivery plans, budgets, risks, dependencies and value-realization metrics",
    "Make or facilitate product and program decisions within the agreed governance framework, escalate risks when required and remain accountable for delivery alignment, stakeholder communication and measurable outcomes.…"
@@ -122,9 +122,9 @@
    "Facilitate all Agile ceremonies, including Daily Standups, Sprint Planning, Backlog Refinement, Reviews, Retrospectives, and PI Planning activities",
    "Coach teams on Agile values, Scrum principles, SAFe practices, and continuous improvement techniques",
    "Track sprint, release, and PI objectives to ensure predictable delivery and alignment with business priorities",
-   "Partner with Product Owners and Technology Leads to ensure priorities are clearly understood and execution remains aligned with roadmap commitments. Program Increment Planning & Governance",
-   "Provide leadership with clear status reporting, delivery forecasts, and escalation insights. Release & Change Management",
-   "Facilitate post-release reviews and lessons learned activities. Continuous Improvement & Agile Coaching",
+   "Partner with Product Owners and Technology Leads to ensure priorities are clearly understood and execution remains aligned with roadmap commitments",
+   "Provide leadership with clear status reporting, delivery forecasts, and escalation insights",
+   "Facilitate post-release reviews and lessons learned activities",
    "Strong understanding of Agile metrics, forecasting, and delivery management"
   ],
   "jd_status": "ok",
@@ -382,7 +382,7 @@
   "sector": "",
   "first_seen": "2026-11-03",
   "jd_points": [
-   "We are seeking an accomplished Delivery Manager with expertise in .NET/Java to lead end-to-end project delivery, ensuring collaboration across teams, client satisfaction, and business success. Responsibilities",
+   "We are seeking an accomplished Delivery Manager with expertise in .NET/Java to lead end-to-end project delivery, ensuring collaboration across teams, client satisfaction, and business success.",
    "Oversee end-to-end delivery across multiple teams to ensure client requirements and quality standards are met",
    "Escalate critical risks and issues to stakeholders with clear impact analysis and recommendations",
    "Provide regular updates, progress reports and risk assessments to clients and stakeholders",
@@ -954,8 +954,7 @@
    "Scrum delivery for an Azure Kubernetes Service (AKS) platform team",
    "Dependency and risk management across platform work",
    "Drive observability platform improvements",
-   "Tools: Jira, Azure DevOps; Kubernetes knowledge expected",
-   "8–10 years of experience"
+   "Tools: Jira, Azure DevOps; Kubernetes knowledge expected"
   ],
   "jd_status": "ok",
   "themes": [
@@ -1144,8 +1143,7 @@
    "Lead end-to-end delivery of complex, large-scale technology and InfoSec programs",
    "Build and manage program roadmaps aligned with business and product priorities",
    "Coordinate engineering, product, QA, UX and business stakeholders across global teams",
-   "Translate business requirements into structured execution plans and delivery milestones",
-   "8–12 years of experience"
+   "Translate business requirements into structured execution plans and delivery milestones"
   ],
   "jd_status": "ok",
   "themes": [
@@ -1286,7 +1284,7 @@
    "Flexible, adaptable and resourceful when managing changing timelines and multiple deliverables",
    "Motivated to build relationships at executive levels with technology, solutions, customers and vendor groups",
    "Exceptional communication skills, executive presentation skills, relationship building skills and the ability to influence at all levels of the organization",
-   "Strong cultural change management experience Preferred Qualifications"
+   "Strong cultural change management experience Preferred"
   ],
   "jd_status": "ok",
   "themes": [
@@ -1743,9 +1741,9 @@
    "Manage delivery dashboards, sprint boards, risks, dependencies, and decisions in Azure DevOps",
    "Hands-on experience with Azure DevOps (ADO) for backlogs, sprint boards, dashboards, and delivery metrics",
    "Strong facilitation, stakeholder management, risk management, and impediment resolution skills",
-   "Ability to track delivery predictability, dependencies, quality, and continuous improvement actions. Preferred Skills",
+   "Ability to track delivery predictability, dependencies, quality, and continuous improvement actions",
    "Experience in Finance technology, Investment, or Credit Risk portfolios",
-   "Experience coordinating multiple teams within an Agile Release Train. Disclaimer: This job posting has been aggregated from external source. Role details, content, and availability are subject to change. Applicants…"
+   "Experience coordinating multiple teams within an Agile Release Train. Disclaimer: This job posting has been aggregated from external source. Role details, content, and availability are subject to change."
   ],
   "jd_status": "ok",
   "themes": [
@@ -1789,7 +1787,7 @@
    "Serve as the primary escalation and decision-making authority for program-level data, delivery, quality, and stakeholder issues",
    "Ensure proactive risk management, issue resolution, Quality by Design implementation, and adherence to lean data principles across the portfolio",
    "Collaborate with standards, vendor, and delivery teams to drive scalable, fit-for-purpose solutions and continuous improvement of data strategy practices",
-   "Enhance program predictability, stakeholder experience, and operational excellence while contributing to DU-level capability, resource, and operating model decisions. Minimum Requirements",
+   "Enhance program predictability, stakeholder experience, and operational excellence while contributing to DU-level capability, resource, and operating model decisions",
    "Experienced in managing complexity across portfolios, driving alignment and execution across diverse studies, stakeholders, and geographies"
   ],
   "jd_status": "ok",
@@ -1877,7 +1875,7 @@
    "Establish engineering standards, governance, and reusable components across data, analytics, Artificial Intelligence, and integration platforms",
    "Partner with Enterprise Architecture to define technology strategies, modernization roadmaps, and secure, compliant, scalable architectures",
    "Align business, technology, executive, and vendor stakeholders around investments, roadmaps, risks, governance, and measurable value",
-   "Build and mentor high-performing teams while strengthening capabilities across Artificial Intelligence, data, analytics, and cloud technologies. Essential Requirements",
+   "Build and mentor high-performing teams while strengthening capabilities across Artificial Intelligence, data, analytics, and cloud technologies",
    "12–15+ years of experience in data and analytics, artificial intelligence, product engineering, or digital technology leadership",
    "Expertise in cloud platforms, data engineering, machine learning operations, and modern data and analytics ecosystems"
   ],
@@ -1951,7 +1949,7 @@
    "Coordinate technical readiness for customer go-lives and warehouse rollouts, working closely with Solutions Engineering, Deployment, and Customer Success to de-risk launches on live operational floors",
    "Communicate program status, risk, and technical tradeoffs clearly to executive stakeholders and, at times, enterprise customers",
    "Drive retrospectives on major programs and incidents (including production/live-site issues), converting learnings into concrete process and architectural improvements",
-   "Represent the voice of execution in planning cycles, ensuring roadmaps are technically grounded, realistically sequenced, and account for hardware/deployment dependencies Minimum Qualifications",
+   "Represent the voice of execution in planning cycles, ensuring roadmaps are technically grounded, realistically sequenced, and account for hardware/deployment dependencies Minimum",
    "Technical knowledge and/or prior experience in warehouse/supply chain tech, robotics, WMS/WES systems, or AI/ML-driven orchestration or planning systems"
   ],
   "jd_status": "ok",
@@ -2037,7 +2035,7 @@
    "3+ years of team management experience",
    "3+ years of program or project management experience",
    "3+ years of delivering cross functional projects experience",
-   "Experience defining program requirements and using data and metrics to determine improvements Preferred Qualifications"
+   "Experience defining program requirements and using data and metrics to determine improvements Preferred"
   ],
   "jd_status": "ok",
   "themes": [
@@ -2074,7 +2072,7 @@
    "Manage project plans, milestones, dependencies, risks, and issue resolution",
    "Collaborate with development teams to track progress, remove blockers, and ensure timely delivery",
    "Coordinate testing, implementation, and production readiness activities",
-   "Ensure successful delivery while maintaining quality, timelines, and stakeholder satisfaction. Preferred Experience",
+   "Ensure successful delivery while maintaining quality, timelines, and stakeholder satisfaction",
    "Experience with Snowflake and modern cloud data platforms",
    "Exposure to data transformation, reporting, and analytics projects"
   ],
@@ -2188,7 +2186,7 @@
   "gcc": false,
   "sector": "",
   "jd_points": [
-   "Drive ongoing optimization efforts to enhance program performance and user experience. Required Skills And Experience",
+   "Drive ongoing optimization efforts to enhance program performance and user experience",
    "15 - 20 years of overall work experience, with 10+ years of experience in Program and Project Management",
    "Proficiency in using tools such as JIRA to manage tasks, track progress, and report on project status",
    "Familiarity with the technical aspects of data product development, including architecture and cloud infrastructure, to effectively communicate with development teams",
@@ -2323,10 +2321,10 @@
    "Own and drive end-to-end delivery of large-scale, multi-year Data Science, AI, GenAI, and Agentic AI programs, ensuring adherence to scope, timelines, quality, and cost",
    "Ensure delivery aligns with agreed enterprise architectures, data standards, security, Responsible AI, and governance requirements",
    "Establish and run delivery governance, cadence reviews, and executive-level status reporting for AI and GenAI initiatives",
-   "Ensure effective coordination across cross-functional teams, platform teams, vendors, and stakeholders. 3. Team Leadership (Delivery-Focused)",
-   "Drive performance management, resource planning, and delivery productivity across traditional AI and GenAI/Agentic AI workloads. 4. Stakeholder Management",
+   "Ensure effective coordination across cross-functional teams, platform teams, vendors, and stakeholders. 3.",
+   "Drive performance management, resource planning, and delivery productivity across traditional AI and GenAI/Agentic AI workloads. 4.",
    "Communicate program progress, risks, and outcomes clearly to senior leadership and client stakeholders, including AI-specific metrics and value realization",
-   "Ensure high levels of stakeholder satisfaction through predictable, transparent, and outcome-driven delivery. 5. Delivery Excellence"
+   "Ensure high levels of stakeholder satisfaction through predictable, transparent, and outcome-driven delivery. 5."
   ],
   "jd_status": "ok",
   "themes": [
@@ -2473,7 +2471,7 @@
    "3+ years leading AI programs or digital transformation initiatives",
    "Manage project plans, timelines, risks and cross-functional teams",
    "Familiarity with Copilot, Cursor, ChatGPT, Claude or Azure AI",
-   "Strong stakeholder management and communication skills. Key Responsibilities",
+   "Strong stakeholder management and communication skills",
    "Manage AI portfolio plans, roadmaps, milestones, risks and dependencies",
    "Drive AI adoption through rollout planning, training and change management"
   ],
@@ -2575,7 +2573,7 @@
    "AI-enabled delivery transformation — Own the roadmap and operating model for moving ESET from standard delivery to fully AI-enabled delivery across the whole lifecycle: requirements and design, build and data,…",
    "Program leadership — Own plan, status and executive readouts for the highest-priority cross-stream programs. Surface risks and dependencies early and escalate with a recommendation. Coach program leads across the…",
    "Delivery health and reporting — Build the delivery scorecard and a consistent RAG rollup across value streams: flow, quality, release discipline, hypercare burden, cycle time and cost per outcome, measured before and…",
-   "Executive advisory — Advise ESET leadership on investment trade-offs, sequencing, delivery risk and the pace of the AI transformation. Expected Qualifications",
+   "Executive advisory — Advise ESET leadership on investment trade-offs, sequencing, delivery risk and the pace of the AI transformation",
    "Program and portfolio leadership (8+ years in IT program management, portfolio management, PMO leadership, delivery transformation or IT strategy): led complex cross-functional enterprise application, ERP or platform…",
    "Delivery operating model and AI-enabled delivery: redesigned an SDLC or delivery operating model across multiple teams (stage gates, controls, metrics), and led adoption of AI-assisted delivery across lifecycle…",
    "Also expected: working knowledge of delivery control and audit requirements (change, release, SOX IT general controls); portfolio tooling such as ServiceNow SPM or an equivalent PPM platform; managing system…"
@@ -2711,7 +2709,7 @@
    "Strategic Stakeholder Management: Act as the central point of contact for BU leaders and functional heads, translating business requirements into technical roadmaps",
    "Agile Governance: Champion Scrum methodologies across teams. Lead sprint planning, retrospectives, and daily stands to ensure high-quality, iterative delivery",
    "Project Controls: Utilize Jira to track progress, manage dependencies, and provide transparent reporting on program health, budgets, and risks",
-   "Retail Value Realization: Leverage your retail domain knowledge to ensure AI/Data solutions address specific industry challenges like demand forecasting, customer 360, and supply chain optimization. Requirements",
+   "Retail Value Realization: Leverage your retail domain knowledge to ensure AI/Data solutions address specific industry challenges like demand forecasting, customer 360, and supply chain optimization",
    "Technical Proficiency: Advanced hands-on expertise in Jira and a deep understanding of the Scrum framework",
    "Certifications: PMP, PRINCE2, or CSM (Certified Scrum Master) / SAFe certification"
   ],
@@ -2929,9 +2927,9 @@
    "Translate legal strategy and deadlines into documented project plans, milestones, roles, dependencies, budgets, quality controls, and escalation paths",
    "Track matter health, deadlines, data volumes, review progress, risks, issues, spend, and forecast-to-complete; provide concise reporting and escalate material concerns with recommended actions",
    "Advise attorneys and case teams on auditable, proportionate, and practical approaches to preservation, collection, search, review, analytics, privilege, and production",
-   "Serve as a trusted advisor during high-risk or high-visibility matters, applying sound judgment and escalating issues promptly. Technology, Analytics, and Process Improvement",
+   "Serve as a trusted advisor during high-risk or high-visibility matters, applying sound judgment and escalating issues promptly",
    "Deliver practical training and guidance to attorneys, case teams, and internal partners on eDiscovery processes and tools. Required Education: Bachelor's Degree Preferred Education: Doctorate Degree Required…",
-   "\",\"469777815\":\"hybridMultilevel\"}\" data-aria-posinset=\"5\" data-aria-level=\"1\"> Significant experience interacting with and advising senior stakeholders, outside counsel, and cross-functional partners. Technical Skills",
+   "\",\"469777815\":\"hybridMultilevel\"}\" data-aria-posinset=\"5\" data-aria-level=\"1\"> Significant experience interacting with and advising senior stakeholders, outside counsel, and cross-functional partners",
    "\",\"469777815\":\"hybridMultilevel\"}\" data-aria-posinset=\"1\" data-aria-level=\"1\"> Experience with TAR/CAL workflows, predictive analytics, and AI-driven document review methodologies"
   ],
   "jd_status": "ok",
@@ -3016,7 +3014,7 @@
    "Architect solutions on Azure AI services (Azure Machine Learning, Azure AI Foundry/OpenAI, Azure AI Search, Document Intelligence, Fabric/Databricks)",
    "Deliver business-facing apps, workflows and dashboards using Power Platform (Power Apps, Power Automate, Power BI)",
    "Establish MLOps, model monitoring, security, and AI governance practices, including access control, auditability, and responsible AI",
-   "Manage scope, timelines, budget and stakeholders, and guide data scientists, engineers and partners. Requirements",
+   "Manage scope, timelines, budget and stakeholders, and guide data scientists, engineers and partners",
    "7–10 years in data, AI or ML, including 3+ years delivering on Azure AI services",
    "Track record of leading ML projects into production",
    "Hands-on experience with Python, Azure ML, MLOps and data pipelines"
@@ -3172,8 +3170,8 @@
    "Lead and manage complex technical programs ensuring alignment with business goals and stakeholder expectations",
    "Drive data governance practices across projects, ensuring compliance with industry standards and regulations",
    "Collaborate with cross-functional teams to establish clear project milestones, deliverables, and timelines",
-   "Facilitate communication among stakeholders to ensure transparency and engagement throughout the project lifecycle. Expected Outcomes",
-   "Demonstrated ability to lead teams and influence outcomes positively, fostering a collaborative work environment. Qualifications (Skills/Competencies)",
+   "Facilitate communication among stakeholders to ensure transparency and engagement throughout the project lifecycle",
+   "Demonstrated ability to lead teams and influence outcomes positively, fostering a collaborative work environment",
    "Proven experience as a Program Manager with a strong focus on data governance and delivery leadership"
   ],
   "jd_status": "ok",
@@ -3260,11 +3258,11 @@
   "jd_points": [
    "Lead end-to-end technology planning, execution, and delivery governance across complex, mission-critical programs within Citi’s Fraud Technology Book of Work",
    "Accelerate the generation of executive dashboards, release notes, and milestone variance analytics",
-   "Standardize AI-driven delivery best practices, prompts, and reporting templates across participating engineering teams. Executive Presence & Stakeholder Communication",
-   "Cultivate strong collaborative partnerships across business units, external technology vendors, operations, internal audit, and technology peers. Risk, Governance, and Control Management",
+   "Standardize AI-driven delivery best practices, prompts, and reporting templates across participating engineering teams",
+   "Cultivate strong collaborative partnerships across business units, external technology vendors, operations, internal audit, and technology peers",
    "2+ years of experience supporting payments, fintech, fraud prevention, risk management, or other highly regulated technology environments utilizing Agile, Scrum, SAFe, or Hybrid delivery frameworks",
    "Experience coordinating cross-functional teams, managing dependencies, tracking critical-path milestones, and supporting vendor integrations in matrixed organizations",
-   "Experience utilizing AI-enabled productivity tools (e.g., Copilot, LLMs, or enterprise AI platforms) to support reporting, documentation, meeting synthesis, and delivery management activities. Leadership & Communication"
+   "Experience utilizing AI-enabled productivity tools (e.g., Copilot, LLMs, or enterprise AI platforms) to support reporting, documentation, meeting synthesis, and delivery management activities."
   ],
   "jd_status": "ok",
   "themes": [
@@ -3349,11 +3347,11 @@
   "jd_points": [
    "Facilitate planning, backlog refinement, stand-ups, reviews and retrospectives",
    "Coordinate server image lifecycle activities including build, testing, hardening, release and provisioning",
-   "Provide clear visibility of delivery progress, risks, dependencies and technical debt. What We're Looking For",
+   "Provide clear visibility of delivery progress, risks, dependencies and technical debt",
    "10+ years of relevant Technical Scrum Master / Agile Delivery experience, with strong infrastructure and platform engineering knowledge, including compute, virtualisation, Windows/Linux, server provisioning and…",
    "Familiarity with technologies such as Ansible, Terraform, Git and CI/CD pipelines",
    "Experience working with technologies such as VMware, Nutanix, AWS or Azure is highly desirable",
-   "Ability to challenge existing ways of working and leverage AI, automation and emerging technologies to improve delivery efficiency and team effectiveness. Important"
+   "Ability to challenge existing ways of working and leverage AI, automation and emerging technologies to improve delivery efficiency and team effectiveness"
   ],
   "jd_status": "ok",
   "themes": [
@@ -3477,10 +3475,10 @@
   "sector": "Technology",
   "jd_points": [
    "Lead end-to-end delivery of large-scale AI, Machine Learning, Generative AI, and Data Science programs from ideation through production deployment",
-   "Drive program execution across multiple teams while managing timelines, risks, dependencies, and resources. Cross-Functional Leadership",
-   "Manage dependencies related to data availability, model training, infrastructure readiness, testing, and deployment. Metrics & Business Value Realization",
+   "Drive program execution across multiple teams while managing timelines, risks, dependencies, and resources",
+   "Manage dependencies related to data availability, model training, infrastructure readiness, testing, and deployment",
    "Facilitate PI Planning, roadmap reviews, sprint execution tracking, release planning, and retrospective activities",
-   "Mentor project managers and junior program managers on best practices. Stakeholder Communications",
+   "Mentor project managers and junior program managers on best practices",
    "3+ years of experience supporting AI, Machine Learning, Analytics, Data Platform, or Digital Transformation initiatives",
    "Experience building executive dashboards, governance mechanisms, and delivery metrics"
   ],
@@ -3526,11 +3524,11 @@
   "sector": "BFSI",
   "jd_points": [
    "Partner with business stakeholders, users and technology teams to define product vision, roadmap and priorities",
-   "Drive continuous improvement in requirements quality and delivery predictability. Processes",
+   "Drive continuous improvement in requirements quality and delivery predictability",
    "Lead Program Increment planning and release train activities",
-   "Ability to coach and mentor wider business analysis and product team - playing a key role in elevating the overall capabilities around the Business domain and product knowledge. Risk Management",
+   "Ability to coach and mentor wider business analysis and product team - playing a key role in elevating the overall capabilities around the Business domain and product knowledge",
    "Manage the Bank’s, and, Group Internal Audit and Investigations projects and change initiatives in line with enterprise risk management standards, deploying effective controls and sustainable risk management…",
-   "Effectively and collaboratively identify, escalate, mitigate and resolve risk, conduct and compliance matters. Key Stakeholders"
+   "Effectively and collaboratively identify, escalate, mitigate and resolve risk, conduct and compliance matters"
   ],
   "jd_status": "ok",
   "themes": [
@@ -3648,9 +3646,9 @@
    "Facilitate Agile ceremonies, sprint planning, backlog refinement, reviews, and retrospectives",
    "Manage dependencies, risks, impediments, sprint progress, and delivery commitments",
    "Ensure alignment with banking processes, security standards, and regulatory requirements",
-   "Collaborate with stakeholders to improve mobile banking functionality and customer experience. Required Skills",
+   "Collaborate with stakeholders to improve mobile banking functionality and customer experience",
    "7+ years of experience in business analysis, Scrum, or Agile delivery",
-   "Strong stakeholder management, communication, and problem solving skills. Preferred Qualifications",
+   "Strong stakeholder management, communication, and problem solving skills",
    "Knowledge of digital banking journeys, payments, authentication, and mobile security"
   ],
   "jd_status": "ok",
@@ -3689,7 +3687,7 @@
   "sector": "BFSI",
   "jd_points": [
    "Strong communication, facilitation, and stakeholder management skills",
-   "Ability to manage competing priorities and delivery risks. Some Other Highly Valued Skills May Include",
+   "Ability to manage competing priorities and delivery risks",
    "Certified Scrum Master (CSM), PSM, or SAFe Scrum Master certification",
    "Support Iteration Execution: Ensure quality of ceremony artefacts and continuous customer value through iteration execution, maintain backlog refinement, and iterate on stakeholder feedback",
    "Build High-Performing Teams: Foster and coach Agile Team attributes and continuous improvement, encourage stakeholder collaboration, deputise ‘in the moment leadership’, and drive high-performing team attributes",
@@ -3769,7 +3767,7 @@
   "gcc": true,
   "sector": "Manufacturing & Engineering",
   "jd_points": [
-   "Build long-term Data and AI capability across the team and broader organization through mentoring, coaching, reusable playbooks, and practical knowledge transfer. What You Will Do",
+   "Build long-term Data and AI capability across the team and broader organization through mentoring, coaching, reusable playbooks, and practical knowledge transfer",
    "Own end-to-end architecture for Data and AI solutions aligned to enterprise strategy, business goals, and platform standards, while remaining hands-on in key solution areas",
    "Guide data architecture across cloud-native platforms including lake, warehouse, semantic, and consumption layers, and ensure governed, reusable data models aligned to business definitions",
    "Lead design and delivery of enterprise AI solutions including generative AI, retrieval-augmented generation, enterprise AI assistants, knowledge retrieval, intelligent workflow automation, and predictive analytics…",
@@ -3816,7 +3814,7 @@
    "Drive cross-team coordination and Scrum-of-Scrums, keeping dependencies and risks visible. Coaching beyond the team",
    "Share practices with other EDP Scrum Masters, and help managers and stakeholders work well with Agile teams. Stakeholders and continuous improvement",
    "Use Agile health and flow metrics in Azure DevOps to improve predictability and quality",
-   "Strong grounding in Scrum, Kanban, and Lean, with excellent facilitation and communication skills. Preferred Qualifications",
+   "Strong grounding in Scrum, Kanban, and Lean, with excellent facilitation and communication skills",
    "Certifications such as CSM, PSM, SAFe Scrum Master, SAFe Advanced Scrum Master, SAFe Release Train Engineer, or ICAgile Agile Coaching (ICP-ACC)",
    "Experience with Databricks, Azure, AWS, BI, AI and machine learning, or DevOps. The details"
   ],
@@ -4009,13 +4007,13 @@
   "gcc": true,
   "sector": "Manufacturing & Engineering",
   "jd_points": [
-   "Portfolio Ownership & Roadmap Delivery: Own the enterprise Data & AI BAU portfolio and prioritisation cycles, maintaining a rolling roadmap aligned with enterprise objectives and S4+ programme constraints. Lead…",
-   "Delivery Accountability: Take accountability for Data, Analytics, and AI delivery outcomes. Establish outcome-focused governance, including objectives, acceptance criteria, and definitions of success. Monitor…",
+   "Portfolio Ownership & Roadmap Delivery: Own the enterprise Data & AI BAU portfolio and prioritisation cycles, maintaining a rolling roadmap aligned with enterprise objectives and S4+ programme constraints",
+   "Delivery Accountability: Take accountability for Data, Analytics, and AI delivery outcomes. Establish outcome-focused governance, including objectives, acceptance criteria, and definitions of success.",
    "AI Enablement & Adoption: Lead the adoption of AI across BAU activities by managing an AI use-case pipeline supported by value hypotheses, adoption plans, and benefit tracking. Make pragmatic decisions on whether…",
    "Governance & Partner Management: Oversee Data & AI governance and external partner performance to ensure adherence to enterprise standards, governance requirements, and risk appetite. Balance business value delivery…",
    "Transformation Alignment & BAU Absorption: Maintain business-as-usual momentum throughout the S4+ transformation programme while preparing BAU teams to adopt and sustain the new data foundations post-go-live.…",
    "Proven experience leading and delivering Data, Analytics, or AI portfolios in a BAU environment",
-   "Comprehensive understanding of enterprise data platforms, analytics ecosystems, AI adoption approaches, and governance frameworks. Desirable Experience"
+   "Comprehensive understanding of enterprise data platforms, analytics ecosystems, AI adoption approaches, and governance frameworks"
   ],
   "jd_status": "ok",
   "themes": [
@@ -4183,7 +4181,7 @@
    "Significant experience leading business analysis and technology delivery within Financial Services, Risk, Compliance or Financial Crime domains",
    "Experience leading and developing teams in a people management capacity",
    "Strong project and delivery management experience, including planning, dependency management and governance",
-   "Knowledge of enterprise technologies, data platforms, workflow solutions and system integrations. Preferred"
+   "Knowledge of enterprise technologies, data platforms, workflow solutions and system integrations"
   ],
   "jd_status": "ok",
   "themes": [
@@ -4263,10 +4261,10 @@
   "gcc": true,
   "sector": "Retail & Consumer",
   "jd_points": [
-   "Establish and run effective programme governance, managing cross-team dependencies, risks, and delivery against agreed outcomes and timelines. Product–Programme Partnership",
+   "Establish and run effective programme governance, managing cross-team dependencies, risks, and delivery against agreed outcomes and timelines",
    "Partner closely with Product leadership to enable delivery of the roadmap , ensuring sequencing of capabilities and dependencies is executable, but remaining aligned to product-led prioritisation and decision-making",
    "Translate product roadmap and capability sequencing into a coherent, cross-team delivery plan, ensuring readiness across infrastructure, security, and platform teams. Adoption & Onboarding Own the onboarding of teams…",
-   "Align stakeholders across infrastructure, security, and platform domains to unlock adoption at scale. Execution & Communication",
+   "Align stakeholders across infrastructure, security, and platform domains to unlock adoption at scale",
    "Create and track a plan to deliver the programme goals, including the technical implementation plan. Owning the release plan and stakeholder communication and weekly Governance",
    "Able to understand and drive a technical architecture to be able to foresee the impact on dependencies, delivery timelines and implementation plans",
    "Coach peers and other roles, teaching where required, on methodologies and programme management tools and coach/mentor on leadership"
@@ -4307,10 +4305,10 @@
   "jd_points": [
    "Own and prioritise the backlog of alternatives/AIF data products including e.g. valuations, cash flows (calls, drawdowns, distributions), commitments, performance, investor data, and regulatory inputs",
    "You liaise with the data engineering and platform team to realise the data products until they are accepted by the business and deployed in production",
-   "You work with Data Governance and other compliance/governance departments to ensure a regulatory compliant and auditable setup of the data products. Your Skills And Experience",
+   "You work with Data Governance and other compliance/governance departments to ensure a regulatory compliant and auditable setup of the data products",
    ">5 years experience or relevant exposure to asset management, financial services, data management or product management",
    "strong understanding of software development processes, business analysis methodologies and ways of working, data governance processes",
-   "experience with agile tools like Jira, Confluence, Figma, Azure DevOps etc. Qualification",
+   "experience with agile tools like Jira, Confluence, Figma, Azure DevOps etc",
    "Agile certification is welcome Proven ability to leverage AI tools to enhance productivity, optimise workflows to solve business problems, while applying critical judgment to ensure responsible and ethical use of…"
   ],
   "jd_status": "ok",
@@ -4352,7 +4350,7 @@
    "PROGRAM DELIVERY: Turn priorities into delivery plans and track owners, milestones, dependencies and decisions from pilot to release",
    "PARTNER MANAGEMENT: Manage external AI partners and vendors, including roadmaps, commercial terms, renewals and value tracking",
    "SAFETY & COMPLIANCE: Ensure product teams complete required AI assessments, guardrails and monitoring; maintain the compliance register and track incidents to closure",
-   "REPORTING & ESCALATION: Communicate status, risks and recommendations to leadership, using GenAI tools while remaining accountable for accuracy. Qualifications",
+   "REPORTING & ESCALATION: Communicate status, risks and recommendations to leadership, using GenAI tools while remaining accountable for accuracy",
    "Typically 5+ years in technical program management, technology delivery or vendor management in a large enterprise",
    "Track record of navigating governance, security, legal and procurement processes to deliver technology programs",
    "Strong stakeholder management and concise written communication. Trading or commodities exposure is a plus"
@@ -4394,7 +4392,7 @@
    "Lead end-to-end execution & adoption of common platform releases across multiple modality programs and drive shared approach and outcomes-based tracking",
    "Manage stakeholder communication and progress reporting at various levels of the organization including senior leadership and executives",
    "Ensure pre-defined project management processes and practices are followed and quality of deliveries are verified as per stakeholder expectation and quality metrics are on track",
-   "Bachelor’s or Master’ s degree in Engineering with minimum of 10+ years of relevant work experience and with hands on exposure to software development lifecycle required. Required Skills",
+   "Bachelor’s or Master’ s degree in Engineering with minimum of 10+ years of relevant work experience and with hands on exposure to software development lifecycle required",
    "Strong understanding of Agile methodology. Experience in working with large global distributed teams and knowledge of multiple Agile Frameworks including SAFe, Scrum, Kanban, XP or equivalent",
    "Proven experience in developing Power BI dashboards - Skilled in automating data workflows across diverse data sources such as defect dashboard, Agile PI Planning dashboards etc"
   ],
@@ -4539,7 +4537,7 @@
    "Lead the end-to-end delivery of technical projects, ensuring alignment with business objectives",
    "Define project scope, timelines, budgets, and success metrics",
    "Monitor and report on progress, risks, and issues to stakeholders and leadership teams",
-   "Drive continuous improvements in project delivery, team productivity, and reporting. Qualifications & Experience",
+   "Drive continuous improvements in project delivery, team productivity, and reporting",
    "Hands-on experience with Agile, Scrum, Kanban , and familiarity with Waterfall when required",
    "Knowledge of DevOps practices, CI/CD pipelines, APIs, and cloud platforms",
    "Excellent leadership and stakeholder management skills"

@@ -57,6 +57,24 @@ def _split(desc: str) -> list[str]:
     return out
 
 
+def _is_heading(seg: str) -> bool:
+    words = re.findall(r"[A-Za-z][\w'&/-]*", seg)
+    if not words or len(words) > 8:
+        return False
+    caps = sum(1 for w in words if w[0].isupper() or w.lower() in ("and", "of", "&", "the", "to", "for"))
+    return caps / len(words) >= 0.8 and not seg.rstrip().endswith((".", ":"))
+
+
+def clean_point(p: str) -> str:
+    """Drop section headings that ran into a bullet (e.g. '... reporting. Overall Responsibilities')."""
+    parts = re.split(r"(?<=[.!?])\s+", p.strip())
+    while len(parts) > 1 and _is_heading(parts[-1].rstrip("…")):
+        parts.pop()
+    out = " ".join(parts).strip()
+    out = re.sub(r"\s*\b(Preferred|Required|Responsibilities|Requirements|Qualifications)\s*$", "", out)
+    return out.rstrip(" .") if out.endswith(".") and out.count(".") == 1 else out
+
+
 def extract_points(desc: str, limit: int = 7) -> list[str]:
     """The JD's most informative lines, in their original order."""
     if not desc:
@@ -71,6 +89,7 @@ def extract_points(desc: str, limit: int = 7) -> list[str]:
     keep = sorted(sorted(scored, key=lambda x: -x[0])[:limit], key=lambda x: x[1])
     seen, out = set(), []
     for _, _, l in keep:
+        l = clean_point(l)
         k = l.lower()[:60]
         if k not in seen:
             seen.add(k)
