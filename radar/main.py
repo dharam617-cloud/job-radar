@@ -13,6 +13,7 @@ from . import mailer
 from collections import Counter
 
 from .gcc import classify
+from .jd import extract_points, themes_of
 from .scoring import city_of, score
 from .sources import LinkedIn, Naukri
 
@@ -34,6 +35,22 @@ def load(name, default):
 
 def norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+
+
+PREP_MIN = 65  # Strong (80+) and Good (65-79) matches get JD bullets and interview prep
+
+
+def attach_jd(job: dict, desc: str | None) -> None:
+    """Save the JD's key bullet points and interview themes on a job."""
+    if desc:
+        pts = extract_points(desc)
+        job["jd_points"] = pts
+        job["jd_status"] = "ok" if pts else "thin"
+        job["themes"] = themes_of(" ".join(pts) or desc, job.get("title", ""))
+    else:
+        job["jd_tries"] = job.get("jd_tries", 0) + 1
+        job["jd_status"] = "unavailable"
+        job.setdefault("themes", themes_of(job.get("title", ""), job.get("why", "")))
 
 
 def retag(jobs: list[dict], profile: dict) -> list[dict]:
@@ -154,12 +171,40 @@ def main() -> int:
             "gcc": s["gcc"], "sector": s["sector"],
             "first_seen": today,
         })
+        if s["score"] >= PREP_MIN or j.get("desc"):
+            attach_jd(added[-1], j.get("desc"))
     run["added"] = len(added)
     run["not_gcc_dropped"] = sum(not_gcc.values())
     run["not_gcc_top"] = [c for c, _ in not_gcc.most_common(12)]
     if not_gcc:
         log("Non-GCC employers (on the main dashboard only; add real GCCs to radar/gcc.py): " + ", ".join(run["not_gcc_top"]))
     log(f"Scanned {run['scanned']}, new {len(fresh)}, kept {len(added)}")
+
+    # ---- backfill JD bullets for earlier Strong/Good matches (a batch per run; two tries each)
+    need = [j for j in jobs + added if j["score"] >= PREP_MIN and j.get("source") in ("LinkedIn", "Naukri")
+            and j.get("jd_status") not in ("ok", "thin") and j.get("jd_tries", 0) < 2
+            and j["id"] not in {a["id"] for a in added if a.get("jd_status") in ("ok", "thin")}]
+    need.sort(key=lambda j: -j["score"])
+    li_budget, nk_budget, filled = int(os.environ.get("RADAR_JD_BACKFILL", "60")), 30, 0
+    for j in [x for x in need if x["source"] == "LinkedIn"][:li_budget]:
+        if li.blocked:
+            break
+        attach_jd(j, li.description(j["id"]))
+        filled += j.get("jd_status") == "ok"
+    nk_need = [x for x in need if x["source"] == "Naukri"][:nk_budget]
+    if nk_need:
+        try:
+            with Naukri(log) as nk:
+                for j in nk_need:
+                    attach_jd(j, nk.description(j["url"]))
+                    filled += j.get("jd_status") == "ok"
+        except Exception as e:
+            log(f"Naukri JD backfill failed: {type(e).__name__}: {e}"[:200])
+    for j in jobs + added:  # every job gets themes, even without a JD
+        if "themes" not in j:
+            j["themes"] = themes_of(j.get("title", ""), j.get("why", ""), " ".join(j.get("jd_points", [])))
+    run["jd_backfilled"] = filled
+    log(f"JD bullets added for {filled} earlier matches; {len(need) - filled} still waiting")
 
     # ---- save (keep 45 days of history)
     cutoff = (now.date() - dt.timedelta(days=45)).isoformat()

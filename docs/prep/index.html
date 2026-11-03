@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Interview Prep · Dharmendra Singh</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#eef1f4; --surface:#ffffff; --sunk:#f6f8fa; --ink:#14212c; --muted:#5a6a77; --faint:#8b98a3; --line:#d9e0e6;
+  --accent:#1d5b86; --accent-ink:#ffffff; --accent-soft:#e1ecf5;
+  --strong:#1b7a4c; --strong-soft:#def1e7; --good:#a26a08; --good-soft:#f8ecd2; --stretch:#6c7a86; --stretch-soft:#e9edf1;
+  --c-blr:#1d5b86; --c-hyd:#b0562a; --c-ncr:#6b4fa0; --c-rem:#2c8a83; --c-pun:#3f7d2c; --c-che:#a8366b; --c-mum:#8a6d0f; --c-oth:#7b8794;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --radius:12px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1318; --surface:#141e26; --sunk:#101920; --ink:#e3eaf0; --muted:#97a6b2; --faint:#6e7d89; --line:#24323d;
+  --accent:#7eb6df; --accent-ink:#0c1318; --accent-soft:#183245;
+  --strong:#6fd3a1; --strong-soft:#15342a; --good:#e5b65a; --good-soft:#382c14; --stretch:#8e9ba6; --stretch-soft:#1c2730;
+  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; --c-pun:#93cf6f; --c-che:#ec8fbc; --c-mum:#e1c25d; --c-oth:#a3afba; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1318; --surface:#141e26; --sunk:#101920; --ink:#e3eaf0; --muted:#97a6b2; --faint:#6e7d89; --line:#24323d;
+  --accent:#7eb6df; --accent-ink:#0c1318; --accent-soft:#183245;
+  --strong:#6fd3a1; --strong-soft:#15342a; --good:#e5b65a; --good-soft:#382c14; --stretch:#8e9ba6; --stretch-soft:#1c2730;
+  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; --c-pun:#93cf6f; --c-che:#ec8fbc; --c-mum:#e1c25d; --c-oth:#a3afba; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+[hidden]{display:none!important}
+.wrap{max-width:1120px;margin:0 auto;padding-block:28px 64px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+button,select,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a{color:var(--accent)}
+.eyebrow{font:500 12px var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(30px,5vw,46px)/1 var(--f-display);letter-spacing:-.02em;margin:6px 0 8px}
+.lede{margin:0;color:var(--muted);max-width:70ch}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.kpi{padding:16px 18px;display:grid;gap:2px;border-left:1px solid var(--line);min-width:0}
+.kpi:first-child{border-left:0}
+.kpi b{font:500 30px/1.1 var(--f-display);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.kpi b.sm{font-size:19px;line-height:1.25}
+.kpi span{font-size:13px;color:var(--muted)}
+.meter{height:6px;border-radius:3px;background:var(--sunk);overflow:hidden;margin-top:6px}
+.meter span{display:block;height:100%;background:var(--strong)}
+@media (max-width:720px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(3){border-left:0}.kpi:nth-child(n+3){border-top:1px solid var(--line)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;min-width:0}
+.panel h2{font:600 13px var(--f-body);margin:0 0 12px;color:var(--muted)}
+.panel h2 b{color:var(--ink)}
+.themes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 28px}
+@media (max-width:720px){.themes{grid-template-columns:1fr}}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 10px;font-size:13.5px;border:0;background:none;padding:2px 0;text-align:left;cursor:pointer}
+.bar:hover .cn{text-decoration:underline}
+.bar .track{grid-column:1/-1;height:6px;border-radius:3px;background:var(--sunk);overflow:hidden}
+.bar .track span{display:block;height:100%;background:var(--accent);border-radius:3px}
+.bar .num{font:500 12.5px var(--f-mono);color:var(--muted)}
+.bar[aria-pressed="true"] .cn{font-weight:600;color:var(--accent)}
+.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding-block:10px;display:grid;gap:10px;border-bottom:1px solid var(--line)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.seg{display:flex;flex-wrap:wrap;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:3px}
+.seg button{border:0;background:transparent;color:var(--muted);padding:6px 12px;border-radius:6px;cursor:pointer;font-size:13.5px;font-weight:500}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.seg .n{font:500 11.5px var(--f-mono);margin-left:5px;opacity:.75}
+select,input[type=search]{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:7px 10px;font-size:14px;max-width:100%}
+input[type=search]{flex:1 1 200px;min-width:0}
+.btn{border:1px solid var(--line);background:var(--surface);padding:7px 12px;border-radius:8px;cursor:pointer;font-size:13.5px;font-weight:500}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.count{font-size:13px;color:var(--muted);margin-left:auto}
+.banner{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--accent-soft);color:var(--ink);border-radius:9px;padding:8px 12px;font-size:14px}
+.banner button{border:0;background:none;color:var(--accent);cursor:pointer;font-weight:600;padding:0}
+.list{display:grid;gap:10px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;display:grid;gap:8px;min-width:0}
+.card.hl{box-shadow:0 0 0 2px var(--accent)}
+.top{display:flex;gap:6px 12px;flex-wrap:wrap;align-items:baseline;justify-content:space-between}
+.title{font:500 18px/1.3 var(--f-display);color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+a.title:hover{color:var(--accent);text-decoration:underline}
+.score{font:600 12px var(--f-mono);padding:2px 8px;border-radius:5px;white-space:nowrap}
+.score.s{background:var(--strong-soft);color:var(--strong)} .score.g{background:var(--good-soft);color:var(--good)}
+.meta{display:flex;flex-wrap:wrap;gap:3px 14px;font-size:13.5px;color:var(--muted)}
+.meta strong{color:var(--ink)}
+.gccb{font:600 11px var(--f-mono);padding:1px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.jd{margin:0;padding-left:20px;display:grid;gap:3px;font-size:14px}
+.jd li::marker{color:var(--faint)}
+.nojd{font-size:13.5px;color:var(--muted);font-style:italic;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-size:12px;padding:2px 8px;border-radius:5px;background:var(--stretch-soft);color:var(--muted);border:0;cursor:pointer}
+.chip:hover{color:var(--accent)}
+.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.qtheme{font:600 11px var(--f-mono);letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+.qtext{font:500 17px/1.35 var(--f-display);margin:0}
+.asked{font:12px var(--f-mono);color:var(--faint)}
+details.hint summary{cursor:pointer;color:var(--accent);font-weight:500;font-size:14px;list-style:none}
+details.hint summary::-webkit-details-marker{display:none}
+details.hint summary::before{content:"▸ ";}
+details.hint[open] summary::before{content:"▾ ";}
+details.hint p{margin:6px 0 0;font-size:14px;background:var(--sunk);border-radius:8px;padding:10px 12px}
+textarea{width:100%;min-height:64px;resize:vertical;background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:14px}
+.st{display:flex;gap:4px;flex-wrap:wrap}
+.st button{border:1px solid var(--line);background:var(--surface);padding:4px 10px;border-radius:999px;cursor:pointer;font-size:12.5px}
+.st button[aria-pressed="true"][data-v="ready"]{background:var(--strong-soft);border-color:var(--strong);color:var(--strong)}
+.st button[aria-pressed="true"][data-v="practising"]{background:var(--good-soft);border-color:var(--good);color:var(--good)}
+.st button[aria-pressed="true"][data-v="new"]{background:var(--stretch-soft);border-color:var(--stretch)}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:28px;text-align:center;color:var(--muted)}
+footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Strong &amp; Good matches · updated daily 7:00 IST · <a href="../">All listings</a> · <a href="../gcc/">GCC dashboard</a></div>
+    <h1>Interview Prep</h1>
+    <p class="lede">Key points from the job description of every Strong and Good match on your radar, plus a practice questionnaire built from what those roles ask for. Each question has an answer hint drawn from your experience at CBA, B/S/H, Maersk, JPMorgan and earlier roles.</p>
+  </header>
+
+  <section class="kpis" aria-label="Summary">
+    <div class="kpi"><b id="k-roles">–</b><span>Roles to prepare for</span></div>
+    <div class="kpi"><b id="k-jd">–</b><span>Job descriptions summarised</span></div>
+    <div class="kpi"><b id="k-ready">–</b><span>Questions marked ready</span><div class="meter"><span id="k-meter" style="width:0"></span></div></div>
+    <div class="kpi"><b id="k-top" class="sm">–</b><span>Most-asked topic</span></div>
+  </section>
+
+  <section class="panel" aria-label="Topics">
+    <h2><b>What these roles ask for</b> · number of roles whose JD mentions each topic · tap to focus</h2>
+    <div class="themes" id="themes"></div>
+  </section>
+
+  <section class="rail" aria-label="Controls">
+    <div class="row">
+      <div class="seg" id="tabs" role="tablist">
+        <button type="button" data-t="roles" aria-pressed="true">Role briefs<span class="n" id="n-roles"></span></button>
+        <button type="button" data-t="qs" aria-pressed="false">Questionnaire<span class="n" id="n-qs"></span></button>
+      </div>
+      <div class="seg" id="scope" role="group" aria-label="Which roles">
+        <button type="button" data-s="all" aria-pressed="true">All employers</button>
+        <button type="button" data-s="gcc" aria-pressed="false">GCCs only</button>
+      </div>
+      <div class="seg" id="band" role="group" aria-label="Match band">
+        <button type="button" data-b="65" aria-pressed="true">Strong + Good</button>
+        <button type="button" data-b="80" aria-pressed="false">Strong only</button>
+      </div>
+    </div>
+    <div class="row" id="roleControls">
+      <input type="search" id="rq" placeholder="Search role, company, JD text" aria-label="Search roles">
+      <select id="rcity" aria-label="City"><option value="">All cities</option></select>
+      <button type="button" class="btn" id="copyAll">Copy all JD points</button>
+      <span class="count" id="rcount"></span>
+    </div>
+    <div class="row" id="qControls" hidden>
+      <input type="search" id="qq" placeholder="Search questions and your notes" aria-label="Search questions">
+      <select id="qstatus" aria-label="Status"><option value="">Any status</option><option value="new">Not started</option><option value="practising">Practising</option><option value="ready">Ready</option></select>
+      <button type="button" class="btn primary" id="quiz">Quiz me</button>
+      <button type="button" class="btn" id="copyPrep">Copy my prep sheet</button>
+      <span class="count" id="qcount"></span>
+    </div>
+    <div class="banner" id="focus" hidden></div>
+  </section>
+
+  <section class="list" id="roles" aria-live="polite"><div class="empty">Loading…</div></section>
+  <section class="list" id="qs" hidden aria-live="polite"></section>
+
+  <footer>
+    <div>Job descriptions are summarised automatically from LinkedIn and Naukri. The scan fills in older matches a batch at a time, and roles marked Curated were summarised by hand from their listings. Always open the listing for the full description before an interview.</div>
+    <div>Answer hints come from your resume. Replace any placeholder with your real numbers. Your notes and Ready / Practising marks are saved in this browser only.</div>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const store = { get(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+                  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+  const ui = Object.assign({tab:"roles", scope:"all", band:65, theme:"", role:"", rq:"", city:"", qq:"", qstatus:""}, store.get("prep.ui", {}));
+  ui.role = ""; // a role focus is per visit
+  const status = store.get("prep.status", {}), notes = store.get("prep.notes", {});
+  let ALL = [], QB = {themes:{}, questions:[]}, LABEL = {};
+  const save = () => store.set("prep.ui", ui);
+
+  const pool = () => ALL.filter(j => j.score >= ui.band && (ui.scope === "all" || j.gcc));
+  const themeCounts = jobs => { const c = {}; jobs.forEach(j => (j.themes || []).forEach(t => c[t] = (c[t] || 0) + 1)); return c; };
+  const roleById = id => ALL.find(j => j.id === id);
+  // topics every role of this type gets asked about, added to whatever its JD mentions
+  const FAMILY = {
+    "Scrum Master": ["scrum", "metrics", "risk", "transformation", "stakeholders"],
+    "Release Train Engineer": ["safe", "risk", "metrics", "planning", "stakeholders"],
+    "Agile leadership": ["transformation", "safe", "scrum", "metrics", "people"],
+    "Technical Program Manager": ["planning", "risk", "stakeholders", "release", "cloud"],
+    "AI/Data Program": ["ai", "data", "planning", "risk", "stakeholders"],
+    "Program Manager": ["planning", "risk", "stakeholders", "resourcing"],
+    "Delivery Manager": ["planning", "release", "stakeholders", "resourcing", "people"],
+    "Project Manager": ["planning", "risk", "stakeholders", "resourcing"]
+  };
+  const roleThemes = j => [...new Set([...(FAMILY[j.family] || []), ...(j.themes || [])])];
+
+  function kpis(){
+    const P = pool(), qs = QB.questions;
+    $("k-roles").textContent = P.length;
+    $("k-jd").textContent = P.filter(j => (j.jd_points || []).length).length;
+    const ready = qs.filter(q => status[q.id] === "ready").length;
+    $("k-ready").textContent = `${ready}/${qs.length}`;
+    $("k-meter").style.width = (qs.length ? ready / qs.length * 100 : 0) + "%";
+    const tc = Object.entries(themeCounts(P)).sort((a, b) => b[1] - a[1])[0];
+    $("k-top").textContent = tc ? LABEL[tc[0]] : "–";
+  }
+
+  function themes(){
+    const P = pool(), c = themeCounts(P), max = Math.max(1, ...Object.values(c));
+    const rows = Object.keys(LABEL).filter(k => k !== "core").map(k => [k, c[k] || 0]).sort((a, b) => b[1] - a[1]);
+    $("themes").innerHTML = rows.map(([k, n]) => `<button type="button" class="bar" data-theme="${k}" aria-pressed="${ui.theme === k}"><span class="cn">${esc(LABEL[k])}</span><span class="num">${n} role${n === 1 ? "" : "s"}</span><span class="track"><span style="width:${n / max * 100}%"></span></span></button>`).join("");
+  }
+
+  function focusBanner(){
+    const r = ui.role && roleById(ui.role);
+    const bits = [];
+    if (r) bits.push(`questions for <b>${esc(r.title)}</b> at ${esc(r.company)}`);
+    if (ui.theme) bits.push(`topic <b>${esc(LABEL[ui.theme])}</b>`);
+    $("focus").hidden = !bits.length;
+    $("focus").innerHTML = bits.length ? `Showing ${bits.join(" · ")} <button type="button" id="clearFocus">Clear</button>` : "";
+  }
+
+  function roles(){
+    const q = ui.rq.trim().toLowerCase();
+    const rows = pool().filter(j => (!ui.theme || (j.themes || []).includes(ui.theme)) && (!ui.city || j.city === ui.city)
+      && (!q || `${j.title} ${j.company} ${j.sector || ""} ${(j.jd_points || []).join(" ")}`.toLowerCase().includes(q)))
+      .sort((a, b) => b.score - a.score);
+    $("n-roles").textContent = pool().length;
+    $("rcount").textContent = `${rows.length} roles`;
+    $("roles").innerHTML = rows.length ? rows.map(j => {
+      const pts = j.jd_points || [];
+      const jd = pts.length ? `<ul class="jd">${pts.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`
+        : `<p class="nojd">${j.source === "Curated" ? "Only the title was available for this one. Open the listing for the full description." : j.jd_status === "unavailable" && (j.jd_tries || 0) >= 2 ? "The description couldn't be read automatically. Open the listing." : "The description will be summarised by the next morning scan. Until then, open the listing."}</p>`;
+      return `<article class="card" data-id="${esc(j.id)}">
+        <div class="top"><a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a><span class="score ${j.score >= 80 ? "s" : "g"}">${j.score} · ${j.score >= 80 ? "Strong" : "Good"}</span></div>
+        <div class="meta"><strong>${esc(j.company)}</strong>${j.gcc ? `<span class="gccb">${esc(j.sector || "")} GCC</span>` : ""}<span>${esc(j.location || j.city)}</span><span>${esc(j.family || "")}</span><span>${esc(j.source)}</span></div>
+        ${jd}
+        <div class="chips">${(j.themes || []).map(t => `<button type="button" class="chip" data-theme="${t}">${esc(LABEL[t] || t)}</button>`).join("")}</div>
+        <div class="actions"><button type="button" class="btn primary" data-practise="${esc(j.id)}">Practise for this role</button><a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener" style="text-decoration:none">Open listing ↗</a></div>
+      </article>`;
+    }).join("") : `<div class="empty">No roles match these filters.</div>`;
+  }
+
+  function questionPool(){
+    const P = pool(), c = themeCounts(P);
+    let want = null;
+    const r = ui.role && roleById(ui.role);
+    if (r) want = new Set(["core", ...roleThemes(r)]);
+    const q = ui.qq.trim().toLowerCase();
+    return QB.questions.map(x => ({...x, asked: x.theme === "core" ? P.length : (c[x.theme] || 0)}))
+      .filter(x => (!want || want.has(x.theme)) && (!ui.theme || x.theme === ui.theme || x.theme === "core" && !!r)
+        && (!ui.qstatus || (status[x.id] || "new") === ui.qstatus)
+        && (!q || `${x.q} ${x.hint} ${notes[x.id] || ""}`.toLowerCase().includes(q)))
+      .sort((a, b) => (a.theme === "core" ? -1 : 0) - (b.theme === "core" ? -1 : 0) || b.asked - a.asked);
+  }
+
+  function questions(hl){
+    const rows = questionPool();
+    $("n-qs").textContent = QB.questions.length;
+    $("qcount").textContent = `${rows.length} questions`;
+    $("qs").innerHTML = rows.length ? rows.map(x => {
+      const s = status[x.id] || "new";
+      return `<article class="card${x.id === hl ? " hl" : ""}" id="q-${x.id}" data-q="${x.id}">
+        <div class="top"><span class="qtheme">${esc(LABEL[x.theme])}</span><span class="asked">${x.theme === "core" ? "asked everywhere" : `in ${x.asked} of your roles`}</span></div>
+        <p class="qtext">${esc(x.q)}</p>
+        <details class="hint"${x.id === hl ? "" : ""}><summary>Answer hints from your experience</summary><p>${esc(x.hint)}</p></details>
+        <textarea data-note="${x.id}" placeholder="Your answer notes: situation, what you did, result (with a number)">${esc(notes[x.id] || "")}</textarea>
+        <div class="st" role="group" aria-label="Practice status">${[["new","Not started"],["practising","Practising"],["ready","Ready"]].map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${s === v}">${l}</button>`).join("")}</div>
+      </article>`;
+    }).join("") : `<div class="empty">No questions match these filters.</div>`;
+  }
+
+  function tabs(){
+    [...$("tabs").children].forEach(b => b.setAttribute("aria-pressed", b.dataset.t === ui.tab));
+    [...$("scope").children].forEach(b => b.setAttribute("aria-pressed", b.dataset.s === ui.scope));
+    [...$("band").children].forEach(b => b.setAttribute("aria-pressed", +b.dataset.b === +ui.band));
+    $("roles").hidden = ui.tab !== "roles"; $("roleControls").hidden = ui.tab !== "roles";
+    $("qs").hidden = ui.tab !== "qs"; $("qControls").hidden = ui.tab !== "qs";
+  }
+
+  function render(hl){ save(); tabs(); kpis(); themes(); focusBanner(); roles(); questions(hl); }
+
+  async function copy(text, btn, label){
+    try { await navigator.clipboard.writeText(text); btn.textContent = "Copied"; }
+    catch { const t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); try { document.execCommand("copy"); btn.textContent = "Copied"; } catch { btn.textContent = "Copy failed"; } t.remove(); }
+    setTimeout(() => btn.textContent = label, 2500);
+  }
+
+  // events
+  $("tabs").addEventListener("click", e => { const b = e.target.closest("[data-t]"); if (!b) return; ui.tab = b.dataset.t; render(); });
+  $("scope").addEventListener("click", e => { const b = e.target.closest("[data-s]"); if (!b) return; ui.scope = b.dataset.s; render(); });
+  $("band").addEventListener("click", e => { const b = e.target.closest("[data-b]"); if (!b) return; ui.band = +b.dataset.b; render(); });
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-theme]");
+    if (t){ ui.theme = ui.theme === t.dataset.theme ? "" : t.dataset.theme; render(); return; }
+    const p = e.target.closest("[data-practise]");
+    if (p){ ui.role = p.dataset.practise; ui.theme = ""; ui.tab = "qs"; render(); scrollTo({top: $("tabs").getBoundingClientRect().top + scrollY - 16, behavior: "smooth"}); return; }
+    if (e.target.id === "clearFocus"){ ui.role = ""; ui.theme = ""; render(); return; }
+    const st = e.target.closest(".st button");
+    if (st){ const id = st.closest("[data-q]").dataset.q; status[id] = st.dataset.v; store.set("prep.status", status); kpis();
+      [...st.parentNode.children].forEach(b => b.setAttribute("aria-pressed", b === st)); }
+  });
+  $("qs").addEventListener("input", e => { const id = e.target.dataset.note; if (!id) return; notes[id] = e.target.value; store.set("prep.notes", notes); });
+  $("rq").addEventListener("input", e => { ui.rq = e.target.value; roles(); save(); });
+  $("rcity").addEventListener("change", e => { ui.city = e.target.value; roles(); save(); });
+  $("qq").addEventListener("input", e => { ui.qq = e.target.value; questions(); save(); });
+  $("qstatus").addEventListener("change", e => { ui.qstatus = e.target.value; questions(); save(); });
+  $("quiz").addEventListener("click", () => {
+    const left = questionPool().filter(x => (status[x.id] || "new") !== "ready");
+    const pickFrom = left.length ? left : questionPool();
+    if (!pickFrom.length) return;
+    const x = pickFrom[Math.floor(Math.random() * pickFrom.length)];
+    questions(x.id);
+    const el = $("q-" + x.id); if (el){ el.scrollIntoView({behavior: "smooth", block: "center"}); el.querySelector("textarea").focus({preventScroll: true}); }
+  });
+  $("copyAll").addEventListener("click", e => {
+    const rows = [...document.querySelectorAll("#roles .card")].map(c => roleById(c.dataset.id)).filter(Boolean);
+    const t = rows.map(j => `${j.title} — ${j.company} (${j.location || j.city}, score ${j.score})\n${j.url}\n` + ((j.jd_points || []).map(p => "• " + p).join("\n") || "• (open the listing for the description)")).join("\n\n");
+    copy(t, e.target, "Copy all JD points");
+  });
+  $("copyPrep").addEventListener("click", e => {
+    const t = questionPool().map(x => `[${LABEL[x.theme]}] ${x.q}\nHint: ${x.hint}\nMy notes: ${notes[x.id] || "-"}\nStatus: ${status[x.id] || "new"}`).join("\n\n");
+    copy(t, e.target, "Copy my prep sheet");
+  });
+
+  Promise.all([fetch("../data/jobs.json", {cache:"no-store"}).then(r => r.json()), fetch("../data/questions.json", {cache:"no-store"}).then(r => r.json())])
+    .then(([jobs, qb]) => {
+      ALL = jobs; QB = qb; LABEL = qb.themes;
+      const cities = [...new Set(jobs.filter(j => j.score >= 65).map(j => j.city))].sort();
+      $("rcity").innerHTML = `<option value="">All cities</option>` + cities.map(c => `<option>${esc(c)}</option>`).join("");
+      $("rcity").value = ui.city; $("rq").value = ui.rq; $("qq").value = ui.qq; $("qstatus").value = ui.qstatus;
+      render();
+    })
+    .catch(() => { $("roles").innerHTML = `<div class="empty">Couldn't load the prep data. Refresh the page.</div>`; });
+})();
+</script>
+</body>
+</html>

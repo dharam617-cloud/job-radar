@@ -84,7 +84,10 @@ class LinkedIn:
             return None
         m = re.search(r'show-more-less-html__markup[^>]*>(.*?)</div>', text, re.S)
         crit = " / ".join(_clean(x) for x in re.findall(r'description__job-criteria-text[^>]*>(.*?)</span>', text, re.S))
-        return (_clean(m.group(1)) if m else "") + (" Criteria: " + crit if crit else "")
+        body = ""
+        if m:  # keep list items apart so the JD's own bullet points survive
+            body = _clean(re.sub(r"<li[^>]*>", " • ", m.group(1)))
+        return body + (" Criteria: " + crit if crit else "")
 
 
 # ---------------------------------------------------------------- Naukri
@@ -176,6 +179,32 @@ class Naukri:
                 "url": "https://www.naukri.com" + j.get("jdURL", ""),
             })
         return out
+
+
+    def description(self, url: str) -> str | None:
+        """Full JD for a saved Naukri listing: open its page and read the job API response, else the page text."""
+        page = self.ctx.new_page()
+        try:
+            try:
+                with page.expect_response(lambda r: "/jobapi/v4/job/" in r.url and r.status == 200, timeout=25000) as resp:
+                    page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                d = (resp.value.json().get("jobDetails") or {}).get("description", "")
+                if d:
+                    return _clean(re.sub(r"<li[^>]*>", " • ", d))
+            except Exception:
+                pass
+            for sel in ['[class*="dang-inner-html"]', 'section[class*="job-desc"]', '[class*="JDC"]']:
+                el = page.query_selector(sel)
+                if el:
+                    t = el.inner_text()
+                    if len(t) > 80:
+                        return re.sub(r"\n+\s*[-•*·]?\s*", " • ", t.strip())
+        except Exception as e:
+            self.log(f"Naukri JD failed for {url[:80]}: {type(e).__name__}")
+        finally:
+            page.close()
+            time.sleep(1.5)
+        return None
 
 
 def _int(v):

@@ -324,7 +324,29 @@
   ],
   "gcc": true,
   "sector": "BFSI",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Lead and coach high-performing agile teams delivering enterprise technology products",
+   "Hire and manage staff; embed Agile/Scrum best practices across the teams",
+   "Facilitate scrum ceremonies including sprint planning, demos and iteration meetings",
+   "Remove impediments, align stakeholders, and manage backlogs and planning",
+   "Track team metrics and drive continuous improvement across cross-functional teams",
+   "Experience with agile tools such as JIRA or Azure DevOps",
+   "Preferred certifications: CSM, SAFe Agilist, PMI-ACP or ICAgile Certified Professional"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "release",
+   "cloud",
+   "people",
+   "transformation",
+   "tools"
+  ]
  },
  {
   "id": "cur-02",
@@ -347,7 +369,20 @@
   ],
   "gcc": true,
   "sector": "BFSI",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Lead Scrum Master for the Data Asset Management area in Technology for the Chief Administration Office",
+   "5+ years of Agile Scrum Master experience",
+   "Experience with the Scaled Agile Framework",
+   "Accredited Scrum and Kanban certifications",
+   "Hybrid role, on-site at the stated Hyderabad location part of the week"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "bfsi"
+  ]
  },
  {
   "id": "cur-03",
@@ -370,7 +405,19 @@
   ],
   "gcc": true,
   "sector": "BFSI",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Senior Scrum Master for the Identity & Access Management (IAM) technology area, Bengaluru, hybrid",
+   "Facilitate the scrum process with cross-functional teams and optimise team performance (typical of Wells Fargo Senior Scrum Master roles)",
+   "4+ years of Agile Scrum Master experience; able to manage 2–3 feature teams",
+   "Scrum Master / Agile / SAFe certification preferred"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "security"
+  ]
  },
  {
   "id": "cur-04",
@@ -393,7 +440,25 @@
   ],
   "gcc": true,
   "sector": "Healthcare & Pharma",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Enable cross-functional teams to deliver enterprise AI solutions with speed, quality and predictability",
+   "Collaborate with Product Management, Engineering and Go-To-Market teams to coordinate releases, manage change and drive adoption of AI products",
+   "Help scrum teams reach higher scrum maturity and accelerate delivery focused on business outcomes",
+   "Monitor and report team progress against sprint goals and team objectives",
+   "8+ years of relevant experience",
+   "Certified Scrum Master or SAFe Scrum Master (mandatory)"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "metrics",
+   "release",
+   "ai",
+   "cloud",
+   "transformation"
+  ]
  },
  {
   "id": "cur-05",
@@ -416,7 +481,23 @@
   ],
   "gcc": true,
   "sector": "Healthcare & Pharma",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Servant leader and coach for an AI Platform Team",
+   "Partner with the Product Owner to track team metrics and guide the team towards high performance",
+   "Guide the team to become a self-managing unit",
+   "Take part in Amgen's Scrum Master communities of practice",
+   "10–12 years of experience with SAFe, software, systems and Agile business processes",
+   "SAFe Scrum Master certification preferred"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "metrics",
+   "ai",
+   "cloud"
+  ]
  },
  {
   "id": "cur-07",
@@ -438,7 +519,13 @@
   ],
   "gcc": true,
   "sector": "Retail & Consumer",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [],
+  "jd_status": "unavailable",
+  "themes": [
+   "scrum",
+   "cloud"
+  ]
  },
  {
   "id": "cur-08",
@@ -461,7 +548,13 @@
   ],
   "gcc": true,
   "sector": "BFSI",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [],
+  "jd_status": "unavailable",
+  "themes": [
+   "scrum",
+   "cloud"
+  ]
  },
  {
   "id": "nk-021126004368",
@@ -508,7 +601,23 @@
   ],
   "gcc": true,
   "sector": "Healthcare & Pharma",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Lead a team driving agile transformation and efficient program execution for complex AI platforms and AI software",
+   "Ensure agile processes are applied consistently across AI product and platform teams",
+   "Hands-on background as Scrum Master, RTE, Product Analyst or Product Manager",
+   "Strong stakeholder management; influence at all levels",
+   "Experience in a global, cross-cultural environment with technical and non-technical teams",
+   "Experience with Generative AI in enterprise products"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "stakeholders",
+   "ai",
+   "cloud",
+   "transformation"
+  ]
  },
  {
   "id": "cur-09",
@@ -530,7 +639,12 @@
   ],
   "gcc": true,
   "sector": "Healthcare & Pharma",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [],
+  "jd_status": "unavailable",
+  "themes": [
+   "scrum"
+  ]
  },
  {
   "id": "cur-10",
@@ -552,7 +666,22 @@
   ],
   "gcc": true,
   "sector": "Technology",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Scrum delivery for an Azure Kubernetes Service (AKS) platform team",
+   "Dependency and risk management across platform work",
+   "Drive observability platform improvements",
+   "Tools: Jira, Azure DevOps; Kubernetes knowledge expected",
+   "8–10 years of experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "release",
+   "cloud",
+   "tools"
+  ]
  },
  {
   "id": "cur-11",
@@ -574,7 +703,23 @@
   ],
   "gcc": true,
   "sector": "Manufacturing & Engineering",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Lead Agile teams and implement SAFe practices as Senior Scrum Master / Scrum of Scrums Master",
+   "10+ years in hardware and software system development, including launching Agile Release Trains and coaching large teams",
+   "Coach leadership, Product Owners, Scrum Masters and teams on Agile adoption",
+   "Run Scrum and Scrum of Scrums meetings daily and deliver features with the dev team",
+   "Build a community of practice to standardise PI Planning, Scrum of Scrums, sprints and system demos",
+   "Scrum teams on cloud and IoT projects"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "release",
+   "cloud",
+   "transformation"
+  ]
  },
  {
   "id": "cur-13",
@@ -597,7 +742,19 @@
   ],
   "gcc": true,
   "sector": "BFSI",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Release Train Engineer for major strategic initiatives that extend market leadership and customer experience",
+   "Skills: SAFe, Jira, CI/CD, Azure, Kanban"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "release",
+   "cloud",
+   "tools"
+  ]
  },
  {
   "id": "cur-14",
@@ -619,7 +776,27 @@
   ],
   "gcc": true,
   "sector": "Retail & Consumer",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "RTE for the Merchandise Analytics and Automation (MAA) Solution Delivery Team, made up of multiple scrum teams",
+   "Solid RTE experience for an ART of Scrum and/or Kanban teams using SAFe",
+   "Coach and mentor the train on agile ways of working",
+   "Manage dependencies internal and external to the ART",
+   "Extensive knowledge of SAFe, Scrum, Kanban, Jira and Confluence",
+   "Excellent facilitation with diverse stakeholders"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "release",
+   "data",
+   "people",
+   "transformation",
+   "tools"
+  ]
  },
  {
   "id": "cur-17",
@@ -642,7 +819,22 @@
   ],
   "gcc": true,
   "sector": "Retail & Consumer",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Lead technical program management for modernisation of Workforce Management (WFM) and Digital Servicing in the contact-centre space",
+   "Accelerate the journey to GenAI solutions for the Service Center",
+   "Support teams through organisational and technical change",
+   "8–10+ years of technical or engineering program management in large enterprise or consumer environments",
+   "Analyse complex technical and business problems and define structured solutions",
+   "Explain complex technical concepts to non-technical stakeholders; JIRA, Confluence and program tools"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "ai",
+   "cloud",
+   "tools"
+  ]
  },
  {
   "id": "cur-19",
@@ -664,7 +856,19 @@
   ],
   "gcc": true,
   "sector": "Retail & Consumer",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Lead end-to-end delivery of complex, large-scale technology and InfoSec programs",
+   "Build and manage program roadmaps aligned with business and product priorities",
+   "Coordinate engineering, product, QA, UX and business stakeholders across global teams",
+   "Translate business requirements into structured execution plans and delivery milestones",
+   "8–12 years of experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "planning"
+  ]
  },
  {
   "id": "cur-23",
@@ -687,7 +891,20 @@
   ],
   "gcc": true,
   "sector": "Technology",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Technical program management across AI, IT and Information Security",
+   "Drive program governance, RAID management and dependency tracking",
+   "Own program status reporting",
+   "Keep structured communication across program stakeholders"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "ai",
+   "security"
+  ]
  },
  {
   "id": "cur-24",
@@ -710,7 +927,19 @@
   ],
   "gcc": true,
   "sector": "Technology",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Partner with Data Science, Engineering and Product to deliver scalable AI-powered solutions",
+   "Align teams on data readiness and model performance criteria",
+   "Skills: Jira, SAFe, software deployment, enterprise software, Git"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "release",
+   "ai",
+   "tools"
+  ]
  },
  {
   "id": "cur-25",
@@ -732,7 +961,19 @@
   ],
   "gcc": true,
   "sector": "Technology",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Manage HR-related technical programs end-to-end with engineering teams, using program management and agile delivery",
+   "Knowledge of HR processes: talent management, learning, core HCM, benefits and compensation",
+   "Keep a strategic view of engineering processes while optimising team operations",
+   "Find places where automation can replace manual work",
+   "Tools: JIRA, Smartsheet, GSuite"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "planning",
+   "tools"
+  ]
  },
  {
   "id": "nk-021126502453",
@@ -802,7 +1043,20 @@
   ],
   "gcc": true,
   "sector": "BFSI",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "SAFe Release Train Engineer certification",
+   "Lean thinking and systems thinking",
+   "Lean Portfolio Management and DevOps methodologies",
+   "Agile transition experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "planning",
+   "release",
+   "transformation"
+  ]
  },
  {
   "id": "cur-18",
@@ -826,7 +1080,23 @@
   ],
   "gcc": true,
   "sector": "Retail & Consumer",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Program management for GDF, the core of Walmart's AI & Data organisation, which builds the foundational data platforms",
+   "Platforms make data trustworthy, well-governed and discoverable for every team",
+   "10+ years of technical experience including 6+ years leading technical programs",
+   "Grounding in system and platform design, APIs and data platforms (pipelines, lakehouse, governance)",
+   "Use GenAI tools to speed up program artifacts: status reports, risk summaries, requirement drafts",
+   "Translate personas and business needs into features and user stories; change and risk management; executive dashboards"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "ai",
+   "data",
+   "cloud"
+  ]
  },
  {
   "id": "cur-20",
@@ -849,7 +1119,22 @@
   ],
   "gcc": true,
   "sector": "Technology",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Senior TPM for the global Data & Audience Platform organisation (Max and other WBD products)",
+   "Work with the Head of Data & Analytics and internal and external teams to deliver projects",
+   "Collaborate with business and tech executives, engineers and data scientists to build end-to-end programs",
+   "7+ years in program or product management, 3+ years in engineering, 2+ years in data and analytics",
+   "Communicate program status, risk and mitigation to executives (CTO, CDO, CEO)"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "data",
+   "cloud"
+  ]
  },
  {
   "id": "cur-22",
@@ -873,7 +1158,16 @@
   ],
   "gcc": true,
   "sector": "Technology",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Technical Program Manager roles in Hyderabad across AI and Anti-Financial Crime teams",
+   "5+ years of program management experience (8+ for some AI teams)",
+   "Bachelor's degree in a technical field or equivalent practical experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "ai"
+  ]
  },
  {
   "id": "cur-26",
@@ -896,7 +1190,13 @@
   ],
   "gcc": true,
   "sector": "Technology",
-  "first_seen": "2026-11-02"
+  "first_seen": "2026-11-02",
+  "jd_points": [
+   "Senior Technical Program Manager for Ship With Amazon / ShipTech, Gurugram",
+   "4+ years of technical program management working directly with software engineering teams"
+  ],
+  "jd_status": "ok",
+  "themes": []
  },
  {
   "id": "li-4484358624",

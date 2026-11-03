@@ -3,7 +3,7 @@ name: Publish dashboard
 on:
   push:
     branches: [main]
-    paths: ["docs/index.html", "docs/gcc/**"]
+    paths: ["docs/index.html", "docs/gcc/**", "docs/prep/**", "docs/data/questions.json"]
   workflow_dispatch:
 
 permissions:
