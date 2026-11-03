@@ -1,5 +1,38 @@
 [
  {
+  "at": "2026-11-03T21:22:43+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 443,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 137,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 580,
+  "added": 5,
+  "not_gcc_dropped": 26,
+  "not_gcc_top": [
+   "Epam Systems",
+   "Evidence Action",
+   "EY",
+   "HCLTech",
+   "Arohana Tech Solutions Private Limited",
+   "ANSR",
+   "Networth Corp",
+   "IBM",
+   "Iris Software",
+   "Incedo",
+   "Infovision Labs",
+   "Persistent"
+  ]
+ },
+ {
   "at": "2026-11-03T12:19:18+05:30",
   "sources": {
    "LinkedIn": {
