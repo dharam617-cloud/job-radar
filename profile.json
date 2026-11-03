@@ -7,7 +7,7 @@
     18
   ],
   "pay_floor_lpa": 50,
-  "gcc_only": true,
+  "gcc_only": false,
   "first_preference": [
     "Bengaluru",
     "Hyderabad",

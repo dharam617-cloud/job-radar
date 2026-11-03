@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>GCC Job Alert · Dharmendra Singh</title>
+<title>Job Match Radar</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
   --bg:#eef1f4; --surface:#ffffff; --sunk:#f6f8fa; --ink:#14212c; --muted:#5a6a77; --faint:#8b98a3; --line:#d9e0e6;
   --accent:#1d5b86; --accent-ink:#ffffff; --accent-soft:#e1ecf5;
   --strong:#1b7a4c; --strong-soft:#def1e7; --good:#a26a08; --good-soft:#f8ecd2; --stretch:#6c7a86; --stretch-soft:#e9edf1;
-  --c-blr:#1d5b86; --c-hyd:#b0562a; --c-ncr:#6b4fa0; --c-rem:#2c8a83; --c-pun:#3f7d2c; --c-che:#a8366b; --c-mum:#8a6d0f; --c-oth:#7b8794;
+  --c-blr:#1d5b86; --c-hyd:#b0562a; --c-ncr:#6b4fa0; --c-rem:#2c8a83; --c-pun:#3f7d2c; --c-che:#a8366b; --c-mum:#8a6d0f;
   --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
   --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
@@ -25,12 +25,12 @@
   --bg:#0c1318; --surface:#141e26; --sunk:#101920; --ink:#e3eaf0; --muted:#97a6b2; --faint:#6e7d89; --line:#24323d;
   --accent:#7eb6df; --accent-ink:#0c1318; --accent-soft:#183245;
   --strong:#6fd3a1; --strong-soft:#15342a; --good:#e5b65a; --good-soft:#382c14; --stretch:#8e9ba6; --stretch-soft:#1c2730;
-  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; --c-pun:#93cf6f; --c-che:#ec8fbc; --c-mum:#e1c25d; --c-oth:#a3afba; color-scheme:dark}}
+  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; --c-pun:#93cf6f; --c-che:#ec8fbc; --c-mum:#e1c25d; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0c1318; --surface:#141e26; --sunk:#101920; --ink:#e3eaf0; --muted:#97a6b2; --faint:#6e7d89; --line:#24323d;
   --accent:#7eb6df; --accent-ink:#0c1318; --accent-soft:#183245;
   --strong:#6fd3a1; --strong-soft:#15342a; --good:#e5b65a; --good-soft:#382c14; --stretch:#8e9ba6; --stretch-soft:#1c2730;
-  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; --c-pun:#93cf6f; --c-che:#ec8fbc; --c-mum:#e1c25d; --c-oth:#a3afba; color-scheme:dark}
+  --c-blr:#7eb6df; --c-hyd:#ec9a6e; --c-ncr:#b39ae6; --c-rem:#6fcfc6; --c-pun:#93cf6f; --c-che:#ec8fbc; --c-mum:#e1c25d; color-scheme:dark}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body)}
@@ -52,28 +52,16 @@ h1{font:700 clamp(30px,5vw,46px)/1 var(--f-display);letter-spacing:-.02em;margin
 @media (max-width:720px){.mast{grid-template-columns:1fr}.health{justify-items:start}.pills{justify-content:flex-start}}
 
 /* kpis */
-.kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
 .kpi{padding:16px 18px;display:grid;gap:2px;border-left:1px solid var(--line)}
 .kpi:first-child{border-left:0}
 .kpi b{font:500 34px/1.05 var(--f-display);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
 .kpi span{font-size:13px;color:var(--muted)}
 .kpi.hl b{color:var(--strong)}
-@media (max-width:760px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(odd){border-left:0}.kpi:nth-child(n+3){border-top:1px solid var(--line)}}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(3){border-left:0}.kpi:nth-child(n+3){border-top:1px solid var(--line)}}
 
 /* charts */
-.charts{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) minmax(0,1fr);gap:14px}
-.bars{display:grid;gap:7px}
-.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;font-size:13.5px;border:0;background:none;padding:2px 0;text-align:left;cursor:pointer;color:inherit}
-.bar:hover .cn{text-decoration:underline}
-.bar .track{grid-column:1/-1;height:6px;border-radius:3px;background:var(--sunk);overflow:hidden}
-.bar .track span{display:block;height:100%;background:var(--accent);border-radius:3px}
-.bar[aria-pressed="true"] .cn{font-weight:600;color:var(--accent)}
-.bar .num{font:500 13px var(--f-mono)}
-.gccb{font:600 11px var(--f-mono);letter-spacing:.03em;padding:1px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
-.tips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-.tips h3{font:600 15px var(--f-display);margin:0 0 4px}
-.tips p{margin:0;font-size:14px;color:var(--muted)}
-@media (max-width:860px){.tips{grid-template-columns:1fr}}
+.charts{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:14px}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;min-width:0}
 .panel h2{font:600 13px var(--f-body);margin:0 0 12px;color:var(--muted);letter-spacing:.02em}
 .panel h2 b{color:var(--ink);font-weight:600}
@@ -88,8 +76,7 @@ h1{font:700 clamp(30px,5vw,46px)/1 var(--f-display);letter-spacing:-.02em;margin
 .cityrow i{width:10px;height:10px;border-radius:2px}
 .cityrow .num{font:500 13px var(--f-mono);font-variant-numeric:tabular-nums}
 .cityrow .sub{font:12px var(--f-mono);color:var(--strong);min-width:4.5em;text-align:right}
-@media (max-width:980px){.charts{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.charts .panel:first-child{grid-column:1/-1}}
-@media (max-width:640px){.charts{grid-template-columns:1fr}}
+@media (max-width:760px){.charts{grid-template-columns:1fr}}
 
 /* filters */
 .rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding-block:10px;display:grid;gap:10px;border-bottom:1px solid var(--line)}
@@ -127,6 +114,7 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:9px;
 .newtag{font:600 10.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
 .meta{display:flex;flex-wrap:wrap;gap:3px 14px;font-size:13.5px;color:var(--muted)}
 .meta strong{color:var(--ink);font-weight:600}
+.gcctag{font:600 11px var(--f-mono);padding:1px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
 .meta .city{display:inline-flex;align-items:center;gap:5px}
 .meta .city i{width:8px;height:8px;border-radius:50%}
 .why{margin:0;font-size:14px;max-width:76ch}
@@ -157,9 +145,9 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
 <div class="wrap">
   <header class="mast">
     <div>
-      <div class="eyebrow">GCCs across India · Naukri + LinkedIn · daily 7:00 IST</div>
-      <h1>GCC Job Alert</h1>
-      <p class="lede">Senior Scrum Master, Agile Delivery Lead, RTE, TPM and AI/Data programme roles at Global Capability Centres across India. Bengaluru, Hyderabad and Delhi NCR come first. Every role is scored against Dharmendra Singh's 14 years of Agile delivery in banking GCCs.</p>
+      <div class="eyebrow">Naukri + LinkedIn · daily 7:00 IST · <a href="gcc/" style="color:var(--accent)">GCC-only dashboard →</a></div>
+      <h1>Job Match Radar</h1>
+      <p class="lede">Senior Scrum Master, Agile Coach, TPM, RTE and AI/Data programme roles in Bengaluru, Hyderabad, Delhi NCR and remote India (plus GCC roles in other cities), scored against Dharmendra Singh's 14 years of Agile delivery.</p>
     </div>
     <div class="health">
       <div id="lastscan">Loading scan data…</div>
@@ -169,7 +157,6 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
 
   <section class="kpis" aria-label="Summary">
     <div class="kpi"><b id="k-new">–</b><span>New in latest scan</span></div>
-    <div class="kpi"><b id="k-gccs">–</b><span>GCCs hiring for you</span></div>
     <div class="kpi hl"><b id="k-strong">–</b><span>Strong matches (80+)</span></div>
     <div class="kpi"><b id="k-short">–</b><span>Shortlisted</span></div>
     <div class="kpi"><b id="k-applied">–</b><span>Applied</span></div>
@@ -186,10 +173,6 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
       <div class="split" id="split"></div>
       <div class="cities" id="cities"></div>
     </div>
-    <div class="panel">
-      <h2><b>By GCC sector</b> · tap to filter</h2>
-      <div class="bars" id="sectors"></div>
-    </div>
   </section>
 
   <section class="rail" aria-label="Filters">
@@ -200,7 +183,6 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     <div class="row">
       <div class="chips" id="citychips" role="group" aria-label="City"></div>
       <select id="family" aria-label="Role type"><option value="">All role types</option></select>
-      <select id="sector" aria-label="GCC sector"><option value="">All GCC sectors</option></select>
       <select id="source" aria-label="Source"><option value="">All sources</option><option>Naukri</option><option>LinkedIn</option><option value="Curated">Curated by Claude</option></select>
       <select id="min" aria-label="Minimum score"><option value="0">Any score</option><option value="65">65+</option><option value="70">70+</option><option value="80">80+</option></select>
       <select id="sort" aria-label="Sort"><option value="score">Best match first</option><option value="new">Newest first</option></select>
@@ -212,16 +194,8 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     <div class="empty"><h3>Loading matches…</h3><p>Openings from the daily scan appear here, ranked by fit.</p></div>
   </section>
 
-  <section class="panel tips" aria-label="Advice">
-    <div><h3>Where you're strongest</h3><p>Senior and Lead Scrum Master and Technical Scrum Lead roles at BFSI and AI-platform GCCs. You have the required CSM and SAFe certifications, you've run five or more teams at a time, and your CBA, JPMorgan and Maersk background matches these employers.</p></div>
-    <div><h3>Next step up</h3><p>For RTE and Agile Delivery Lead roles, getting the SAFe RTE or SPC certification would turn many Good matches into Strong ones. You already run Scrum of Scrums and Big Room Planning, so you're doing RTE work today.</p></div>
-    <div><h3>TPM stretch roles</h3><p>Walmart, Target, Google and similar TPM roles want hands-on tech depth. Lead with your Alation, data-governance, vulnerability-management and AI-agent work, and add numbers: spillover cut, releases coordinated, hours saved by automation.</p></div>
-  </section>
-
   <footer>
-    <div id="notgcc"></div>
-    <div>Only GCCs are listed: multinationals' own India centres. IT-services vendors, consultancies and recruiters are left out. Roles tagged Curated were researched by hand on 2 Nov 2026, so confirm they're still open.</div>
-    <div>Scores (0–100) weigh role fit 35, experience band 15, Agile/SAFe tooling 15, data and AI overlap 15, BFSI domain 10, and location plus pay 10 (first-preference cities score highest). Listings with disclosed pay under ₹50 LPA are dropped; hidden pay is kept and flagged.</div>
+    <div>Scores (0–100) weigh role fit 35, experience band 15, Agile/SAFe tooling 15, data and AI overlap 15, BFSI domain 10, and location plus pay 10. Listings with disclosed pay under ₹50 LPA are dropped; hidden pay is kept and flagged.</div>
     <div>To apply, Shortlisted, Applied and Skipped marks are saved in this browser only. Add jobs with “+ To apply”, then use “Copy my apply list” and paste it to Claude to have the applications filled in for your review.</div>
   </footer>
   <div class="applybar" id="applybar" hidden role="region" aria-label="Apply list"><span id="applytext"></span><button type="button" id="copyapply">Copy my apply list</button><button type="button" class="ghost" id="showapply">View</button></div>
@@ -229,9 +203,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
 
 <script>
 (() => {
-  const CITY = {"Bengaluru":"var(--c-blr)","Hyderabad":"var(--c-hyd)","Delhi NCR":"var(--c-ncr)","Pune":"var(--c-pun)","Chennai":"var(--c-che)","Mumbai":"var(--c-mum)","Other India":"var(--c-oth)","Remote":"var(--c-rem)"};
-  const FIRST = ["Bengaluru","Hyderabad","Delhi NCR"];
-  const inCity = (j, c) => !c || (c === "__first" ? FIRST.includes(j.city) : j.city === c);
+  const CITY = {"Bengaluru":"var(--c-blr)","Hyderabad":"var(--c-hyd)","Delhi NCR":"var(--c-ncr)","Remote":"var(--c-rem)","Pune":"var(--c-pun)","Chennai":"var(--c-che)","Mumbai":"var(--c-mum)","Other India":"var(--faint)"};
   const STATUSES = [["open","Open"],["new","New"],["toapply","To apply"],["shortlisted","Shortlisted"],["applied","Applied"],["skipped","Skipped"]];
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -240,7 +212,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
   };
   let jobs = [], runs = [], marks = store.get("radar.marks", {});
-  const ui = Object.assign({status:"open", city:"", family:"", sector:"", source:"", min:"0", sort:"score", q:""}, store.get("radar.ui", {}));
+  const ui = Object.assign({status:"open", city:"", family:"", source:"", min:"0", sort:"score", q:""}, store.get("radar.ui", {}));
   const latest = () => jobs.reduce((m, j) => j.first_seen > m ? j.first_seen : m, "");
   const statusOf = j => marks[j.id] || "new";
   const band = s => s >= 80 ? ["Strong","var(--strong)"] : s >= 65 ? ["Good","var(--good)"] : ["Stretch","var(--stretch)"];
@@ -261,7 +233,6 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     const L = latest(), open = jobs.filter(j => statusOf(j) !== "skipped");
     $("k-new").textContent = jobs.filter(j => j.first_seen === L).length;
     $("k-strong").textContent = open.filter(j => j.score >= 80).length;
-    $("k-gccs").textContent = new Set(open.map(j => j.company.toLowerCase().replace(/\b(india|private|pvt|ltd|limited|inc)\b|[^a-z0-9]/g, ""))).size;
     $("k-short").textContent = jobs.filter(j => statusOf(j) === "shortlisted").length;
     $("k-applied").textContent = jobs.filter(j => statusOf(j) === "applied").length;
   }
@@ -299,16 +270,8 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     const total = open.length || 1;
     $("split").innerHTML = names.map(n => cnt[n].all ? `<span style="width:${cnt[n].all / total * 100}%;background:${CITY[n]}" title="${n}: ${cnt[n].all}"></span>` : "").join("");
     $("cities").innerHTML = names.map(n => `<button type="button" class="cityrow" data-city="${n}"><i style="background:${CITY[n]}"></i><span class="cn">${n}</span><span class="num">${cnt[n].all}</span><span class="sub">${cnt[n].strong ? cnt[n].strong + " strong" : ""}</span></button>`).join("");
-    $("citychips").innerHTML = [["","All India"], ["__first","First preference"], ...names.map(n => [n, n])].map(([v, l]) =>
-      `<button type="button" class="chip" data-city="${v}" aria-pressed="${ui.city === v}">${CITY[v] ? `<i style="background:${CITY[v]}"></i>` : ""}${l}</button>`).join("");
-  }
-
-  function sectors(){
-    const open = jobs.filter(j => statusOf(j) !== "skipped" && inCity(j, ui.city));
-    const cnt = {};
-    open.forEach(j => { const k = j.sector || "Other GCC"; cnt[k] = (cnt[k] || 0) + 1; });
-    const rows = Object.entries(cnt).sort((a, b) => b[1] - a[1]), max = Math.max(1, ...rows.map(r => r[1]));
-    $("sectors").innerHTML = rows.length ? rows.map(([k, n]) => `<button type="button" class="bar" data-sector="${esc(k)}" aria-pressed="${ui.sector === k}"><span class="cn">${esc(k)}</span><span class="num">${n}</span><span class="track"><span style="width:${n / max * 100}%"></span></span></button>`).join("") : `<p style="margin:0;color:var(--muted);font-size:13px">No open matches.</p>`;
+    $("citychips").innerHTML = [["","All cities"], ...names.map(n => [n, n])].map(([v, l]) =>
+      `<button type="button" class="chip" data-city="${v}" aria-pressed="${ui.city === v}">${v ? `<i style="background:${CITY[v]}"></i>` : ""}${l}</button>`).join("");
   }
 
   function statusTabs(){
@@ -322,12 +285,11 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
     let rows = jobs.filter(j => {
       const s = statusOf(j);
       if (ui.status === "open" ? s === "skipped" : s !== ui.status) return false;
-      if (!inCity(j, ui.city)) return false;
-      if (ui.sector && (j.sector || "Other GCC") !== ui.sector) return false;
+      if (ui.city && j.city !== ui.city) return false;
       if (ui.family && j.family !== ui.family) return false;
       if (ui.source && j.source !== ui.source) return false;
       if (j.score < +ui.min) return false;
-      if (q && !`${j.title} ${j.company} ${j.sector || ""} ${j.why} ${(j.flags||[]).join(" ")} ${j.location}`.toLowerCase().includes(q)) return false;
+      if (q && !`${j.title} ${j.company} ${j.why} ${(j.flags||[]).join(" ")} ${j.location}`.toLowerCase().includes(q)) return false;
       return true;
     });
     rows.sort(ui.sort === "new" ? (a, b) => b.first_seen.localeCompare(a.first_seen) || b.score - a.score : (a, b) => b.score - a.score || b.first_seen.localeCompare(a.first_seen));
@@ -347,7 +309,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
         <div class="body">
           <div class="top"><a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
             <span class="tags">${isNew ? '<span class="newtag">New</span>' : ""}<span class="src">${esc(j.source)}</span></span></div>
-          <div class="meta"><strong>${esc(j.company)}</strong>${j.sector ? `<span class="gccb">${esc(j.sector)} GCC</span>` : ""}<span class="city"><i style="background:${CITY[j.city] || "var(--faint)"}"></i>${esc(j.location || j.city)}</span>${j.exp ? `<span>${esc(j.exp)}</span>` : ""}<span>${esc(j.salary || "Pay not disclosed")}</span><span>${esc(j.family || "")}</span></div>
+          <div class="meta"><strong>${esc(j.company)}</strong>${j.gcc ? `<span class="gcctag">${esc(j.sector || "")} GCC</span>` : ""}<span class="city"><i style="background:${CITY[j.city] || "var(--faint)"}"></i>${esc(j.location || j.city)}</span>${j.exp ? `<span>${esc(j.exp)}</span>` : ""}<span>${esc(j.salary || "Pay not disclosed")}</span><span>${esc(j.family || "")}</span></div>
           ${j.why ? `<p class="why">${esc(j.why)}</p>` : ""}
           ${flags ? `<div class="flags">${flags}</div>` : ""}
           <div class="actions">
@@ -369,9 +331,9 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
   }
   function applyListText(){
     const picks = jobs.filter(j => statusOf(j) === "toapply").sort((a, b) => b.score - a.score);
-    return "Apply to these GCC jobs for me:\n" + picks.map((j, i) => `${i + 1}. ${j.title} — ${j.company} (${j.source}, ${j.city}) ${j.url}`).join("\n");
+    return "Apply to these jobs for me:\n" + picks.map((j, i) => `${i + 1}. ${j.title} — ${j.company} (${j.source}, ${j.city}) ${j.url}`).join("\n");
   }
-  function render(){ kpis(); cities(); sectors(); statusTabs(); list(); trend(); applyBar(); }
+  function render(){ kpis(); cities(); statusTabs(); list(); trend(); applyBar(); }
 
   // events
   $("status").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; ui.status = b.dataset.s; saveUI(); render(); });
@@ -379,8 +341,6 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
   $("citychips").addEventListener("click", pickCity);
   $("cities").addEventListener("click", pickCity);
   ["family","source","min","sort"].forEach(id => { $(id).addEventListener("change", e => { ui[id] = e.target.value; saveUI(); list(); }); });
-  $("sector").addEventListener("change", e => { ui.sector = e.target.value; saveUI(); render(); });
-  $("sectors").addEventListener("click", e => { const b = e.target.closest("[data-sector]"); if (!b) return; ui.sector = ui.sector === b.dataset.sector ? "" : b.dataset.sector; $("sector").value = ui.sector; saveUI(); render(); });
   $("q").addEventListener("input", e => { ui.q = e.target.value; list(); });
   $("showapply").addEventListener("click", () => { ui.status = "toapply"; saveUI(); render(); scrollTo({top: $("status").getBoundingClientRect().top + scrollY - 20, behavior: "smooth"}); });
   $("copyapply").addEventListener("click", async () => {
@@ -402,11 +362,7 @@ footer{font-size:13px;color:var(--muted);display:grid;gap:6px;max-width:80ch}
       jobs = j; runs = r;
       const fams = [...new Set(jobs.map(x => x.family).filter(Boolean))].sort();
       $("family").innerHTML = `<option value="">All role types</option>` + fams.map(f => `<option>${esc(f)}</option>`).join("");
-      const secs = [...new Set(jobs.map(x => x.sector || "Other GCC"))].sort();
-      $("sector").innerHTML = `<option value="">All GCC sectors</option>` + secs.map(f => `<option>${esc(f)}</option>`).join("");
-      ["family","sector","source","min","sort"].forEach(id => { $(id).value = ui[id]; });
-      const r0 = runs[0];
-      if (r0 && r0.not_gcc_top && r0.not_gcc_top.length) $("notgcc").textContent = `Latest scan left out ${r0.not_gcc_dropped} matching roles at non-GCC employers (${r0.not_gcc_top.slice(0, 8).join(", ")}${r0.not_gcc_top.length > 8 ? "…" : ""}). If one of them is really a GCC, add it to radar/gcc.py.`;
+      ["family","source","min","sort"].forEach(id => { $(id).value = ui[id]; });
       $("q").value = ui.q;
       header(); render();
     })

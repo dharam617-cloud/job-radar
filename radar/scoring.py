@@ -144,17 +144,19 @@ def score(job: dict, profile: dict) -> dict | None:
     elif "data" in d_hits or "analytics" in d_hits:
         flags.append("+Data")
 
-    # GCC only: a multinational's own India centre
+    # GCC check: a multinational's own India centre. GCCs count anywhere in India;
+    # other employers only in the first-preference cities or remote (as the radar always did).
     g = classify(job.get("company", ""))
-    if profile.get("gcc_only", True) and not g["gcc"]:
+    if profile.get("gcc_only", False) and not g["gcc"]:
         return None
     if g["own"]:
         flags.append("Your current employer: apply internally")
-    sector = g["sector"] or "Other GCC"
-    if sector == "Other GCC":
-        why[0] = f"{family} role at a GCC"
-    else:
-        why[0] = f"{family} role at {'an' if sector[0] in 'AEIOU' else 'a'} {sector} GCC"
+    if g["gcc"]:
+        sector = g["sector"] or "Other GCC"
+        if sector == "Other GCC":
+            why[0] = f"{family} role at a GCC"
+        else:
+            why[0] = f"{family} role at {'an' if sector[0] in 'AEIOU' else 'a'} {sector} GCC"
 
     # BFSI
     co = job.get("company", "").lower()
@@ -167,6 +169,8 @@ def score(job: dict, profile: dict) -> dict | None:
     # location + pay
     city = city_of(job)
     if not city:
+        return None
+    if not g["gcc"] and city not in FIRST_PREFERENCE and city != "Remote":
         return None
     if city in FIRST_PREFERENCE:
         loc_pts = 5
@@ -224,7 +228,7 @@ def score(job: dict, profile: dict) -> dict | None:
         "family": family,
         "city": city,
         "gcc": g["gcc"],
-        "sector": g["sector"] or "Other GCC",
+        "sector": (g["sector"] or "Other GCC") if g["gcc"] else "",
         "why": sentence,
         "flags": list(dict.fromkeys(flags)),
     }

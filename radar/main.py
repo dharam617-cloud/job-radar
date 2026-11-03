@@ -50,9 +50,9 @@ def retag(jobs: list[dict], profile: dict) -> list[dict]:
         j["flags"] = flags
         if j.get("source") != "Curated":
             g = classify(j.get("company", ""))
-            if profile.get("gcc_only", True) and not g["gcc"]:
+            if profile.get("gcc_only", False) and not g["gcc"]:
                 continue
-            j["gcc"], j["sector"] = g["gcc"], g["sector"] or "Other GCC"
+            j["gcc"], j["sector"] = g["gcc"], (g["sector"] or "Other GCC") if g["gcc"] else ""
             if g["own"] and "Your current employer: apply internally" not in j["flags"]:
                 j["flags"].append("Your current employer: apply internally")
         out.append(j)
@@ -143,22 +143,22 @@ def main() -> int:
     for j in fresh:
         s = score(j, profile)
         if not s:
-            if not classify(j.get("company", ""))["gcc"] and score(j, {**profile, "gcc_only": False}):
-                not_gcc[j.get("company", "?")] += 1
             continue
+        if not s["gcc"]:
+            not_gcc[j.get("company", "?")] += 1
         added.append({
             "id": j["id"], "source": j["source"], "title": j["title"], "company": j["company"],
             "location": j.get("location", ""), "city": s["city"], "exp": j.get("exp", ""),
             "salary": j.get("salary", ""), "posted": j.get("posted", ""), "url": j["url"],
             "score": s["score"], "family": s["family"], "why": s["why"], "flags": s["flags"],
-            "gcc": True, "sector": s["sector"],
+            "gcc": s["gcc"], "sector": s["sector"],
             "first_seen": today,
         })
     run["added"] = len(added)
     run["not_gcc_dropped"] = sum(not_gcc.values())
     run["not_gcc_top"] = [c for c, _ in not_gcc.most_common(12)]
     if not_gcc:
-        log("Skipped non-GCC employers (add real GCCs to radar/gcc.py): " + ", ".join(run["not_gcc_top"]))
+        log("Non-GCC employers (on the main dashboard only; add real GCCs to radar/gcc.py): " + ", ".join(run["not_gcc_top"]))
     log(f"Scanned {run['scanned']}, new {len(fresh)}, kept {len(added)}")
 
     # ---- save (keep 45 days of history)
@@ -170,27 +170,39 @@ def main() -> int:
     (DATA / "jobs.json").write_text(json.dumps(jobs, ensure_ascii=False, indent=1))
     (DATA / "runs.json").write_text(json.dumps(runs, ensure_ascii=False, indent=1))
 
-    # ---- email
+    # ---- email: the all-employers digest, then the GCC-only alert
     sender, pw, to = (os.environ.get(k, "").strip() for k in ("GMAIL_ADDRESS", "GMAIL_APP_PASSWORD", "MAIL_TO"))
     repo = os.environ.get("GITHUB_REPOSITORY", "owner/job-radar")
     owner, name = repo.split("/", 1)
     dashboard = os.environ.get("DASHBOARD_URL") or f"https://{owner.lower()}.github.io/{name}/"
-    if sender and pw:
-        strong = sum(1 for j in added if j["score"] >= 80)
-        subject = (f"GCC job alert: {len(added)} new match{'es' if len(added) != 1 else ''} ({strong} strong) · {now.strftime('%d %b')}" if added
-                   else f"GCC job alert: no new matches today · {now.strftime('%d %b')}")
-        try:
-            new_ids = {j["id"] for j in added}
-            top_open = [j for j in sorted(jobs, key=lambda j: -j["score"]) if j["id"] not in new_ids][:5]
-            mailer.send(sender, pw, to or sender, subject,
-                        mailer.build_html(added, run, dashboard, len(jobs), top_open))
-            log("Email sent")
-        except Exception as e:
-            log(f"Email failed: {e}")
-            return 1
-    else:
+    if not (sender and pw):
         log("Email skipped: GMAIL_ADDRESS / GMAIL_APP_PASSWORD secrets not set")
-    return 0
+        return 0
+    failed = False
+    for mode in ("all", "gcc"):
+        pool = jobs if mode == "all" else [j for j in jobs if j.get("gcc")]
+        new = added if mode == "all" else [j for j in added if j.get("gcc")]
+        strong = sum(1 for j in new if j["score"] >= 80)
+        day = now.strftime("%d %b")
+        if mode == "all":
+            subject = (f"{len(new)} new job matches ({strong} strong) · {day}" if new
+                       else f"No new job matches today · {day}")
+            url = dashboard
+        else:
+            subject = (f"GCC job alert: {len(new)} new match{'es' if len(new) != 1 else ''} ({strong} strong) · {day}" if new
+                       else f"GCC job alert: no new matches today · {day}")
+            url = dashboard + "gcc/"
+        try:
+            new_ids = {j["id"] for j in new}
+            top_open = [j for j in sorted(pool, key=lambda j: -j["score"]) if j["id"] not in new_ids][:5]
+            mailer.send(sender, pw, to or sender, subject,
+                        mailer.build_html(new, run, url, len(pool), top_open, mode=mode),
+                        from_name="Job Match Radar" if mode == "all" else "GCC Job Alert")
+            log(f"Email sent ({mode})")
+        except Exception as e:
+            log(f"Email failed ({mode}): {e}")
+            failed = True
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":

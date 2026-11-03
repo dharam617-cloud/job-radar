@@ -33,7 +33,9 @@ def _rows(jobs: list[dict]) -> str:
     return "".join(rows)
 
 
-def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active: int, top_open: list[dict] | None = None) -> str:
+def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active: int, top_open: list[dict] | None = None,
+               mode: str = "all") -> str:
+    """mode 'all': every employer (Job Match Radar). mode 'gcc': GCCs only (GCC Job Alert)."""
     e = html.escape
     top = sorted(new_jobs, key=lambda j: -j["score"])[:15]
     strong = sum(1 for j in new_jobs if j["score"] >= 80)
@@ -43,6 +45,16 @@ def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active
         open_html = ('<h2 style="font:700 17px/1.3 Arial,sans-serif;color:#152330;margin:26px 0 2px">Your top open matches</h2>'
                      '<p style="font:13px Arial,sans-serif;color:#5b6b78;margin:0 0 4px">Found in earlier scans and still worth a look.</p>'
                      f"<table role='presentation' cellpadding='0' cellspacing='0' width='100%'>{_rows(top_open)}</table>")
+    if mode == "gcc":
+        intro = (f"Global Capability Centres across India &middot; first preference Bengaluru, Hyderabad, Delhi NCR, then Pune, Chennai, "
+                 f"Mumbai and other hubs &middot; Naukri + LinkedIn &middot; {run['scanned']} listings checked &middot; "
+                 f"{total_active} open GCC matches on your GCC dashboard")
+        note = ("Only multinationals' own India centres (GCCs) are included; IT-services vendors, consultancies and recruiters "
+                "are on your main Job Match Radar instead. ")
+    else:
+        intro = (f"Naukri + LinkedIn &middot; Bengaluru, Hyderabad, Delhi NCR and remote India, plus GCCs in other cities &middot; "
+                 f"{run['scanned']} listings checked &middot; {total_active} open matches on your dashboard")
+        note = ""
     health = []
     for name, s in run["sources"].items():
         if not s.get("ok"):
@@ -55,22 +67,22 @@ def build_html(new_jobs: list[dict], run: dict, dashboard_url: str, total_active
             if len(new_jobs) > 15 else "")
     return f"""<!doctype html><html><body style="margin:0;background:#f3f5f7">
 <div style="max-width:640px;margin:0 auto;padding:24px 18px;background:#ffffff">
-  <div style="font:12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#5b6b78">GCC Job Alert &middot; {e(run['date_label'])}</div>
-  <h1 style="font:700 24px/1.2 Arial,sans-serif;color:#152330;margin:6px 0 4px">{len(new_jobs)} new GCC match{'es' if len(new_jobs) != 1 else ''}, {strong} strong</h1>
-  <p style="font:14px/1.5 Arial,sans-serif;color:#5b6b78;margin:0 0 16px">Global Capability Centres across India &middot; first preference Bengaluru, Hyderabad, Delhi NCR, then Pune, Chennai, Mumbai and other hubs &middot; Naukri + LinkedIn &middot; {run['scanned']} listings checked, {run.get('not_gcc_dropped', 0)} non-GCC matches left out &middot; {total_active} open matches on your dashboard</p>
+  <div style="font:12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#5b6b78">{"GCC Job Alert" if mode == "gcc" else "Job Match Radar"} &middot; {e(run['date_label'])}</div>
+  <h1 style="font:700 24px/1.2 Arial,sans-serif;color:#152330;margin:6px 0 4px">{len(new_jobs)} new {"GCC " if mode == "gcc" else ""}match{'es' if len(new_jobs) != 1 else ''}, {strong} strong</h1>
+  <p style="font:14px/1.5 Arial,sans-serif;color:#5b6b78;margin:0 0 16px">{intro}</p>
   {health_html}
   {body}
   {more}
   {open_html}
-  <p style="margin:22px 0 6px"><a href="{e(dashboard_url)}" style="display:inline-block;background:#1f5f8b;color:#ffffff;font:600 14px Arial,sans-serif;padding:11px 18px;border-radius:8px;text-decoration:none">Open the dashboard</a></p>
-  <p style="font:12px/1.5 Arial,sans-serif;color:#8a95a0;margin-top:18px">Only multinationals' own India centres (GCCs) are included; IT-services vendors, consultancies and recruiters are left out. Scores weigh role fit, experience band, Agile/SAFe and data/AI overlap, BFSI domain, and pay against your &#8377;50 LPA floor. Listings that hide pay are kept.</p>
+  <p style="margin:22px 0 6px"><a href="{e(dashboard_url)}" style="display:inline-block;background:#1f5f8b;color:#ffffff;font:600 14px Arial,sans-serif;padding:11px 18px;border-radius:8px;text-decoration:none">Open the {"GCC " if mode == "gcc" else ""}dashboard</a></p>
+  <p style="font:12px/1.5 Arial,sans-serif;color:#8a95a0;margin-top:18px">{note}Scores weigh role fit, experience band, Agile/SAFe and data/AI overlap, BFSI domain, and pay against your &#8377;50 LPA floor. Listings that hide pay are kept.</p>
 </div></body></html>"""
 
 
-def send(sender: str, app_password: str, to: str, subject: str, html_body: str) -> None:
+def send(sender: str, app_password: str, to: str, subject: str, html_body: str, from_name: str = "Job Match Radar") -> None:
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = f"GCC Job Alert <{sender}>"
+    msg["From"] = f"{from_name} <{sender}>"
     msg["To"] = to
     msg.attach(MIMEText("Open this email in an HTML-capable client to see your matches.", "plain"))
     msg.attach(MIMEText(html_body, "html"))
