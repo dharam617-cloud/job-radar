@@ -1,5 +1,28 @@
 [
  {
+  "at": "2026-11-03T22:00:58+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 425,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 136,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 561,
+  "added": 1,
+  "not_gcc_dropped": 1,
+  "not_gcc_top": [
+   "ANSR"
+  ],
+  "jd_backfilled": 75
+ },
+ {
   "at": "2026-11-03T21:39:23+05:30",
   "sources": {
    "LinkedIn": {
