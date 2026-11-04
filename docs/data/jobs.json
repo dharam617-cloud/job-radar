@@ -134,6 +134,46 @@
   ]
  },
  {
+  "id": "li-4486078991",
+  "source": "LinkedIn",
+  "title": "Program Manager - Haryana's GenAI Ready Naari Program",
+  "company": "Nimaya Foundation",
+  "location": "Faridabad, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "36 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4486078991",
+  "score": 69,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, GenAI.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-04",
+  "jd_points": [
+   "Own end-to-end delivery of the Faridabad and Kurukshetra programs : cohort planning, enrolment pipeline, batch scheduling, and the 800-learner target",
+   "Lead and manage the on-ground field team (including the Assistant Program Manager), setting weekly priorities and reviewing delivery quality",
+   "Coordinate with trainers, internal team, and on-ground stakeholders to ensure smooth delivery",
+   "https://www.moneycontrol.com/entertainment/navya-naveli-nanda-launches-4th-edition-of-haryana-s-genai-ready-naari-programme-article-14011127.html",
+   "Real-world projects & mentorship The goal is not just to teach AI tools but to make learners truly future-ready for what the modern workplace demands: the ability to confidently work with AI instead of feeling…",
+   "4-5 years of experience in program management, partnerships, or a related strategic role (development sector experience preferred)",
+   "Excellent written and verbal communication skills ; strong stakeholder and partner management experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "planning",
+   "ai",
+   "security",
+   "people"
+  ]
+ },
+ {
   "id": "li-4486066522",
   "source": "LinkedIn",
   "title": "Program Manager, Maintenance Planner, Data Center Operations, Operations Engineering, Google Cloud",
@@ -150,8 +190,8 @@
   "flags": [
    "Experience not stated",
    "+Data",
-   "Outside first-preference cities",
-   "Pay not disclosed"
+   "Pay not disclosed",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "Technology",

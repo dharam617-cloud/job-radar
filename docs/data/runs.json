@@ -1,5 +1,28 @@
 [
  {
+  "at": "2026-11-04T13:23:43+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 411,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 93,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 504,
+  "added": 1,
+  "not_gcc_dropped": 1,
+  "not_gcc_top": [
+   "Nimaya Foundation"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-04T07:30:47+05:30",
   "sources": {
    "LinkedIn": {
