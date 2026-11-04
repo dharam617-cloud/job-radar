@@ -1,5 +1,28 @@
 [
  {
+  "at": "2026-11-04T07:30:47+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 405,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 47,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'; senior scrum master/bangalore: page 200, api [406], ''; senior scrum master/delhi-ncr: page 200, api [406], ''; senior scrum master/pune: page 200, api [406], ''"
+   }
+  },
+  "scanned": 452,
+  "added": 5,
+  "not_gcc_dropped": 1,
+  "not_gcc_top": [
+   "Capgemini"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-03T22:00:58+05:30",
   "sources": {
    "LinkedIn": {
