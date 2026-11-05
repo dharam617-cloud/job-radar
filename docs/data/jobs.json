@@ -1,5 +1,438 @@
 [
  {
+  "id": "li-4478179139",
+  "source": "LinkedIn",
+  "title": "Principal TPM: DGX",
+  "company": "Intuit",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4478179139",
+  "score": 94,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role at a BFSI GCC; asks 12+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, GenAI.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Own end-to-end delivery of a portfolio of strategic programs spanning data infrastructure (lakehouse, streaming, IDX), MarTech platforms (CDP, campaign orchestration, personalization), and AI-powered experimentation",
+   "Drive program strategy, architecture alignment, milestone tracking, risk mitigation, and stakeholder communication from initiation through business outcome realization",
+   "Drive regular executive readouts, program reviews, and async communication that give senior leadership real-time visibility into portfolio health and emerging risks Build the DGX Program Operating Model",
+   "Bring AI tools and agentic workflows into your program management practice — accelerating planning, risk synthesis, stakeholder communication, and decision support",
+   "Collaborate with engineering leads on AI platform programs (e.g., GenOS, agentic pipelines) as a technically fluent partner who can evaluate architectural trade-offs and drive delivery",
+   "Coach and mentor program managers across DGX, raising the technical and strategic capabilities of the team",
+   "Sees across organizational boundaries — identifies systemic dependencies, cross-team sequencing risks, and alignment gaps that others miss Communication & Influence"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "people",
+   "transformation"
+  ]
+ },
+ {
+  "id": "li-4486369897",
+  "source": "LinkedIn",
+  "title": "Technical Delivery Manager - Applied AI and Engineering Management",
+  "company": "Google Operations Center",
+  "location": "Bengaluru East, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4486369897",
+  "score": 90,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, data, agentic.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Organizational Leadership: Manage and develop a team of Developer Leads. Provide regular coaching, mentoring, and performance management to elevate their leadership capabilities and support their career growth",
+   "Strategic Alignment: Ensure the development teams' work aligns with the overall strategic goals and roadmap of the Google Operations Center. This includes understanding the big picture and translating it into…",
+   "Risk Management and Mitigation: Proactively identify and assess potential risks that could impact project delivery, develop mitigation strategies, and escalate issues as needed to ensure timely resolution",
+   "Project and Process Governance: Establish and enforce delivery frameworks across traditional and AI initiatives. For standard projects, drive SDLC compliance, quality gates, and SLA adherence; for AI projects,…",
+   "Stakeholder Management: Act as the primary liaison between engineering, product, operations, and executive leadership. Translate technical and AI constraints into business trade-offs, manage expectations via…",
+   "Strong Experience in Project Planning and Scheduling, Team Coordination, Stakeholder Management, Risk Management, Resource Management, and Quality Assurance",
+   "Excellent organizational skills to track project / scrum timelines, roadmaps, and deliverables"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "planning",
+   "ai",
+   "security",
+   "people",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4479223469",
+  "source": "LinkedIn",
+  "title": "Sr. Technology Scrum Master",
+  "company": "Aon",
+  "location": "New Delhi, Delhi, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "11 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4479223469",
+  "score": 83,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; asks 15+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile.",
+  "flags": [
+   "+SAFe",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Applying Agile methodology values, principles, and practices to plan, manage, and deliver solutions",
+   "Training, mentoring, and supporting scrum teams to adhere to Agile values, principles, and practices",
+   "Scheduling and facilitating scrum events, meetings, and decision-making processes",
+   "Certified scrum master, SAFe preferred",
+   "5+ years of experience as a scrum master or in a similar role",
+   "Working knowledge of Agile methodology, techniques, and frameworks, such as Scrum or Kanban, to deliver solutions",
+   "Leadership and management experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "people"
+  ]
+ },
+ {
+  "id": "li-4479525431",
+  "source": "LinkedIn",
+  "title": "Vice President, Scrum Leader",
+  "company": "BNY",
+  "location": "Pune/Pimpri-Chinchwad Area",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "6 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4479525431",
+  "score": 80,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "We’re seeking a future team member for the role of VP Scrum Leader to join our Data Platform team. This role is located in Pune. In this role, you’ll make an impact in the following ways",
+   "The Scrum Leader serves the Product Owner by: facilitating stakeholder collaboration as requested or needed and Providing techniques for effective product goal definition and backlog management",
+   "Bachelor's degree in computer science or a related discipline, or equivalent work experience required, with advanced degree preferred",
+   "9 plus years of relevant competencies: Agile Methodologies-Advanced / Business Process Improvement-Beginner / Cross Functional Team Leadership-Beginner / Kanban-Intermediate / Lean- Intermediate / Process…",
+   "Modified based upon local regulations/requirements",
+   "Bachelor’s degree or the equivalent combination of education and experience is required. 4-6 years of relevant experience in similar role. Previous technical experience is preferred. Experience in Scrum Master role…",
+   "Awareness and experience with widely successful Agile techniques: User Stories, ATDD, TDD, Continuous Integration, Continuous Testing, Pairing, Automated Testing, Agile Games. Knowledge and experience in the use of…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "stakeholders",
+   "data",
+   "cloud",
+   "security",
+   "transformation"
+  ]
+ },
+ {
+  "id": "li-4478127514",
+  "source": "LinkedIn",
+  "title": "Senior Director, AI and Data Platform Delivery",
+  "company": "Teradata",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4478127514",
+  "score": 75,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; asks 12+ yrs, in line with your 14; overlaps on data, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Own execution outcomes for significant areas of Teradata’s core data platform and AI roadmap, including platform modernization, scalability enhancements, cloud parity, and operational hardening",
+   "Partner with senior engineering and architecture leaders to ensure execution plans align with long‑term platform sustainability and customer trust",
+   "Co-own with engineering platform economics and cost‑to‑serve by influencing execution tradeoffs that impact margin, scaling limits, and long‑term pricing power",
+   "Co-own with engineering and product the platform lifecycle governance and technical debt liquidation at the portfolio level",
+   "Own hiring, performance management, development, and succession planning for the platform execution organization",
+   "Communicate platform execution health, risks, dependencies, and tradeoffs clearly at the VP and executive level",
+   "Familiarity with operational excellence, SRE practices, and enterprise reliability expectations. What Success Looks Like A successful Senior Director of AI and Data Platform Delivery"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "people",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-041126022752",
+  "source": "Naukri",
+  "title": "Project Manager",
+  "company": "Hexaware Technologies",
+  "location": "Hybrid - Hyderabad, Pune, Chennai",
+  "city": "Hyderabad",
+  "exp": "12-20 Yrs",
+  "salary": "",
+  "posted": "Today",
+  "url": "https://www.naukri.com/job-listings-project-manager-hexaware-technologies-hyderabad-pune-chennai-12-to-20-years-041126022752",
+  "score": 73,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-20 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, kanban, data.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Project Delivery & Execution Manage end-to-end delivery of assigned Guidewire implementation project Develop and maintain detailed project plans, schedules, milestones, dependencies, and deliverables",
+   "Ensure project scope, timeline, budget, and quality objectives are achieved",
+   "Coordinate activities across business, technology, testing, integration, data migration, and change management teams",
+   "Track and manage project risks, assumptions, issues, and dependencies (RAID)",
+   "Escalate critical risks and decisions to the Program Manager in a timely manner",
+   "Stakeholder & Team Management Manage day-to-day communication with business stakeholders, product owners, SMEs, and delivery teams",
+   "Insurance Transformation Support Support business transformation initiatives across: Underwriting Policy Administration Claims Management Billing Operations Digital Channels Exp:10-20 yrs Location: chennai, Pune,…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "cloud",
+   "transformation",
+   "resourcing",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "li-4486371372",
+  "source": "LinkedIn",
+  "title": "Delivery Partner - CPG (Analytics Consulting)",
+  "company": "Tiger Analytics",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4486371372",
+  "score": 72,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, analytics.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Collaborate with internal & key client stakeholders to define advanced analytics roadmaps",
+   "Drive analytics solution design & delivery, collaborating with teams of consultants, data scientists and architects",
+   "Guide / mentor program leads on applying best practices in delivery through regular reviews",
+   "Drive internal and client governance forums for zero surprises on program health and to articulate value",
+   "Collaborate with in-market Client Partners to expand Tiger Analytics’ share of client spend in meaningful ways",
+   "Contribute to organization building through training and mentoring, and by developing assets / best practices"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "planning",
+   "data",
+   "people"
+  ]
+ },
+ {
+  "id": "li-4485504035",
+  "source": "LinkedIn",
+  "title": "Program Manager – Data & Operations",
+  "company": "Plum",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4485504035",
+  "score": 72,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Build and maintain reports, dashboards, and trackers to support business decisions",
+   "Own projects end to end, including planning, stakeholder coordination, execution, and closure",
+   "Track timelines, follow up on deliverables, resolve blockers, and ensure projects stay on track",
+   "Maintain clear documentation and communicate project progress to relevant stakeholders",
+   "2–3 years of experience in program management, business analysis, operations, or a similar role",
+   "Experience managing projects and coordinating with multiple stakeholders",
+   "A strong understanding of processes, with the ability to identify gaps and drive improvements"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning"
+  ]
+ },
+ {
+  "id": "nk-041126023738",
+  "source": "Naukri",
+  "title": "Technical Project Manager | Agentic AI and Generative AI",
+  "company": "Vitelglobal Communications",
+  "location": "Hyderabad(Begumpet)",
+  "city": "Hyderabad",
+  "exp": "9-14 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-agentic-ai-and-generative-ai-vitelglobal-communications-hyderabad-9-to-14-years-041126023738",
+  "score": 67,
+  "family": "Project Manager",
+  "why": "Project Manager role; 9-14 Yrs fits your 14 years; overlaps on scrum, generative, agentic.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Bachelors degree in Computer Science,Engineering,or a related discipline,or equivalent practical experience PMP,PMI-ACP,Scrum,or equivalent certification Required Qualifications: . 10 to 14 years of overall software…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "ai"
+  ]
+ },
+ {
+  "id": "li-4478105828",
+  "source": "LinkedIn",
+  "title": "Project Manager, AI Delivery & Client Engagement | On Site | Gurugram",
+  "company": "Crossing Hurdles",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4478105828",
+  "score": 65,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "Crossing Hurdles is an AI training-talent partner. We build and run expert contributor teams for AI labs and data companies working on model training and evaluation. More about what we do at crossinghurdles.com.",
+   "One or two accounts end to end. You are the person the client writes to, and the person the delivery team reports to",
+   "Throughput and quality: daily allocation, weekly targets, quality sampling, and the escalation when either slips",
+   "Client engagement: the recurring call, the weekly status note, escalations, and the open-items list that actually closes",
+   "Coaching one or two junior associates as the team grows",
+   "1 to 4 years in project management, program management, delivery, client servicing, consulting or operations",
+   "Calm under escalation, and comfortable saying no with a reason. Working hours and location"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "metrics",
+   "ai"
+  ]
+ },
+ {
+  "id": "nk-041126503338",
+  "source": "Naukri",
+  "title": "Lead Technical Project Manager",
+  "company": "Synamedia",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "11-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-lead-technical-project-manager-synamedia-bengaluru-11-to-20-years-041126503338",
+  "score": 63,
+  "family": "Project Manager",
+  "why": "Project Manager role; 11-20 Yrs fits your 14 years; overlaps on scrum, agile, AWS.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-05",
+  "jd_points": [
+   "PMP,PRINCE2,Agile,Scrum or an equivalent project management certification Skills",
+   "Candidates should have direct customer delivery experience rather than predominantly engineering project management experience",
+   "Experience working with global,distributed engineering,product and delivery teams"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
   "id": "li-4487029246",
   "source": "LinkedIn",
   "title": "PRODUCT OWNER – AGENTIC AI, Global Delivery Simplification Managing Director",

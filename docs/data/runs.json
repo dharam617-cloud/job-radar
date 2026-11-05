@@ -1,5 +1,33 @@
 [
  {
+  "at": "2026-11-05T07:30:56+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 436,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 83,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 519,
+  "added": 11,
+  "not_gcc_dropped": 6,
+  "not_gcc_top": [
+   "Tiger Analytics",
+   "Crossing Hurdles",
+   "Plum",
+   "Synamedia",
+   "Hexaware Technologies",
+   "Vitelglobal Communications"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-04T13:23:43+05:30",
   "sources": {
    "LinkedIn": {
