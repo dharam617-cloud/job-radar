@@ -1,5 +1,233 @@
 [
  {
+  "id": "li-4486971956",
+  "source": "LinkedIn",
+  "title": "Fixed Income / Derivs Dev - Scrum Master",
+  "company": "Mizuho",
+  "location": "Pune City, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "14 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4486971956",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, data, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-07",
+  "jd_points": [
+   "Work with IT product owners to manage backlogs and new requests",
+   "Ensure deliverables meet SDLC standards for production releases (e.g. vulnerabilities)",
+   "Prepare and present reports of core KPIs to management",
+   "Manage project scope and delivery timelines",
+   "Financial / trading vertical experience preferred. Requirements and skills",
+   "Prior experience in a scrum master and/or project management role (5 years)",
+   "Experience with JIRA / Confluence / AI"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "security",
+   "bfsi",
+   "tools"
+  ]
+ },
+ {
+  "id": "nk-061126023768",
+  "source": "Naukri",
+  "title": "Program Manager",
+  "company": "SG Lottery India",
+  "location": "Hybrid - Bengaluru(Whitefield)",
+  "city": "Bengaluru",
+  "exp": "12-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-program-manager-sg-india-bengaluru-12-to-15-years-061126023768",
+  "score": 78,
+  "family": "Program Manager",
+  "why": "Program Manager role; 12-15 Yrs fits your 14 years; overlaps on SAFe, scrum, agile, data.",
+  "flags": [
+   "+SAFe",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-07",
+  "jd_points": [
+   "You will plan capacity across India teams and partners, keep Jira and agile practices healthy, and give senior stakeholders clear, data-backed reporting",
+   "Program and portfolio management Run 3-5 programs in parallel, across customer projects and platform work, and own scope, schedule, dependencies, risks and release readiness",
+   "Run program governance: steering committees, release planning, go/no-go decisions and change control",
+   "Manage dependencies across teams for development, QA, DevOps, infrastructure and partner vendors",
+   "Track program metrics: milestone status, scope change, budget, risks and RAID",
+   "Advanced Jira skills: workflow design, JQL, dashboards and portfolio reporting",
+   "Strong practical knowledge of agile (Scrum, Kanban, SAFe or similar), including PI or release planning"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "cloud",
+   "security",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4486268186",
+  "source": "LinkedIn",
+  "title": "Program Manager- AI Automation",
+  "company": "Tech Data APAC",
+  "location": "New Delhi, Delhi, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4486268186",
+  "score": 71,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 10+ yrs, in line with your 14; overlaps on data, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-07",
+  "jd_points": [
+   "Job Purpose The Vendor Program Manager will develop and implement comprehensive vendor marketing plans. The role is responsible for managing an assigned product category and understanding basic marketing trends,…",
+   "Work closely with Client Executives to develop Account Based Marketing plans for the Company's strategic Partner ecosystem",
+   "Manage vendor/the Company marketing relationship, including maintaining product marketing plans, managing vendor coop/MDF and representing the Company in marketing related business meetings",
+   "Coach and direct the daily activities of the Marketing Executives or Marketing Administration through delegation of projects",
+   "Act as a consultant for product management and assigned vendors by providing marketing direction pertaining to assigned manufacturers' marketing plans",
+   "Act as the focal point for project material coordination by interfacing with participating manufacturers, gathering necessary vendor materials and developing materials tracking tools for effective program management",
+   "Monitor and drive revenue goals, expenses and profit margins for assigned vendors and programs"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "stakeholders",
+   "ai",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-061126015871",
+  "source": "Naukri",
+  "title": "Technical Project Manager",
+  "company": "Win Solutions",
+  "location": "Bengaluru(Kamanahalli)",
+  "city": "Bengaluru",
+  "exp": "10-18 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-win-solutions-bengaluru-10-to-18-years-061126015871",
+  "score": 70,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-18 Yrs fits your 14 years; overlaps on scrum, agile, data, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-07",
+  "jd_points": [
+   "Project Manager IT Mode : Work from Office Notice period: Immediate Joiners Interview Mode : L1 Virtual and L2 Face to Face Role Overview As a PM Delivery, you will be responsible for end-to-end delivery across…",
+   "You will act as the primary bridge between clients and internal teams, ensuring timely delivery, budget adherence, and high-quality outcomes"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "planning",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-061126020489",
+  "source": "Naukri",
+  "title": "PMO AI Solutions & Enablement Lead",
+  "company": "Vaisesika Consulting",
+  "location": "Hybrid - Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-pmo-ai-solutions-enablement-lead-vaisesika-consulting-bengaluru-10-to-17-years-061126020489",
+  "score": 66,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-17 Yrs fits your 14 years; overlaps on data, generative.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-07",
+  "jd_points": [
+   "PMO AI Solutions & Enablement Lead Position: PMO AI Solutions & Enablement Lead Function: Global PMO / Service Innovation & Transformation Experience: 10 Years Job Summary We are looking for an experienced PMO AI…",
+   "The ideal candidate should have hands-on experience with Generative AI, LLMs, workflow automation, AI integrations and low-code/no-code platforms",
+   "Develop AI use cases for meeting minutes, project status reports, risk tracking, documentation and project reporting",
+   "Establish AI governance, testing, security and quality standards",
+   "Develop AI implementation roadmaps and ensure knowledge transfer",
+   "Experience coaching teams and driving AI adoption",
+   "Recruitment focus: Prioritise candidates with hands-on Generative AI implementation, RAG, AI agents, workflow automation, API integrations and enterprise AI solution-building experience rather than candidates with…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "cloud",
+   "security",
+   "transformation"
+  ]
+ },
+ {
+  "id": "nk-061126021110",
+  "source": "Naukri",
+  "title": "Project / Program Manager",
+  "company": "HTS Strategic Solutions",
+  "location": "Hybrid - Noida, Pune, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-program-manager-hts-strategic-solutions-noida-pune-bengaluru-10-to-20-years-061126021110",
+  "score": 63,
+  "family": "Program Manager",
+  "why": "Program Manager role; 10-20 Yrs fits your 14 years; overlaps on scrum, analytics.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-07",
+  "jd_points": [],
+  "jd_status": "thin",
+  "themes": []
+ },
+ {
   "id": "li-4486791673",
   "source": "LinkedIn",
   "title": "Delivery Partner - Analytics Consulting (Capital Market / Retail Banking)",
