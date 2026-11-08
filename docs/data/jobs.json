@@ -45,9 +45,9 @@
   "flags": [
    "Experience not stated",
    "+AI",
-   "Outside first-preference cities",
    "Pay not disclosed",
-   "JD not read yet"
+   "JD not read yet",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "Manufacturing & Engineering",
