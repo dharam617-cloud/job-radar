@@ -1,5 +1,62 @@
 [
  {
+  "id": "li-4443149618",
+  "source": "LinkedIn",
+  "title": "Program Analyst Sr – Generative AI, Prompt Engineering & Validation",
+  "company": "Qualcomm",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4443149618",
+  "score": 65,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on generative, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-08",
+  "jd_tries": 1,
+  "jd_status": "unavailable",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
+  "id": "li-4460720292",
+  "source": "LinkedIn",
+  "title": "Program and Delivery Manager - AI and Data Delivery",
+  "company": "Eaton",
+  "location": "Pune Division, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4460720292",
+  "score": 63,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Manufacturing & Engineering GCC; overlaps on data, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Outside first-preference cities",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "Manufacturing & Engineering",
+  "first_seen": "2026-11-08",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
   "id": "li-4486971956",
   "source": "LinkedIn",
   "title": "Fixed Income / Derivs Dev - Scrum Master",
