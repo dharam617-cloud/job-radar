@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-09T07:30:27+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 314,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 10,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 324,
+  "added": 4,
+  "not_gcc_dropped": 2,
+  "not_gcc_top": [
+   "Glean",
+   "Skild AI"
+  ],
+  "jd_backfilled": 1
+ },
+ {
   "at": "2026-11-08T13:20:11+05:30",
   "sources": {
    "LinkedIn": {

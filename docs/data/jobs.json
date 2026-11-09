@@ -1,5 +1,169 @@
 [
  {
+  "id": "li-4470710414",
+  "source": "LinkedIn",
+  "title": "Scrum Master {Functional}",
+  "company": "S&P Global",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4470710414",
+  "score": 98,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; asks 12+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-09",
+  "jd_points": [
+   "Facilitate Agile ceremonies including sprint planning, daily stand-ups, backlog refinement, reviews, retrospectives, and PI Planning; guide the team through draft planning, backlog readiness, blocker identification,…",
+   "Remove impediments, proactively identify risks, manage dependencies, and improve team flow using Agile metrics; take accountability for timely escalation and resolution of risks, blockers, and bottlenecks that impact…",
+   "Represent the team in Scrum-of-Scrums, ART Syncs, Value Stream Syncs, and other cross-team forums; coordinate with Scrum teams, ARTs, RTEs, Product Owners, Product Managers, and technical leads to communicate…",
+   "Partner with Product Managers, Product Owners, and Technical Leads to maintain a healthy backlog by ensuring MVPs, features, and user stories are clear, concise, prioritized, and aligned to business goals, product…",
+   "Generate and maintain Agile dashboards and metrics that support data-driven decisions, transparency, predictability, and continuous improvement; promote adoption of AI/GenAI practices, including the effective balance…",
+   "Expertise in Agile metrics, Kanban practices, lean portfolio management, and enterprise software delivery lifecycle",
+   "Prior Agile Coach experience and familiarity with BDD, ATDD, TDD, CI/CD, pair programming, automation, and Kaizen preferred"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "transformation"
+  ]
+ },
+ {
+  "id": "li-4453740312",
+  "source": "LinkedIn",
+  "title": "Technical Program Manager, AI & Cloud Efficiency",
+  "company": "Glean",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4453740312",
+  "score": 74,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; overlaps on SAFe, data, LLMs.",
+  "flags": [
+   "Experience not stated",
+   "+SAFe",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-09",
+  "jd_points": [
+   "Drive Cloud and AI/LLM efficiency",
+   "Own a single, prioritised source of truth for all cost initiatives and drive them to measurable efficiency and margin gains",
+   "Build cost-attribution discipline: per-service, per-team, per-customer, per-feature tagging and allocation so every dollar has an owner",
+   "Govern internal AI tooling spend with per-user visibility, quotas, and value assessment",
+   "Treat cost like production telemetry: real-time cost attribution, anomaly detection, alerting, and automated triage",
+   "Deep, hands-on understanding of cloud infrastructure and AI/LLM economics",
+   "Strong SQL and data skills; you can query BigQuery, build a Sigma workbook, and model a scenario Location"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "release",
+   "ai",
+   "cloud",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4458379332",
+  "source": "LinkedIn",
+  "title": "Staff Technical Program Manager — Multi-Entity Account Scale & Access Lifecycle",
+  "company": "Intuit",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4458379332",
+  "score": 70,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on data, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-09",
+  "jd_points": [
+   "Drive Technical Excellence: Own and drive two critical identity programs — multi-entity account scale and automated access lifecycle — from scope definition through launch and adoption. Navigate complex microservice…",
+   "Execute with Rigor: Partner across teams to define program outcomes, build the end-to-end delivery plan, and establish the governance model for both initiatives. Develop and drive the operating rhythm — planning,…",
+   "Enable Scale and Velocity: Build the frameworks, tooling, and instrumentation that make identity program delivery repeatable — and apply AI agent tools to accelerate program analysis, delivery, and stakeholder…",
+   "Identity Platform Depth: Direct experience delivering customer identity and access management (CIAM) capabilities — authentication, authorization, account and organization modeling, or user provisioning and…",
+   "AI-Native Delivery: Demonstrated use of AI agents and tools in your own program work to accelerate analysis, structure delivery, and sharpen stakeholder communication — with firsthand judgment about where AI…",
+   "Leadership Style: Proven ability to lead through influence rather than authority, at a scope where you define the program rather than inherit it. Credibility as a boundaryless change leader who drives from plan to…",
+   "Analytical Skills: Strong data-driven mindset with the ability to track and report on program health, delivery velocity, and customer impact metrics"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "cloud",
+   "security"
+  ]
+ },
+ {
+  "id": "li-4426191587",
+  "source": "LinkedIn",
+  "title": "Program Manager - Data Collection & Annotation - India",
+  "company": "Skild AI",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4426191587",
+  "score": 66,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, machine learning.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-09",
+  "jd_points": [
+   "Drive end-to-end program management for egocentric/UMI/teleops data collection and annotation workflows",
+   "Coordinate cross-functional execution across operations, 3rd part vendors, tooling, vendors, and annotation teams",
+   "Set up scalable operational processes, metrics, and execution frameworks in fast-paced startup environments",
+   "Own timelines, quality, throughput, metrices and operational problem-solving across multiple programs Preferred",
+   "2–3 years of program management / operations experience in startups or high-growth environments",
+   "Strong execution, communication, and stakeholder management skills"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "metrics",
+   "planning",
+   "resourcing"
+  ]
+ },
+ {
   "id": "li-4443149618",
   "source": "LinkedIn",
   "title": "Program Analyst Sr – Generative AI, Prompt Engineering & Validation",
@@ -23,9 +187,23 @@
   "sector": "Technology",
   "first_seen": "2026-11-08",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "ai"
+   "risk",
+   "stakeholders",
+   "metrics",
+   "ai",
+   "cloud",
+   "tools"
+  ],
+  "jd_points": [
+   "Track GenAI feature validation plans, deliverables, owners, dependencies, and closure status across teams",
+   "Maintain dashboards, trackers, action item logs, risk registers, and validation status reports",
+   "Validate AI outputs against structured, semi-structured, and unstructured data sources such as SharePoint, Confluence, Jira, documents, JSON/XML, and internal knowledge bases",
+   "Prepare weekly validation summaries, risk updates, action item trackers, and executive-ready status reports",
+   "Communicate clearly with cross-functional stakeholders across engineering, platform, product, and program management teams",
+   "Prior experience in semiconductor, SoC, embedded systems, platform engineering, enterprise AI, or technical program management is preferred",
+   "Experience supporting validation of internal tools, AI platforms, search systems, summarization tools, or workflow automation platforms is a plus"
   ]
  },
  {
