@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-10T14:15:23+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 348,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 41,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 389,
+  "added": 3,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "AiDASH",
+   "Cognizant",
+   "Vedic Systems"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-10T06:22:44+05:30",
   "sources": {
    "LinkedIn": {
