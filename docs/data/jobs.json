@@ -1,5 +1,175 @@
 [
  {
+  "id": "li-4487147956",
+  "source": "LinkedIn",
+  "title": "Data Services Delivery",
+  "company": "HCLTech",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "11 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4487147956",
+  "score": 90,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 15+ yrs, in line with your 14; overlaps on SAFe, scrum, agile, data, AI.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-10",
+  "jd_points": [
+   "Own end-to-end Data Services Delivery , covering development, enhancements, and L1/L2/L3 production support",
+   "Lead large, complex Data & AI programs across multiple teams, vendors, and geographies",
+   "Drive delivery governance, SLAs, quality, risk management, budgeting, capacity planning, and executive reporting",
+   "Provide technical leadership across data architecture, ETL/ELT, data pipelines, cloud data platforms, data quality, and integration",
+   "Manage production support operations, including incident management, RCA, problem management, and service improvement",
+   "Build and lead large global teams across onshore/offshore delivery models",
+   "Partner with senior business and technology stakeholders to translate strategy into delivery roadmaps"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "ai",
+   "data",
+   "cloud",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4487925051",
+  "source": "LinkedIn",
+  "title": "DMTS ITP AI Architecture and Delivery",
+  "company": "Micron Technology",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4487925051",
+  "score": 82,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; asks 15+ yrs, in line with your 14; overlaps on SAFe, data, machine learning.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-10",
+  "jd_points": [
+   "Define technical designs, solution blueprints, and implementation plans that move AI use cases from concept to production",
+   "Translate the ITP AI roadmap into concrete quarterly deliverables with clear milestones, owners, and success criteria",
+   "Identify and manage technical risks, dependencies, and trade-offs to keep programs on schedule",
+   "Own delivery of AI outcomes end to end, from requirements through production rollout and adoption",
+   "Drive the rollout of production AI systems, ensuring quality, reliability, scalability, security, and supportability",
+   "Track and report adoption, performance, and business impact of deployed solutions, including improvements in velocity, quality, and cost",
+   "15+ years of experience in advanced AI research, AI platform development, machine learning, semiconductor or related technical domains"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "security",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4488897451",
+  "source": "LinkedIn",
+  "title": "Release Train Manager, VP",
+  "company": "NatWest Group",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "7 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4488897451",
+  "score": 79,
+  "family": "Release Train Engineer",
+  "why": "Release Train Engineer role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, release train.",
+  "flags": [
+   "Experience not stated",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-10",
+  "jd_points": [
+   "Join us as a Release Train Manager",
+   "This is a unique opportunity to join a fast paced and Agile team, responsible for aligning the vision, planning, and interdependencies of many teams by providing cross-team or domain synchronisation of the portfolio…",
+   "Enhancing deployment and management phases of the development lifecycle, including through Agile coaching and active contribution to release and environment best practice",
+   "Facilitating and fostering the preparation of release and sprint vision, goals and work pipelines and facilitating pre and post planning meetings",
+   "Building and communicating release calendars and iterative planning cycles and synchronising with other release train managers across domains",
+   "Expert level knowledge and proficiency with scaled Agile and P3M tools and methodologies spanning value stream, portfolio, programme and team levels",
+   "Strong servant leadership capabilities along with the ability to create and share a vision in-line with the bank’s"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "planning",
+   "release",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "li-4488850728",
+  "source": "LinkedIn",
+  "title": "Senior Technical Program Manager – AI/ML, AWS Support Analytics Insights Research Engineering and Science (AiRES)",
+  "company": "Amazon Web Services (AWS)",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "1 hour ago",
+  "url": "https://www.linkedin.com/jobs/view/4488850728",
+  "score": 71,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role at a Technology GCC; overlaps on analytics, agentic.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-10",
+  "jd_points": [
+   "Manage Strategic Initiatives : Lead cross-functional technical initiatives from start to finish, ensuring alignment with priorities and on-time delivery",
+   "Stakeholder Management: Build and maintain relationships across the organization, acting as a bridge between technical teams and leadership to ensure clear communication and effective collaboration",
+   "Operational Rhythm & Coordination: Participate in weekly leadership meetings to align priorities, coordinate business reviews (WBRs, MBRs, QBRs), and facilitate strategic planning using Amazon mechanisms (2-pagers,…",
+   "Technical Program Leadership: Monitor large-scale technical programs, identify and resolve risks/blockers, and drive timely decisions to keep critical work moving forward",
+   "Experience managing programs across cross functional teams, building processes and coordinating release schedules Preferred",
+   "5+ years of project management disciplines including scope, schedule, budget, quality, along with risk and critical path management experience",
+   "Experience managing projects across cross functional teams, building sustainable processes and coordinating release schedules"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "ai",
+   "data",
+   "cloud",
+   "resourcing"
+  ]
+ },
+ {
   "id": "li-4470710414",
   "source": "LinkedIn",
   "title": "Scrum Master {Functional}",
