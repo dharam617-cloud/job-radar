@@ -1,5 +1,300 @@
 [
  {
+  "id": "li-4478612065",
+  "source": "LinkedIn",
+  "title": "IND Scrum Master",
+  "company": "The Hartford India",
+  "location": "Greater Hyderabad Area",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4478612065",
+  "score": 92,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "Experience not stated",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "Communicate project status, risks, and issues to stakeholders",
+   "Coach and mentor junior Scrum Masters and team members to build agile capabilities and problem-solving skills",
+   "Experience in project management, including planning, execution, stakeholder coordination, and delivery of complex AI & Data Engineering initiatives within Agile frameworks",
+   "Experience leading within a Data organization focused on implementation of Large-Scale AI and/or Data & Analytics Cloud Transformation initiatives",
+   "Experience leading initiatives with cross-functional teams, managing dependencies and aligning project outcomes with business objectives & timelines",
+   "Financial acumen with ability to understand and manage budgets, track financial metrics and ensure alignment of project deliverables with financial objective",
+   "SAFe certification and Kanban certification are a plus. Certifications in AI, or GCP or Snowflake"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "people",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4471313726",
+  "source": "LinkedIn",
+  "title": "Application Program Lead, Enterprise AI",
+  "company": "Lam Research",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4471313726",
+  "score": 85,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on agile, Jira, Azure DevOps, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "Design and architect end-to-end enterprise application solutions integrating AI capabilities, enterprise systems, automation platforms, and diverse data sources including SQL Server, Lakehouse, Data Lake, and cloud…",
+   "Define application architecture, system components, integrations, APIs, data flows, and technology frameworks to ensure performance, security, maintainability, and scalability",
+   "Drive the adoption of modern technologies including Generative AI, Copilot, OpenAI/GPT-based solutions, automation platforms, and cloud-native architectures",
+   "Communicate technical decisions, solution trade-offs, and implementation roadmaps to both technical and non-technical stakeholders",
+   "Experience integrating applications, APIs, automation solutions, and enterprise data platforms",
+   "Strong stakeholder management, communication, and technical documentation skills",
+   "Experience with DevOps tools, CI/CD pipelines, Docker, Kubernetes, Azure DevOps, Git, and Jira"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "data",
+   "cloud",
+   "security",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4487461949",
+  "source": "LinkedIn",
+  "title": "Technical Delivery Manager-Data &AI",
+  "company": "Anblicks",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4487461949",
+  "score": 82,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 12+ yrs, in line with your 14; overlaps on agile, data, analytics.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "Lead teams of Data Engineers, Analytics Engineers, BI Developers, Data Scientists, AI Engineers, and Business Analysts",
+   "Manage end-to-end delivery of Data & AI projects and programs",
+   "Drive Agile delivery, planning, risk management, and stakeholder communication",
+   "Mentor technical teams and support performance management and career growth",
+   "12+ years of experience in Data, Analytics, Engineering, or AI",
+   "Strong communication, stakeholder management, and delivery leadership skills",
+   "AI & Modern Data: AI/ML fundamentals, GenAI awareness, MLOps concepts, Data Platform Modernization"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "people"
+  ]
+ },
+ {
+  "id": "li-4489447231",
+  "source": "LinkedIn",
+  "title": "Data IT Project/Program Manager",
+  "company": "Synectics APAC",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "14 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489447231",
+  "score": 77,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on scrum, agile, Jira, data, data governance.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "Develop and manage comprehensive data delivery plans covering data discovery, profiling, mapping, cleansing, transformation, migration, and testing",
+   "Track project milestones, deliverables, dependencies, and timelines across internal teams and external vendors",
+   "Track vendor deliverables, commitments, risks, and delivery progress",
+   "Strong experience in Data Transformation, Data Management, and Data Governance",
+   "Good understanding of data discovery, profiling, data quality, source-to-target mapping, data migration, transformation, and reconciliation",
+   "Experience in project reporting, RAID management, dependency tracking, and stakeholder communication",
+   "Strong understanding of data governance, data quality controls, and readiness assessments"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "data",
+   "cloud",
+   "security",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-101126014921",
+  "source": "Naukri",
+  "title": "Technical Project Manager (Manufacturing)",
+  "company": "Pyramid It Consulting",
+  "location": "Remote",
+  "city": "Remote",
+  "exp": "10-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-manufacturing-pyramid-it-consulting-bengaluru-10-to-20-years-101126014921",
+  "score": 76,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-20 Yrs fits your 14 years; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+Remote",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "The ideal candidate should have a strong IT project/program management background, combined with a solid understanding of Data & Analytics platforms, cloud technologies, enterprise applications, and modern technology…",
+   "The individual will be responsible for managing end-to-end project delivery, leading cross-functional onsite/offshore teams, managing project financials, ensuring stakeholder alignment, and delivering projects within…",
+   "Project & Program Management Manage multiple technology projects from initiation, planning, execution, monitoring, and control through production deployment",
+   "Cross-functional Team Management Lead and coordinate distributed onsite/offshore teams across Development, QA, DevOps, Cloud, Infrastructure, Data Engineering, and Business functions",
+   "Technical & Data Project Delivery Manage technology initiatives involving Data & Analytics platforms, enterprise data solutions, cloud transformation, APIs, and microservices",
+   "Agile Delivery & Process Improvement Lead Agile ceremonies, sprint planning, reviews, retrospectives, and delivery governance",
+   "Experience in managing project budgets, financials, resources, risks, and delivery timelines"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "data",
+   "cloud",
+   "security",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-101126011288",
+  "source": "Naukri",
+  "title": "Scrum Master",
+  "company": "Virtusa",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-scrum-master-virtusa-hyderabad-10-to-15-years-101126011288",
+  "score": 66,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 10-15 Yrs fits your 14 years; overlaps on scrum, agile.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "Analyze project metrics to optimize workflow processes and improve overall efficiency",
+   "Job Requirements : . 10-15 years of experience in IT services & consulting industry Experience working on GCP projects or similar technologies is an added advantage"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "metrics",
+   "cloud"
+  ]
+ },
+ {
+  "id": "li-4489453445",
+  "source": "LinkedIn",
+  "title": "Program Manager, AI Data Ops",
+  "company": "AiDASH",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489453445",
+  "score": 62,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "Identify repetitive, manual workflows across annotation, QA, imagery processing and reporting, and drive their automation — via internal tooling, scripting, RPA, or AI-assisted workflows",
+   "Build and own the automation roadmap and drive it seamlessly across the team Program & project management",
+   "Run structured program governance (milestones, RAID logs, status cadence) across cross-functional initiatives that no single manager owns end-to-end",
+   "Bring discipline — timelines, ownership, dependencies — to all team initiatives Cost reduction",
+   "Run regular vendor performance reviews and own escalation/renewal/replacement decisions in partnership with managers. Cross-functional ownership & data ownership",
+   "Build dashboards/reports tracking throughput, accuracy, vendor performance, and cost efficiency; define KPIs that drive decisions on quality, capacity, and cost",
+   "6+ years of experience spanning program/project management, business operations, or management consulting — ideally with exposure to automation, Ops, vendor management and cost optimization"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "metrics",
+   "planning",
+   "ai",
+   "people",
+   "resourcing"
+  ]
+ },
+ {
   "id": "li-4487147956",
   "source": "LinkedIn",
   "title": "Data Services Delivery",
@@ -262,9 +557,23 @@
   "sector": "",
   "first_seen": "2026-11-10",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "ai"
+   "risk",
+   "metrics",
+   "planning",
+   "ai",
+   "people",
+   "resourcing"
+  ],
+  "jd_points": [
+   "Identify repetitive, manual workflows across annotation, QA, imagery processing and reporting, and drive their automation — via internal tooling, scripting, RPA, or AI-assisted workflows",
+   "Build and own the automation roadmap and drive it seamlessly across the team Program & project management",
+   "Run structured program governance (milestones, RAID logs, status cadence) across cross-functional initiatives that no single manager owns end-to-end",
+   "Bring discipline — timelines, ownership, dependencies — to all team initiatives Cost reduction",
+   "Run regular vendor performance reviews and own escalation/renewal/replacement decisions in partnership with managers. Cross-functional ownership & data ownership",
+   "Build dashboards/reports tracking throughput, accuracy, vendor performance, and cost efficiency; define KPIs that drive decisions on quality, capacity, and cost",
+   "6+ years of experience spanning program/project management, business operations, or management consulting — ideally with exposure to automation, Ops, vendor management and cost optimization"
   ]
  },
  {

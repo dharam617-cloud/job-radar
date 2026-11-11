@@ -1,5 +1,32 @@
 [
  {
+  "at": "2026-11-11T07:30:46+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 410,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 37,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 447,
+  "added": 7,
+  "not_gcc_dropped": 5,
+  "not_gcc_top": [
+   "Synectics APAC",
+   "Anblicks",
+   "AiDASH",
+   "Pyramid It Consulting",
+   "Virtusa"
+  ],
+  "jd_backfilled": 1
+ },
+ {
   "at": "2026-11-10T14:15:23+05:30",
   "sources": {
    "LinkedIn": {
