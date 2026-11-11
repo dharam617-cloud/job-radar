@@ -223,6 +223,87 @@
   ]
  },
  {
+  "id": "li-4488676170",
+  "source": "LinkedIn",
+  "title": "Director - Delivery Data & AI",
+  "company": "Thoughtworks",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "1 hour ago",
+  "url": "https://www.linkedin.com/jobs/view/4488676170",
+  "score": 75,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 30+ yrs, in line with your 14; overlaps on data, agentic.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "You will champion modern delivery methodologies, including the AI Software Delivery Lifecycle (AI-DLC) and agentic workflows, embedded deeply into the end-to-end program lifecycle",
+   "You will navigate complex, high-velocity, and high-risk commercial delivery structures, such as fixed-fee, outcome-based, and gain-share models",
+   "You will align closely with Go-To-Market (GTM) and sales organizations to ensure proposed solutions, team compositions, and commercial models mitigate execution risks prior to delivery",
+   "You will directly lead, mentor, and empower delivery leaders and senior technical talent, cultivating an inclusive, high-performance delivery culture within your portfolio",
+   "You will maintain full end-to-end operational accountability for portfolio health, governance, execution quality, and risk management",
+   "You have extensive experience in leading programs built around the AI Software Delivery Lifecycle (AI-DLC) and integrating agentic workflows across delivery pipelines",
+   "You have significant experience in people management, specifically in nurturing, developing, and inspiring senior technical and delivery management leaders"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "metrics",
+   "planning",
+   "ai",
+   "people"
+  ]
+ },
+ {
+  "id": "li-4489909027",
+  "source": "LinkedIn",
+  "title": "Director - Data and Insights Delivery [T500-27951]",
+  "company": "lululemon",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "3 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489909027",
+  "score": 72,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Retail & Consumer GCC; overlaps on data, analytics.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Retail & Consumer",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "Lead end-to-end delivery of prioritized enterprise and domain data products and insights use cases, ensuring all solutions leverage the enterprise data platform services, semantic models, and standard delivery…",
+   "Partner with Product Managers, technology platform owners, domain and business stakeholders to co-develop use-case roadmaps, delivery priorities, and value-realization milestones; serve as a trusted advisor to the…",
+   "Deliver insights by building standardized interfaces and self-serve capabilities including semantic views, auto-generated insights, and interactive/ conversational experiences enabled by AI",
+   "Use the semantic layer and business context to drive consistent definitions, KPIS, and metrics in all downstream reporting and analytics, serving consumption across Finance, Product, Merchandising, Supply Chain,…",
+   "Define and manage data product SLAs and quality standards, including observability, incident management, and continuous improvement of performance and usability",
+   "Build and lead domain-aligned, multi-disciplinary delivery teams, promoting strong collaboration between business, data, and engineering partners and fostering a culture of accountability, continuous improvement, and…",
+   "Strong background as a software engineer with hands-on experience in native implementation of cloud-based data platforms, data engineering pipelines and enterprise data products and services"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "transformation"
+  ]
+ },
+ {
   "id": "nk-101126011288",
   "source": "Naukri",
   "title": "Scrum Master",
@@ -292,6 +373,41 @@
    "ai",
    "people",
    "resourcing"
+  ]
+ },
+ {
+  "id": "li-4488671364",
+  "source": "LinkedIn",
+  "title": "Founding Delivery Lead - AI Training Data (Healthcare & LifeScience)",
+  "company": "Grayde.ai",
+  "location": "Greater Bengaluru Area",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "1 hour ago",
+  "url": "https://www.linkedin.com/jobs/view/4488671364",
+  "score": 62,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-11",
+  "jd_points": [
+   "6+ years running delivery or operations at an AI data, annotation, or managed services company in the healthcare/life sciences industry",
+   "Someone with excellent communication skills and high agency who is self-driven",
+   "Experience with stakeholder management and coordinating between different teams",
+   "Someone who has used AI tools actively to build processes and solve operational problems",
+   "Team management experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "ai"
   ]
  },
  {
