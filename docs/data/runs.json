@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-12T14:14:27+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 406,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 144,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 550,
+  "added": 3,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "MathCo",
+   "Search Advisers Services Guj",
+   "Iris Software"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-12T07:30:58+05:30",
   "sources": {
    "LinkedIn": {

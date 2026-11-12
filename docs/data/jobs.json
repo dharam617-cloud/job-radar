@@ -275,6 +275,78 @@
   ]
  },
  {
+  "id": "nk-121026917711",
+  "source": "Naukri",
+  "title": "Technical Project Manager",
+  "company": "Iris Software",
+  "location": "Noida",
+  "city": "Delhi NCR",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "Few Hours Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-iris-software-technologies-private-limited-noida-12-to-17-years-121026917711",
+  "score": 72,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on data, GenAI.",
+  "flags": [
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-12",
+  "jd_points": [],
+  "jd_status": "thin",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai"
+  ]
+ },
+ {
+  "id": "li-4479662532",
+  "source": "LinkedIn",
+  "title": "Delivery Unit Head- Pharma Analytics",
+  "company": "MathCo",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "1 hour ago",
+  "url": "https://www.linkedin.com/jobs/view/4479662532",
+  "score": 71,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 18+ yrs, in line with your 14; overlaps on data, analytics.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Leading client engagements, building strong relationships, and mentoring internal teams to transform business challenges into impactful analytics solutions",
+   "Translating business needs into actionable analytics, developing insights, and presenting recommendations to client stakeholders and leadership",
+   "Managing client accounts, including growth strategy, P&L oversight, resource planning, and handling escalations",
+   "Ensuring alignment between the client and internal teams by clearly communicating strategy, delivery plans, and proactively addressing potential risks",
+   "Proven ability to synthesize key insights and communicate the strategic \"so what\" and \"now what\" effectively to senior leadership",
+   "Proven track record in managing and leading client accounts, including P&L management, resource planning, and addressing escalations",
+   "Experience working on global projects and operating within a global delivery model, coordinating effectively across diverse teams and time zones"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "ai",
+   "data",
+   "people",
+   "resourcing"
+  ]
+ },
+ {
   "id": "li-4455783971",
   "source": "LinkedIn",
   "title": "Tech Infrastructure Program Manager, AWS Data Center Planning & Delivery",
@@ -304,6 +376,37 @@
   "jd_status": "ok",
   "themes": [
    "cloud"
+  ]
+ },
+ {
+  "id": "nk-221026023998",
+  "source": "Naukri",
+  "title": "Project Manager",
+  "company": "Search Advisers Services Guj",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "12-20 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-project-manager-search-advisers-services-guj-bengaluru-12-to-20-years-221026023998",
+  "score": 63,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-20 Yrs fits your 14 years; overlaps on SAFe, scrum, agile, data.",
+  "flags": [
+   "+SAFe",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "PMP,PMI-ACP,SAFe,Scrum Master,or PRINCE2 certifications would be an added advantage Experience in New Product Development (NPD),power systems,data centers,industrial automation,or embedded systems is preferred Strong…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum"
   ]
  },
  {
