@@ -1,5 +1,312 @@
 [
  {
+  "id": "nk-111126932216",
+  "source": "Naukri",
+  "title": "Release Train Engineer",
+  "company": "S&P Global Market Intelligence",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-release-train-engineer-s-p-capital-iq-india-pvt-ltd-hyderabad-10-to-15-years-111126932216",
+  "score": 97,
+  "family": "Release Train Engineer",
+  "why": "Release Train Engineer role at a BFSI GCC; 10-15 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Job Summary Grade Level (for internal use): 12 Our Technology Governance & Delivery Enablement team at S&P Dow Jones Indices drives operational excellence through Lean Portfolio Management and Agile ways of working…",
+   "We foster a collaborative culture focused on accelerating technology delivery while embedding innovative AI-enabled practices and Responsible AI governance",
+   "As a globally minded team, we value continuous learning, transparency, accountability, and high-performing cross-functional partnerships that deliver measurable business outcomes at scale",
+   "ART Leadership & Delivery Management: Facilitate core ART events, including PI Planning, ART Sync, System Demos, and Inspect & Adapt sessions, etc",
+   "ART Leadership & Delivery Management: Enable data-driven decision-making by integrating AI insights into Program Increment (PI) planning and execution",
+   "Knowledge Management & Collaboration: Enable faster onboarding and alignment via AI-curated documentation and knowledge repositories"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "planning",
+   "release",
+   "ai",
+   "transformation"
+  ]
+ },
+ {
+  "id": "nk-111126929245",
+  "source": "Naukri",
+  "title": "Scrum Master {Functional}",
+  "company": "S&P Global Market Intelligence",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "12-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-scrum-master-functional-s-p-capital-iq-india-pvt-ltd-hyderabad-12-to-15-years-111126929245",
+  "score": 80,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; 12-15 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Azure DevOps.",
+  "flags": [
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Proven track record of enabling teams to deliver prioritized business value efficiently with a focus on accelerated delivery,enhanced quality,measurable outcomes,and maximum ROI"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "li-4489942579",
+  "source": "LinkedIn",
+  "title": "Agile Coach",
+  "company": "Fidelity International",
+  "location": "Gurgaon, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489942579",
+  "score": 79,
+  "family": "Agile leadership",
+  "why": "Agile leadership role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "+SAFe",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Coach Scrum Masters, Product Owners, and teams on agile principles, frameworks, and scaled agile practices",
+   "Facilitate workshops, training sessions, and ceremonies to build agile capability and maturity",
+   "Support Agile Release Train (ART) launches and Quarterly Planning to enable scaled delivery",
+   "Regularly assess and report on agile maturity to inform coaching approaches and improvement plans",
+   "Proven experience as a Scrum Master or Agile Coach successfully facilitating agile adoption, team self-management and improved team performance",
+   "Have exposure and understanding of scaled agile approaches (SAFe, LeSS, Nexus, Scrum@Scale, etc)",
+   "Strong facilitation and influencing skills to drive alignment across teams"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "stakeholders",
+   "release",
+   "transformation"
+  ]
+ },
+ {
+  "id": "li-4489011552",
+  "source": "LinkedIn",
+  "title": "Scrum Master",
+  "company": "S&P Global",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489011552",
+  "score": 78,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Acting as a servant leader and coach to Agile teams, fostering self-organization, high-performing team dynamics, continuous flow, and relentless improvement. Facilitating team events and processes, supporting teams…",
+   "Educating Agile teams to maximize efficiencies and performance from Lean-Agile principles and practices to consistently improve Flow",
+   "Ability to eliminate obstacles and blockers to help teams deliver value for our customers, and to identify, mitigate, and escalate risks",
+   "Aptitude for nurturing self-organizing, high performing teams via servant leadership, individual coaching, and mentoring",
+   "Bachelor’s degree preferred in Business, Technology, or Operations. Certified SAFe Scrum Master, CSM, A-CSM, or equivalents",
+   "Total 4+ years of experience with a strong track record (2+ years) of Scrum Master experience for internal Products in high-growth environments, with experience in the SAFe framework highly preferred",
+   "Continuous Learning: Access a wealth of resources to grow your career and learn valuable new skills"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "metrics",
+   "people",
+   "transformation",
+   "resourcing",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "li-4488221426",
+  "source": "LinkedIn",
+  "title": "Program Manager - AI Native Operating Model Transformation",
+  "company": "Capgemini Invent",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4488221426",
+  "score": 75,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 10+ yrs, in line with your 14; overlaps on data, generative.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Facilitate leadership workshops to establish an AI-native operating model vision and prioritise opportunities based on business value, feasibility and risk",
+   "Design future operating models covering workflows, roles, capabilities, decision rights, governance and performance, including how people and AI work together",
+   "Mobilize and lead transformation programs across functions and geographies, managing scope, budgets, resources, quality and dependencies across process, people, data, AI and technology workstreams",
+   "Own delivery against scope, budget and milestones; confirm business ownership, AI service readiness, human oversight and benefit realization. Coordinate specialist assurance and resolve risks before scaling or…",
+   "Deliver agreed business outcomes across productivity, cost-to-serve, cycle time, service quality and user experience. Measure AI adoption, output quality, exception and human-intervention rates, control effectiveness…",
+   "Practical experience applying AI to business transformation, such as assessing opportunities, redesigning workflows or supporting implementation, with an understanding of the resulting changes to roles and ways of…",
+   "Strong consulting, facilitation and executive communication skills, with the ability to explain AI opportunities and limitations in business terms and work effectively with technology, data and risk specialists"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "security",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4489027326",
+  "source": "LinkedIn",
+  "title": "Scrum Master / Agile Delivery Lead",
+  "company": "Quest Global",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489027326",
+  "score": 73,
+  "family": "Agile leadership",
+  "why": "Agile leadership role; overlaps on scrum, agile, Jira, data.",
+  "flags": [
+   "Experience not stated",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Ensure sprint goals, commitments, and deliverables are clearly defined and tracked through completion",
+   "Define and manage project timelines, dependencies, deliverables, and critical paths",
+   "Maintain RAID logs (Risks, Assumptions, Issues, Dependencies) and ensure timely resolution and escalation",
+   "Create executive-level dashboards and presentations that provide transparency into delivery status, risks, quality metrics, dependencies, and progress against commitments",
+   "Support PI Planning, Quarterly Reviews, Steering Committee updates, and leadership forums",
+   "Facilitate timely decision-making and escalation where required",
+   "Own and maintain Jira dashboards, delivery metrics, sprint reports, and team performance indicators"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "tools"
+  ]
+ },
+ {
+  "id": "nk-111126932276",
+  "source": "Naukri",
+  "title": "Principal/Lead Consultant - Program Director",
+  "company": "Infosys",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "11-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-principal-lead-consultant-program-director-infosys-limited-bengaluru-11-to-20-years-111126932276",
+  "score": 73,
+  "family": "Program Manager",
+  "why": "Program Manager role; 11-20 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, Jira.",
+  "flags": [
+   "+SAFe",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "Should be able to collaborate and work across client teams,vendor,stakeholders etc",
+   "At least one recognized project management certification (e.g.,PMI-PMP,SAFe,PRINCE2,CAPM,CSM)",
+   "Proficiency in Microsoft Project,Power-point,Excel and PM Tools like Jira,Clarizen,Clarity,Change-point,Planview etc",
+   "Bachelor of Engineering Preferred Skills"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "stakeholders",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4455783971",
+  "source": "LinkedIn",
+  "title": "Tech Infrastructure Program Manager, AWS Data Center Planning & Delivery",
+  "company": "Amazon Web Services (AWS)",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4455783971",
+  "score": 70,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on SAFe, data, AWS.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-12",
+  "jd_points": [
+   "3+ years of technical infrastructure management experience",
+   "Knowledge of best practices and emerging technologies, related to infrastructure (i.e. network, data center, hardware, software) Preferred"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "cloud"
+  ]
+ },
+ {
   "id": "li-4478612065",
   "source": "LinkedIn",
   "title": "IND Scrum Master",

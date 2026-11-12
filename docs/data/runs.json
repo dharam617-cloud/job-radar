@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-12T07:30:58+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 401,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 118,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 519,
+  "added": 8,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "Quest Global",
+   "Capgemini Invent",
+   "Infosys"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-11T13:40:48+05:30",
   "sources": {
    "LinkedIn": {
