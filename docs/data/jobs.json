@@ -1,5 +1,546 @@
 [
  {
+  "id": "li-4490347989",
+  "source": "LinkedIn",
+  "title": "Assistant Vice President – SAFe Release Train Engineer (RTE) and Business Analyst",
+  "company": "MUFG",
+  "location": "Greater Bengaluru Area",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490347989",
+  "score": 95,
+  "family": "Release Train Engineer",
+  "why": "Release Train Engineer role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Serve as a Release Train Engineer (RTE) and support agile delivery by driving PI Planning and SAFe/Scrum ceremonies, managing cross-team dependencies and impediments, and ensuring execution transparency and realistic…",
+   "Partner with Product Owners on roadmaps, backlog, resources, risks, and governance using Jira, Confluence, and SharePoint",
+   "Serve as a scrum master for multiple Agile Release Trains associated with Data & Reporting Platforms to capture, track, and deliver Project and BAU work",
+   "Track and communicate ART execution metrics, program health, risks, dependencies, and outcomes. Drive adoption of Agile metrics, flow-based planning, value stream thinking, and continuous improvement practices",
+   "Apply appropriate project management disciplines, including risk and issue management, financial awareness, governance, stakeholder communication, and status reporting",
+   "Facilitate collaboration among product, business, architecture, data engineering, AI/ML, platform, security, risk, and control teams",
+   "Leverage AI tools for automated portfolio management, releases & deployments where possible. Identify opportunities for AI-driven solutions."
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "security",
+   "transformation",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4471916370",
+  "source": "LinkedIn",
+  "title": "SAFe Scrum Master",
+  "company": "S&P Global",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "14 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4471916370",
+  "score": 82,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Assessing the Scrum Maturity of the team and organization and coaching the team to higher levels of maturity, at a pace that is sustainable and comfortable for the team and organization",
+   "Providing all support to the team using servant leadership skills whenever possible, and leading by example",
+   "Leads team efforts in relentless improvement – Helps the team improve and take responsibility for their actions; facilitates the team retrospective What are we Looking For?",
+   "Knowledge of numerous well documented patterns and techniques for filling in the intentional gaps left in the Scrum approach (example: numerous Burndown techniques, numerous Retrospective formats, handling bugs, etc.)",
+   "Experience with some of commonly used tools – Azure DevOps, Confluence, MS Teams, SharePoint",
+   "SAFe Scrum Master (SSM) certification as an added advantage",
+   "Continuous Learning: Access a wealth of resources to grow your career and learn valuable new skills"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "metrics",
+   "release",
+   "cloud",
+   "transformation",
+   "resourcing",
+   "bfsi",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4489095995",
+  "source": "LinkedIn",
+  "title": "Engineering-Bengaluru-Vice President-Technical Program Manager",
+  "company": "Goldman Sachs",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489095995",
+  "score": 81,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on agile, data, machine learning.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Own the roadmap — work with engineering leads to define milestones, sequence dependencies, surface trade-offs, and keep the plan honest as priorities shift",
+   "Run the commitment book. Maintain a single, trusted view of every major commitment the organization has made — to divisions, to Engineering leadership, to Risk, to Audit, and to regulators — and drive them to…",
+   "Own the risk book of work. Track and drive remediation of technology risk, control, audit, and regulatory items across the estate; partner with Risk, Compliance, and Engineering leads to ensure obligations are met on…",
+   "Steward the financials. Support leadership on budget planning and forecasting, headcount and vendor spend, and cloud consumption and cost efficiency for the Lakehouse estate; build the reporting that lets leaders…",
+   "Go deep technically. Become a proficient user of the Legend platform; understand our data models, data APIs, connection patterns, and query workloads well enough to challenge assumptions, spot dependencies others…",
+   "Use data to run the business. Build and maintain the metrics that describe platform health, adoption, delivery throughput, cost, and user experience",
+   "Partner with AI initiatives. Help ensure new AI-driven capabilities are delivered in line with the firm's data governance and AI standards"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "metrics",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "security",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-121126503607",
+  "source": "Naukri",
+  "title": "Agile - DE-Delivery Lead",
+  "company": "EY",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-agile-de-delivery-lead-ernst-young-bengaluru-10-to-15-years-121126503607",
+  "score": 81,
+  "family": "Delivery Manager",
+  "why": "Delivery Manager role; 10-15 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on agile, data, AWS.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Bachelor s or Master s degree in Computer Science,Engineering,or related field. . 10+ years of experience in software development and delivery,with at least 4 years in a leadership role",
+   "Experience with CI / CD pipelines and DevOps practices",
+   "Experience with containerization (Docker,Kubernetes)"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "release",
+   "cloud"
+  ]
+ },
+ {
+  "id": "li-4490326533",
+  "source": "LinkedIn",
+  "title": "Senior Manager - Business Resiliency (Third-Party Resilience & Program Analytics)",
+  "company": "Marsh",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "13 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490326533",
+  "score": 80,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Collaborate with vendor management risk, procurement, and operational teams to prioritize and address resilience gaps",
+   "Manage and consolidate data from multiple sources (assessments, tests, incidents, vendor scorecards) to create cohesive program analytics",
+   "Create data-driven reports and presentations that communicate program health, risk exposure, and recommendations to leadership",
+   "Maintain assessment data, scoring systems, and tracking mechanisms for third-party resilience across the vendor portfolio",
+   "Collaborate with program stakeholders to define metrics, establish baselines, and set targets for continuous program improvement What makes you stand out?",
+   "Proficiency with data visualization and reporting tools (Tableau, Power BI, or similar platforms preferred)",
+   "Background in supply chain management or vendor risk management"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "data",
+   "cloud",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4490310216",
+  "source": "LinkedIn",
+  "title": "Senior Manager - Business Resiliency (Third-Party Resilience & Program Analytics)",
+  "company": "Marsh Agency",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "18 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490310216",
+  "score": 80,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Collaborate with vendor management risk, procurement, and operational teams to prioritize and address resilience gaps",
+   "Manage and consolidate data from multiple sources (assessments, tests, incidents, vendor scorecards) to create cohesive program analytics",
+   "Create data-driven reports and presentations that communicate program health, risk exposure, and recommendations to leadership",
+   "Maintain assessment data, scoring systems, and tracking mechanisms for third-party resilience across the vendor portfolio",
+   "Collaborate with program stakeholders to define metrics, establish baselines, and set targets for continuous program improvement What makes you stand out?",
+   "Proficiency with data visualization and reporting tools (Tableau, Power BI, or similar platforms preferred)",
+   "Background in supply chain management or vendor risk management"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "data",
+   "cloud",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-191026913578",
+  "source": "Naukri",
+  "title": "Gen AI Delivery Lead",
+  "company": "Capgemini",
+  "location": "Gurugram",
+  "city": "Delhi NCR",
+  "exp": "10-16 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-gen-ai-delivery-lead-capgemini-technology-services-india-limited-gurugram-10-to-16-years-191026913578",
+  "score": 75,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; 10-16 Yrs fits your 14 years; overlaps on agile, LLMs, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Bachelors degree in IT,Business or relevant business function or equivalent. . 15+ years of executive experience in IT,experience specifically in AI and Large Language Models (LLM). . 5+ years of direct people…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "ai"
+  ]
+ },
+ {
+  "id": "nk-131026037079",
+  "source": "Naukri",
+  "title": "Program Manager- Data & AI",
+  "company": "Prodapt Solutions",
+  "location": "Hybrid - Gurugram",
+  "city": "Delhi NCR",
+  "exp": "12-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-program-manager-data-ai-prodapt-solutions-gurugram-12-to-20-years-131026037079",
+  "score": 75,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; 12-20 Yrs fits your 14 years; overlaps on data, machine learning.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Bachelors degree in Engineering or Computer Science Has managed complex customer ecosystems with multiple vendors and stakeholders,preferably for US customers Candidate name:- Contact number - Email ID:- Skill:-…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "ai",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-121126027724",
+  "source": "Naukri",
+  "title": "Salesforce Project Manager",
+  "company": "Hexaware Technologies",
+  "location": "Hybrid - Ahmedabad, Chennai, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "12-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-salesforce-project-manager-hexaware-technologies-ahmedabad-chennai-bengaluru-12-to-15-years-121126027724",
+  "score": 74,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-15 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data.",
+  "flags": [
+   "+SAFe",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed",
+   "Specific tech stack"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Strong knowledge of Agile, Scrum and hybrid delivery methods, with the judgment to apply governance proportionate to delivery risk",
+   "Experience managing dependencies across application development, integrations, data migration, security, testing, infrastructure, vendors and operational support",
+   "Experience with release planning, environment coordination, UAT, defect management, deployment readiness and production stabilization",
+   "Ability to maintain integrated plans, RAID logs, decision records, change controls, status reports and executive-level communications",
+   "Excellent stakeholder management, facilitation, negotiation and escalation skills across business, engineering and leadership audiences",
+   "Experience with Azure DevOps, Jira, ServiceNow, portfolio reporting or equivalent enterprise delivery tools",
+   "Experience managing global teams, third-party vendors and work that requires architecture, security, risk or production-governance approvals"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "cloud",
+   "security",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4482469618",
+  "source": "LinkedIn",
+  "title": "Program Manager I, Last Mile Analytics & Quality (LMAQ)",
+  "company": "Amazon",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "11 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4482469618",
+  "score": 66,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on SAFe, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Own the Program, define and achieve KPIs; Drive performance improvement initiatives",
+   "Develop and monitor program metrics to identify potential issues in last mile deliveries",
+   "Lead initiatives to identify and eliminate root causes of defects in order to reduce defects and improve the delivery experience for Amazon customers",
+   "Communicate with stakeholders to share regular updates, resolve blockers and deliver programs/initiatives on time",
+   "2+ years of program or project management experience",
+   "Knowledge of Excel at an intermediate level (e.g., pivot tables & charts, multiple criteria lookups, nested logical/IF formulas, data cleansing, array formulas, etc.) Preferred"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "data"
+  ]
+ },
+ {
+  "id": "nk-141026929440",
+  "source": "Naukri",
+  "title": "Project Manager",
+  "company": "Iris Software",
+  "location": "Noida",
+  "city": "Delhi NCR",
+  "exp": "10-19 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-iris-software-technologies-private-limited-noida-10-to-19-years-141026929440",
+  "score": 63,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-19 Yrs fits your 14 years; overlaps on agile, data, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "The ideal candidate should have a sound understanding of the software development lifecycle,technology architectures,engineering practices,and modern delivery methodologies,with the ability to work closely with…"
+  ],
+  "jd_status": "ok",
+  "themes": []
+ },
+ {
+  "id": "nk-141026036632",
+  "source": "Naukri",
+  "title": "Oracle ERP Project Manager with PMP Certified",
+  "company": "OSI Digital",
+  "location": "Hyderabad, Chennai, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-20 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-oracle-erp-project-manager-with-pmp-certified-osi-digital-hyderabad-chennai-bengaluru-10-to-20-years-141026036632",
+  "score": 61,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-20 Yrs fits your 14 years; overlaps on scrum, agile, sprint, data.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed",
+   "Specific tech stack"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "Oracle ERP Project Manager Experience: 10+ Years Job Location: Hyderabad / Chennai / Bangalore Job Summary OSI Digital is looking for an experienced Oracle ERP Project Manager to lead and coordinate Oracle EBS and…",
+   "The ideal candidate will have strong project management expertise, Oracle ERP implementation experience, and excellent client and stakeholder management skills",
+   "Define project scope, schedules, deliverables, budgets, and resource plans",
+   "Drive architectural decisions and manage delivery risks to ensure project success",
+   "Lead Agile activities, including sprint planning and release planning",
+   "Required Skills 10+ years of overall IT experience, including 3+ years of project management experience in Oracle applications",
+   "Experience with Agile methodology, sprint planning, and release planning"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-121126502457",
+  "source": "Naukri",
+  "title": "Project Manager-(Country Rollout SPOC)",
+  "company": "Paraminfo",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "12-14 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-country-rollout-spoc-param-info-computer-services-pvt-ltd-hyderabad-12-to-14-years-121126502457",
+  "score": 61,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-14 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on data.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [
+   "The role will provide a consistent view of country readiness, milestones, dependencies, risks and sign-offs, enabling multiple country rollouts to progress in parallel with strong control, timely escalation and clear…",
+   "Support the IBG Lead in coordinating parallel country rollouts, resolving cross-country timeline conflicts and escalating material risks or blockers promptly",
+   "Prepare periodic status reports and dashboards for the IBG Lead and management, summarising progress, risks, decisions, dependencies and readiness across all active countries",
+   "Maintain disciplined action tracking and follow-through across stakeholders, escalating overdue or unresolved items that may affect scope, quality, compliance or go-live dates",
+   "Practical exposure to core banking transformation, technology implementation, data migration, reconciliation, UAT, cutover or go-live readiness",
+   "Working knowledge of RAID management, milestone planning, dependency tracking, governance reporting and readiness sign-offs",
+   "Strong stakeholder-management skills, with the ability to coordinate central and local teams and escalate issues clearly and constructively"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "cloud",
+   "security",
+   "transformation",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "nk-141026933771",
+  "source": "Naukri",
+  "title": "Project Manager - Infrastructure Advisory",
+  "company": "EY",
+  "location": "New Delhi",
+  "city": "Delhi NCR",
+  "exp": "13-18 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-infrastructure-advisory-ernst-young-llp-new-delhi-13-to-18-years-141026933771",
+  "score": 61,
+  "family": "Project Manager",
+  "why": "Project Manager role; 13-18 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on agile.",
+  "flags": [
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-13",
+  "jd_points": [],
+  "jd_status": "thin",
+  "themes": []
+ },
+ {
   "id": "nk-111126932216",
   "source": "Naukri",
   "title": "Release Train Engineer",
