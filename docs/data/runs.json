@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-14T07:30:43+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 423,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 72,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 495,
+  "added": 5,
+  "not_gcc_dropped": 2,
+  "not_gcc_top": [
+   "Synechron",
+   "Happiest Minds Technologies"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-13T14:07:51+05:30",
   "sources": {
    "LinkedIn": {

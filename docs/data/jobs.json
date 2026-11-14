@@ -1,5 +1,205 @@
 [
  {
+  "id": "li-4491011771",
+  "source": "LinkedIn",
+  "title": "Allianz - Scrum Master - Agile Methodologies",
+  "company": "Allianz PNB Life",
+  "location": "Pune City, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "1 hour ago",
+  "url": "https://www.linkedin.com/jobs/view/4491011771",
+  "score": 84,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, generative.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-14",
+  "jd_points": [
+   "Leads and coaches teams through Agile adoption",
+   "Mentors Agile Masters and aligns coaching and facilitation practices",
+   "Min. 3 years of work experience as a Scrum Master with hands-on experience on various frameworks like, Scrum, Kanban, SAFe",
+   "Experience in working with leadership and coaches on any transformational activity",
+   "Relevant work experience in Agile practices and roles, enterprise transformations, change management, and / or consultancy business - Experience in leading Agile transformations and managing complex projects",
+   "Experience in mentoring, coaching, collaboration, communication, facilitation, conflict management, team building",
+   "Advanced coaching, mentoring and facilitation skills across teams and leadership levels"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "release",
+   "people",
+   "transformation"
+  ]
+ },
+ {
+  "id": "li-4489551816",
+  "source": "LinkedIn",
+  "title": "IBM BPM Technology Leader – Enterprise Architecture, Cloud & Agile Delivery",
+  "company": "Synechron",
+  "location": "Greater Hyderabad Area",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489551816",
+  "score": 74,
+  "family": "Agile leadership",
+  "why": "Agile leadership role; overlaps on agile, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-14",
+  "jd_points": [
+   "Support project planning, delivery tracking, risk management, quality oversight, and stakeholder communication",
+   "Ability to evaluate cloud technology options against business, technical, security, delivery, and cost requirements",
+   "Frameworks for stakeholder management, risk tracking, delivery reporting, and continuous improvement",
+   "Ability to establish delivery plans, manage dependencies, monitor risks, and track project progress",
+   "Experience incorporating security requirements into delivery roadmaps and vendor assessments",
+   "IBM BPM experience: Experience supporting IBM BPM applications, enterprise workflow solutions, application maintenance, integration, delivery, or modernization is preferred",
+   "Industry preference: Experience in enterprise technology, workflow applications, digital transformation, cloud adoption, or application modernization is preferred"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "cloud",
+   "security",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4489597864",
+  "source": "LinkedIn",
+  "title": "Technical Program Manager III, AI & Data",
+  "company": "Expedia Group",
+  "location": "Gurgaon, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "7 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489597864",
+  "score": 71,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role at a Technology GCC; overlaps on SAFe, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-14",
+  "jd_points": [
+   "Lead strategic program delivery. Translate business objectives and product or technical requirements into integrated plans, milestones, workstreams, and execution priorities. Drive delivery end to end, adapting plans…",
+   "Manage risks, dependencies, and change: Identify issues and bottlenecks early, maintain clear ownership and mitigation plans, and escalate when needed. Track cross-team dependencies and critical paths, frame…",
+   "Build trusted partnerships: Develop strong working relationships with stakeholders who have varied perspectives. Communicate technical and business concepts clearly to delivery teams, partners, senior leaders, and…",
+   "You have 5+ years of experience leading technical programs with cross-functional dependencies in platform, infrastructure, data, analytics, or similarly complex engineering environments",
+   "You have experience planning and delivering moderately complex programs across multiple teams, including managing timelines, dependencies, risks, milestones, and execution reporting",
+   "Practical experience applying AI-assisted program or engineering tools, or AI/ML concepts, to improve product capabilities, delivery workflows, risk management, or business outcomes",
+   "Experience supporting data governance or management capabilities such as metadata, lineage, access control, certification, or data quality"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "security"
+  ]
+ },
+ {
+  "id": "li-4453477061",
+  "source": "LinkedIn",
+  "title": "Cloud AI/Agentic Native Delivery - Director",
+  "company": "PwC Acceleration Center India",
+  "location": "Bengaluru East, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4453477061",
+  "score": 69,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Professional services (captive) GCC; overlaps on agentic, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Professional services (captive)",
+  "first_seen": "2026-11-14",
+  "jd_points": [
+   "Proven experience defining and governing end-to-end solution architectures for large, complex modernization and transformation programmes, spanning legacy remediation, re-architecture and modern application engineering",
+   "Demonstrable experience with AI-native, agentic program delivery (Claude preferred) — embedding agentic development practices, AIassisted engineering and reusable agent patterns into the delivery lifecycle",
+   "Minimum Education Required Certification(s) Required Certification(s) Preferred Confidential — PwC internal role description",
+   "Proven delivery leadership credentials with direct accountability for complex, multi-year programmes covering scope, commercials, estimates, schedules, quality, risks, dependencies, stakeholder management and…",
+   "Hands-on experience leading large programmes from strategy and solutioning through mobilization, implementation, modernization, production deployment, cutover, stabilization and transition"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "transformation"
+  ]
+ },
+ {
+  "id": "nk-131126503719",
+  "source": "Naukri",
+  "title": "PROJECT MANAGER - Project Management",
+  "company": "Happiest Minds Technologies",
+  "location": "Noida",
+  "city": "Delhi NCR",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-project-management-happiest-minds-technologies-pvt-ltd-noida-12-to-17-years-131126503719",
+  "score": 66,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-17 Yrs fits your 14 years; overlaps on SAFe, scrum, agile.",
+  "flags": [
+   "+SAFe",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-14",
+  "jd_points": [
+   "Preferred Qualifications CSM / PSM / SAFe Scrum Master certification PMP / PRINCE2 certification is an advantage The ideal candidate should be hands-on,proactive,and comfortable working with cross-functional…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum"
+  ]
+ },
+ {
   "id": "li-4490347989",
   "source": "LinkedIn",
   "title": "Assistant Vice President – SAFe Release Train Engineer (RTE) and Business Analyst",
