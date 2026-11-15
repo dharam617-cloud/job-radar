@@ -1,5 +1,199 @@
 [
  {
+  "id": "li-4481920067",
+  "source": "LinkedIn",
+  "title": "Delivery AI Product Analyst",
+  "company": "Boston Consulting Group (BCG)",
+  "location": "Gurgaon, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4481920067",
+  "score": 84,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Professional services (captive) GCC; overlaps on scrum, agile, Confluence, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Professional services (captive)",
+  "first_seen": "2026-11-15",
+  "jd_points": [
+   "Keep feature lists, user guides and release notes current, and update stakeholders on progress and milestones Product Delivery",
+   "Convert case learnings into proprietary assets and input for the roadmap AI-Native ways of working",
+   "Set up and maintain the team’s AI harness, including a product knowledge base that captures context, personas, business rules and past decisions, plus connectors to Azure DevOps, Confluence and SharePoint",
+   "Convert routine product owner work (backlog refinement, story writing and edge-case testing, sprint review prep, stakeholder updates) into repeatable AI workflows with defined inputs and a standard output format",
+   "Coach clients and case teams on building AI dashboards and structuring outputs data through prompts",
+   "Hands-on experience with LLMs and AI tools such as ChatGPT, Claude or Copilot, including prompt engineering, skill building, and agentic workflow design",
+   "Experience communicating with and influencing senior stakeholders across global teams, and the judgment to know when to escalate"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "transformation",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4490317567",
+  "source": "LinkedIn",
+  "title": "Director, Operational Analytics and Delivery",
+  "company": "Amgen",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490317567",
+  "score": 82,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Healthcare & Pharma GCC; asks 17+ yrs, in line with your 14; overlaps on agile, data, analytics.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Healthcare & Pharma",
+  "first_seen": "2026-11-15",
+  "jd_points": [
+   "Establish and lead the India-based Operational Analytics Delivery organization, including the operating model, governance and disciplines, and ways of working",
+   "Own the end-to-end delivery of the Operational Analytics Delivery products and solutions supporting global Operations, ensuring products and solutions are delivered with quality, speed, and scalability",
+   "Enable transparent portfolio reporting that covers Operational Analytics Delivery progress, risks, mitigations, and business impact / outcomes. Build a Product-Oriented Analytics Organization that Drives Business Value",
+   "Partner with business stakeholders to identify analytics opportunities, deliver clear business insights and actions, promote data-driven decision-making, and define analytics products’ adoption, business value, and…",
+   "Doctorate degree, master’s degree or bachelor’s degree with 17+ years of clinical development, clinical data management, OR Master's degree and 8 years of analytics, technology, data, or related experience",
+   "AND 4 years of experience directly managing people and / or leadership experience leading teams, programs, or significant portfolios with directing resource allocation",
+   "Strong knowledge of modern analytics architectures, product-oriented delivery models, data platforms, business intelligence, visualization technologies, and agile ways of working"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-141126013143",
+  "source": "Naukri",
+  "title": "Scrum Master",
+  "company": "Canviza Services Delhi",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-20 Yrs",
+  "salary": "90 Lacs-1.5 Cr PA",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-scrum-master-canviza-services-delhi-bengaluru-10-to-20-years-141126013143",
+  "score": 70,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 10-20 Yrs fits your 14 years; overlaps on scrum, agile, sprint.",
+  "flags": [],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-15",
+  "jd_points": [
+   "Roles and Responsibilities Facilitate scrum ceremonies such as daily stand-ups, sprint planning, reviews, and retrospectives",
+   "Remove impediments or guide teams to do so to achieve product backlog items",
+   "Coach teams on agile principles, practices, and values"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk"
+  ]
+ },
+ {
+  "id": "li-4481699278",
+  "source": "LinkedIn",
+  "title": "Associate Manager, Data Delivery & Dashboard",
+  "company": "Research Partnership",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4481699278",
+  "score": 69,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-15",
+  "jd_points": [
+   "Maintain the pipeline for the project data process flow (this includes receival of data into in-hosue Tool, through the data processing stage into the storage mart, through the python utilities into required outputs)",
+   "Manage the storage mart and data warehouse",
+   "Experience in Building interactive, user-friendly dashboards",
+   "Experience with data warehouses (Snowflake, Azure Synapse, Redshift, etc.)",
+   "Understanding and building of ETL/ELT pipelines",
+   "Cloud platform expertise (AWS, Azure, GCP), and building ETL/ELT pipelines is a plus",
+   "Experience in version control system. Ideal profile"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "metrics",
+   "data",
+   "cloud",
+   "security"
+  ]
+ },
+ {
+  "id": "li-4482882437",
+  "source": "LinkedIn",
+  "title": "Associate Manager, Data Delivery & Dashboard",
+  "company": "Inizio Ignite",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "16 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4482882437",
+  "score": 69,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-15",
+  "jd_points": [
+   "Maintain the pipeline for the project data process flow (this includes receival of data into in-hosue Tool, through the data processing stage into the storage mart, through the python utilities into required outputs)",
+   "Manage the storage mart and data warehouse",
+   "Experience in Building interactive, user-friendly dashboards",
+   "Experience with data warehouses (Snowflake, Azure Synapse, Redshift, etc.)",
+   "Understanding and building of ETL/ELT pipelines",
+   "Cloud platform expertise (AWS, Azure, GCP), and building ETL/ELT pipelines is a plus",
+   "Experience in version control system. Ideal profile"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "metrics",
+   "data",
+   "cloud",
+   "security"
+  ]
+ },
+ {
   "id": "li-4491011771",
   "source": "LinkedIn",
   "title": "Allianz - Scrum Master - Agile Methodologies",

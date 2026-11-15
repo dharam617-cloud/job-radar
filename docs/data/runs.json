@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-15T07:30:10+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 377,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 27,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 404,
+  "added": 5,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "Research Partnership",
+   "Inizio Ignite",
+   "Canviza Services Delhi"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-14T13:25:09+05:30",
   "sources": {
    "LinkedIn": {
