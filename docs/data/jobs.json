@@ -1,5 +1,48 @@
 [
  {
+  "id": "li-4483334492",
+  "source": "LinkedIn",
+  "title": "Scrum Master",
+  "company": "Franklin Templeton",
+  "location": "Greater Hyderabad Area",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4483334492",
+  "score": 86,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, AI.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-16",
+  "jd_points": [
+   "You will identify, manage, and escalate delivery risks",
+   "You will coach teams on agile ways of working",
+   "5+ years of experience in Scrum, agile delivery, or project coordination",
+   "Scrum certification such as Certified ScrumMaster, Professional Scrum Master, or SAFe is preferred",
+   "Experience with Jira, Confluence, and delivery management tools",
+   "Ability to manage backlogs, dependencies, and delivery metrics",
+   "Understanding of risk management and continuous improvement practices"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "metrics",
+   "transformation",
+   "tools"
+  ]
+ },
+ {
   "id": "li-4481920067",
   "source": "LinkedIn",
   "title": "Delivery AI Product Analyst",
