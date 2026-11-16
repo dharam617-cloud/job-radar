@@ -1,5 +1,145 @@
 [
  {
+  "id": "li-4490256611",
+  "source": "LinkedIn",
+  "title": "Manager - AI Delivery",
+  "company": "SiriusAI",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "3 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490256611",
+  "score": 94,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, agile, Jira, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-16",
+  "jd_points": [
+   "Own day-to-day delivery of one or more AI projects, from requirements and design through build, testing, deployment and hypercare",
+   "Run the delivery cadence: sprint planning, stand-ups, demos, retrospectives, milestone tracking, status reporting and RAID management",
+   "Track scope, estimates, effort, budget and utilisation; manage change requests and escalate risks to leadership and clients early",
+   "5+ years of experience in technology, data or analytics delivery, including at least 2–3 years managing AI/ML, Agentic AI or advanced analytics projects",
+   "Clear, structured communication and stakeholder management skills, with the ability to explain technical progress and risks in business terms",
+   "Delivery experience with financial services clients in banking, fintech, payments, risk, fraud, compliance or wealth management",
+   "Certifications such as PMP, PRINCE2, CSM/SAFe or cloud AI certifications"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "ai",
+   "data",
+   "cloud",
+   "security",
+   "resourcing",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "li-4490270255",
+  "source": "LinkedIn",
+  "title": "Director / Associate Director - Agentic AI & Tech Delivery",
+  "company": "SiriusAI",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "3 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490270255",
+  "score": 92,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; asks 12+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on agile, data, analytics.",
+  "flags": [
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-16",
+  "jd_points": [
+   "Own end-to-end delivery of agentic AI and technology programs, from discovery and architecture through build, integration, testing, deployment and hypercare",
+   "Lead delivery of the full solution stack: AI agents and orchestration, RAG and knowledge layers, data pipelines, APIs and integrations, cloud infrastructure and user-facing applications",
+   "Partner with client technology, security and risk teams on platform choices, identity and access, data residency, vendor and model risk, and production readiness",
+   "Run a consistent delivery model across engagements, covering Agile cadence, milestone tracking, dependency management, status reporting and RAID management",
+   "Own delivery economics including scope, estimates, staffing mix, budget, utilisation and margin; surface risks early and keep clients and leadership informed",
+   "12+ years of experience in technology delivery, including at least 5 years leading data platform programs. Associate Director: 8+ years, including at least 3–4 years leading AI or data platform programs",
+   "Hands-on delivery experience with GenAI or agentic AI solutions in production, including agent orchestration frameworks, LLM platforms and evaluation practices"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "ai",
+   "data",
+   "cloud",
+   "security",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4490262511",
+  "source": "LinkedIn",
+  "title": "Associate Director - AI Foundation Model Delivery",
+  "company": "SiriusAI",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "2 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490262511",
+  "score": 87,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-16",
+  "jd_points": [
+   "Own end-to-end delivery of foundation model programs, from use-case framing and model selection through data preparation, adaptation, evaluation, deployment and ongoing monitoring",
+   "Lead model selection and build-vs-buy decisions across commercial and open-weight models, balancing accuracy, latency, cost, data residency and regulatory constraints",
+   "Take models into production with sound AIOps: versioning, reproducibility, deployment pipelines, inference optimisation (quantisation, distillation, batching, caching) and cost controls",
+   "Own delivery economics for foundation model work, including scope, estimates, GPU and compute budgets, staffing plans, utilisation and margin",
+   "Lead, mentor and grow a team of AI/ML engineers and data scientists; build training paths in foundation model techniques and FS domain knowledge",
+   "Experience with cloud AI and GPU platforms (AWS SageMaker/Bedrock, Azure ML/Azure OpenAI, Google Vertex AI, Databricks) and AIOps tooling",
+   "Delivery experience with financial services clients in areas such as risk, fraud, compliance, credit, customer servicing or research"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "planning",
+   "release",
+   "ai",
+   "data",
+   "cloud",
+   "security",
+   "people",
+   "resourcing",
+   "bfsi"
+  ]
+ },
+ {
   "id": "li-4483334492",
   "source": "LinkedIn",
   "title": "Scrum Master",
@@ -40,6 +180,76 @@
    "metrics",
    "transformation",
    "tools"
+  ]
+ },
+ {
+  "id": "li-4490262217",
+  "source": "LinkedIn",
+  "title": "Program Manager, Audit AI Ops",
+  "company": "Coupang",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "4 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490262217",
+  "score": 73,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-16",
+  "jd_points": [
+   "7+ years of relevant experience",
+   "Experience leading cross-functional programs",
+   "Experience building operational mechanisms or analytical frameworks",
+   "Excellent communication and stakeholder management capabilities",
+   "AI product, automation, or workflow experience",
+   "SQL, Python, or advanced analytics skills",
+   "Product and Engineering partnership experience. Details to consider"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "metrics",
+   "ai",
+   "data",
+   "security"
+  ]
+ },
+ {
+  "id": "nk-161126007021",
+  "source": "Naukri",
+  "title": "Scrum master with Pega",
+  "company": "Capgemini",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "9-14 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-scrum-master-with-pega-capgemini-hyderabad-9-to-14-years-161126007021",
+  "score": 70,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 9-14 Yrs fits your 14 years; overlaps on SAFe, scrum, agile.",
+  "flags": [
+   "+SAFe",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-16",
+  "jd_points": [
+   "PEGA Certified Lead System Architect (CLSA) or Certified Senior System Architect (CSSA) Certified Scrum Master (CSM),PSM,SAFe Agilist,or equivalent Agile certification Required Skills Preferred Qualifications We are…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum"
   ]
  },
  {
