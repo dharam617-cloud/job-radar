@@ -1,5 +1,53 @@
 [
  {
+  "id": "li-4489735845",
+  "source": "LinkedIn",
+  "title": "AI Program & Governance Specialist",
+  "company": "Nokia",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "19 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4489735845",
+  "score": 100,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; asks 12+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, data, generative.",
+  "flags": [
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-17",
+  "jd_points": [
+   "Develops and maintains project plans, milestones, dependencies, schedules, and resource requirements",
+   "Tracks delivery progress, KPIs, risks, issues, decisions, actions, and business outcomes",
+   "Manages governance practices and Facilitates reviews, steering committees, approvals, and status reporting",
+   "Identifies delivery, governance, and compliance concerns and drives escalation and continuous improvement",
+   "Working knowledge of governance, compliance, change management, generative AI, AI agents, responsible AI, and Microsoft 365 project and reporting tools. It would be nice if you also had",
+   "Advanced proficiency with Microsoft Project, Power BI, Excel, PowerPoint, SharePoint, Teams, Jira, Confluence or Azure DevOps",
+   "Continuous learning – technical certifications, mentoring programs, coaching, and digital learning platforms"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "security",
+   "people",
+   "transformation",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
   "id": "nk-161126019694",
   "source": "Naukri",
   "title": "Data & AI Delivery Lead",
@@ -94,6 +142,46 @@
   ]
  },
  {
+  "id": "nk-171126909380",
+  "source": "Naukri",
+  "title": "Project Manager-Business Consulting Risk-TMT-CNS-RISK-DIGITAL RISK",
+  "company": "EY",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "Few Hours Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-business-consulting-risk-tmt-cns-risk-digital-risk-ernst-young-llp-bengaluru-10-to-15-years-171126909380",
+  "score": 66,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-15 Yrs fits your 14 years; overlaps on scrum, agile, Jira, data.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-17",
+  "jd_points": [
+   "We also enable the pursuit of M&A strategies that systematically create value, reduce risk and transform TMT companies into powerhouses that will lead the technology revolution of the future building a better working…",
+   "Your key responsibilities Technical Excellence Demonstrated expertise in IT project management, including planning, tracking, and delivering technology initiatives with defined timelines, milestones, and dependencies",
+   "Hands-on experience with Agile and Scrum delivery, including facilitating sprint ceremonies, delivery reviews, and backlog prioritization",
+   "Strong command of project governance and RAID management, with the ability to track risks, issues, assumptions, and dependencies and drive mitigation actions",
+   "Proficient in coordinating UAT and test activities alongside cross-functional business and technology teams during application migrations and implementations",
+   "Skilled in building project dashboards and KPI reports using tools such as Power BI, Jira, MS Project, or ServiceNow to provide clear, data-driven delivery visibility",
+   "To qualify for the role you must have Bachelor of Technology in Computer Science Bachelor of Commerce Bachelor of Business Administration Bachelor of Computer Applications Experience Project Management (6+ years)…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "metrics",
+   "planning",
+   "cloud",
+   "tools"
+  ]
+ },
+ {
   "id": "li-4490668246",
   "source": "LinkedIn",
   "title": "AI Automation & Analytics Program Manager",
@@ -117,10 +205,25 @@
   "sector": "Technology",
   "first_seen": "2026-11-17",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
    "ai",
-   "data"
+   "data",
+   "people",
+   "transformation",
+   "resourcing"
+  ],
+  "jd_points": [
+   "Manages AI, Automation, and Analytics programs involving one or more functions and Project teams",
+   "Communicates progress, escalations, and issue analysis to leadership and stakeholders",
+   "Tracks progress against established plan and makes decisions to alter or update schedule and resource allocation to meet",
+   "Ensures adherence to budgets and established product roadmaps and schedules",
+   "Leads and provides guidance and mentoring to less-experienced staff members. What You Need To Bring Education and Experience",
+   "Typically, 4-6 years of experience in program management with digital transformation OR AI Automation & Analytics experience",
+   "Ability to create and manage program schedules, budgets, and resource allocation plans"
   ]
  },
  {
@@ -147,9 +250,26 @@
   "sector": "",
   "first_seen": "2026-11-17",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "ai"
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "transformation",
+   "tools"
+  ],
+  "jd_points": [
+   "Lead governance, planning, and delivery tracking for multiple Agentic AI initiatives",
+   "Manage project timelines, risks, dependencies, and stakeholder coordination",
+   "Prepare portfolio dashboards and executive updates for senior leadership",
+   "Support responsible AI governance, adoption tracking, and continuous improvement. What we are looking for",
+   "Hands-on experience building at least one AI agent or agentic workflow is essential",
+   "Familiarity with Agile delivery tools such as Jira or Azure DevOps. Why join Vjal",
+   "Gain exposure to senior leadership and enterprise AI transformation"
   ]
  },
  {
@@ -228,9 +348,9 @@
   "flags": [
    "Experience not stated",
    "+BFSI",
-   "Outside first-preference cities",
    "Pay not disclosed",
-   "JD not read yet"
+   "JD not read yet",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "BFSI",
@@ -256,9 +376,9 @@
   "flags": [
    "Experience not stated",
    "+BFSI",
-   "Outside first-preference cities",
    "Pay not disclosed",
-   "JD not read yet"
+   "JD not read yet",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "BFSI",
@@ -314,8 +434,8 @@
   "why": "Delivery Manager role at a BFSI GCC; 8-21 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work.",
   "flags": [
    "+BFSI",
-   "Outside first-preference cities",
-   "Pay not disclosed"
+   "Pay not disclosed",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "BFSI",
@@ -324,6 +444,35 @@
   "jd_status": "thin",
   "themes": [
    "security"
+  ]
+ },
+ {
+  "id": "nk-171126015692",
+  "source": "Naukri",
+  "title": "AI Project Manager",
+  "company": "ACL Digital",
+  "location": "Hybrid - Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-16 Yrs",
+  "salary": "",
+  "posted": "Few Hours Ago",
+  "url": "https://www.naukri.com/job-listings-ai-project-manager-acl-digital-bengaluru-10-to-16-years-171126015692",
+  "score": 63,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-16 Yrs fits your 14 years; overlaps on data, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-17",
+  "jd_points": [
+   "Project Management: Manage technical project delivery"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "ai"
   ]
  },
  {

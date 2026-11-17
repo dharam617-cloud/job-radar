@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-17T15:09:52+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 404,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 109,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 513,
+  "added": 3,
+  "not_gcc_dropped": 2,
+  "not_gcc_top": [
+   "ACL Digital",
+   "EY"
+  ],
+  "jd_backfilled": 2
+ },
+ {
   "at": "2026-11-17T07:30:57+05:30",
   "sources": {
    "LinkedIn": {
