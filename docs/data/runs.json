@@ -1,5 +1,36 @@
 [
  {
+  "at": "2026-11-17T07:30:57+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 367,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 88,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 455,
+  "added": 15,
+  "not_gcc_dropped": 9,
+  "not_gcc_top": [
+   "Deloitte",
+   "Pranathi Software Services Pvt. Ltd",
+   "Vjal Institute",
+   "Celersoft",
+   "Vitelglobal Communications",
+   "OSI Digital",
+   "Delphi Consulting",
+   "Innovaccer",
+   "EY"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-16T13:57:01+05:30",
   "sources": {
    "LinkedIn": {
