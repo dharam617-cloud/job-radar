@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-18T07:30:47+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 376,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 69,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 445,
+  "added": 8,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "upGrad",
+   "Codevian Technologies",
+   "Kalpavruksh Systems"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-17T15:09:52+05:30",
   "sources": {
    "LinkedIn": {

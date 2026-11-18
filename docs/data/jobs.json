@@ -1,5 +1,337 @@
 [
  {
+  "id": "li-4491442509",
+  "source": "LinkedIn",
+  "title": "Technical Delivery Lead (Java / Big Data and AI)",
+  "company": "Citi",
+  "location": "Pune Division, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "2 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4491442509",
+  "score": 92,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a BFSI GCC; asks 10+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, Jira, Confluence, data, machine learning.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed",
+   "Specific tech stack"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "Delivery Governance & Quality: Establish and enforce architecture review boards, code quality metrics, non-functional requirement (NFR) verifications, robust test coverage, and production readiness frameworks",
+   "Stakeholder Collaboration: Partner closely with Business, Compliance, Internal Audit, Risk, and Operations partners to translate intricate global regulatory mandates into robust, scalable engineering solutions",
+   "Mentorship & Team Enablement: Lead, coach, and elevate high-performing engineering pods; foster continuous learning and an engineering excellence culture",
+   "Agentic Systems & Frameworks: Practical experience implementing multi-agent workflows using LangChain, LangGraph, CrewAI, AutoGen, or custom orchestration engines",
+   "DevOps & Tooling: Expertise in modern CI/CD tooling, Git/Bitbucket workflows, Jira/Confluence delivery tracking, SonarQube, and automated testing frameworks",
+   "Relevant professional certifications in Cloud (AWS Certified Solutions Architect), Kubernetes (CKA), or AI/ML",
+   "Strategic Delivery Leadership: Ability to navigate complex delivery dependencies, manage delivery risk, and execute against critical milestones"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "security",
+   "people",
+   "tools"
+  ]
+ },
+ {
+  "id": "nk-171126032140",
+  "source": "Naukri",
+  "title": "Technical Program Manager",
+  "company": "Kalpavruksh Systems",
+  "location": "Hybrid - Hyderabad, Pune, Mumbai (All Areas)",
+  "city": "Hyderabad",
+  "exp": "10-18 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-program-manager-kalpavruksh-systems-private-limited-hyderabad-pune-mumbai-all-areas-10-to-18-years-171126032140",
+  "score": 91,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 10-18 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, agile, sprint, data, AI.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "TPM (Technical Program Manager ) Job Description We are seeking a Technical Program Manager (TPM) to serve as a shared delivery resource across multiple client engagements",
+   "In this role, you will bring domain architecture awareness and technical depth to program management - coordinating cross-functional delivery teams, managing complex multi-workstream programs, and ensuring data, AI,…",
+   "You will support engagements across all our served industries and must bring the versatility to understand industry-specific delivery constraints, compliance timelines, and stakeholder dynamics",
+   "Familiarity with at least one of our core capability areas - Intelligent Operations & Supply Networks, Workforce Intelligence & Enterprise Productivity, Revenue, Customer & Growth Intelligence, Workforce, Risk &…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "ai",
+   "security",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4491723375",
+  "source": "LinkedIn",
+  "title": "Scrum Master - Corporate Bank Technology - DAC, AVP",
+  "company": "Deutsche Bank",
+  "location": "Pune Division, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "7 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4491723375",
+  "score": 83,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, AI.",
+  "flags": [
+   "Experience not stated",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "Position Overview Job Title: Scrum Master - Corporate Bank Technology - DAC Corporate Title: Assistant Vice President Location: Pune, India Role Description Deutsche Bank Technology in Pune",
+   "You help the Squad to continuously improve the effectiveness of their incremental delivery of value to clients and stakeholders. Furthermore, you identify inefficiencies in the Squad operation and remove impediments…",
+   "You live and promote an agile mindset and culture within the Tribe. You act as a coach and facilitator within the team for self-organization and cross-functionality – and deliver agile training within your Squads on…",
+   "You create physiologically safe environments for the squads, enabling them to their own outcomes, surface dependencies & risk and escalate in a timely manner",
+   "You have several years of experience working in agile environments and applying agile methodologies and frameworks in practice (Scrum, Kanban), ideally in a scaled agile environment",
+   "You have strong motivational skills and practical experience in coaching others to continuously improve in their job",
+   "You are a very good team player and are used to collaborate with stakeholders of diverse backgrounds and seniority levels. Furthermore, you can communicate fluently in English Proven ability to leverage AI tools to…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "ai",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "li-4491788055",
+  "source": "LinkedIn",
+  "title": "Sr. Scrum master",
+  "company": "Aon",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "1 hour ago",
+  "url": "https://www.linkedin.com/jobs/view/4491788055",
+  "score": 82,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "Azure DevOps (ADO) Delivery Management",
+   "Use ADO analytics and reporting to track key delivery metrics (velocity, throughput, cycle time, burndown/burnup, defect trends) and share insights with stakeholders",
+   "Support Product Owners in backlog refinement, prioritization and release planning, ensuring clear acceptance criteria and Definition of Ready/Done",
+   "Facilitate sprint planning so teams commit realistically based on capacity, historical performance and dependencies",
+   "Provide transparent, data-driven status using ADO dashboards and regular updates to Product Owners, delivery managers and other stakeholders",
+   "Proficiency in Azure DevOps (ADO), including",
+   "Ability to interpret and use delivery metrics (velocity, cycle time, WIP, defects, predictability) to support coaching and decision-making without misusing them as targets"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "data",
+   "cloud",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4490474471",
+  "source": "LinkedIn",
+  "title": "Scrum Master - Technical Delivery Lead",
+  "company": "Barclays",
+  "location": "Pune Division, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4490474471",
+  "score": 79,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, data.",
+  "flags": [
+   "Experience not stated",
+   "+Data",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "Own and drive end-to-end delivery across SAM8 and TRACE, from planning and estimation through development, testing, implementation and production readiness",
+   "Use delivery data, JIRA metrics, sprint trends, velocity, blockers and dependency information to identify delivery risks and improve team performance",
+   "Embed appropriate risk, control, governance, and production-readiness considerations throughout the delivery lifecycle rather than treating them as final-stage activities",
+   "Agile & Technical Delivery Leadership-Strong experience leading complex Agile technology delivery, including planning, execution, dependency management and implementation",
+   "Experience using JIRA for backlog management, sprint tracking, dependency management and delivery reporting",
+   "Management of the delivery, resource allocation and improvement of complex technical project capabilities across the bank using Agile/Scrum methodologies for planning, stand-ups, demos, retrospectives and the…",
+   "To contribute or set strategy, drive requirements and make recommendations for change. Plan resources, budgets, and policies; manage and maintain policies/ processes; deliver continuous improvements and escalate…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "metrics",
+   "planning",
+   "release",
+   "security",
+   "transformation",
+   "resourcing",
+   "bfsi",
+   "tools"
+  ]
+ },
+ {
+  "id": "nk-171126504989",
+  "source": "Naukri",
+  "title": "Senior Data Project Manager",
+  "company": "Codevian Technologies",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-senior-data-project-manager-codevian-technologies-pvt-ltd-bengaluru-10-to-15-years-171126504989",
+  "score": 70,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-15 Yrs fits your 14 years; overlaps on agile, data, data governance.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "Lead and manage multiple complex projects in the areas of Data Integration, Data Quality, MDM, and Cloud Migrations",
+   "Ensure projects are delivered on time, within budget, and meeting quality standards",
+   "Drive governance, risk management, and issue resolution",
+   "Mentor and guide project managers and technical leads",
+   "Data Integration, Data Quality, MDM, and Cloud Migrations",
+   "Proven track record of delivering enterprise-scale data projects (Cloud, MDM, Data Quality, Governance)",
+   "Excellent skills in stakeholder management, client communication, and team leadership"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "data",
+   "cloud",
+   "people",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-171126504971",
+  "source": "Naukri",
+  "title": "APJ Technical Infrastructure Program Manager",
+  "company": "Hewlett Packard Enterprise",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-apj-technical-infrastructure-program-manager-hewlett-packard-enterprise-bengaluru-10-to-15-years-171126504971",
+  "score": 63,
+  "family": "Program Manager",
+  "why": "Program Manager role at a Technology GCC; 10-15 Yrs fits your 14 years; overlaps on data.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "We help companies connect,protect,analyze,and act on their data and applications wherever they live,from edge to cloud,so they can turn insights into outcomes at the speed required to thrive in today s complex world…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "cloud"
+  ]
+ },
+ {
+  "id": "li-4491146233",
+  "source": "LinkedIn",
+  "title": "AI Program Manager",
+  "company": "upGrad",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4491146233",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-18",
+  "jd_points": [
+   "Market Research, Competitive intelligence gathering through AI and surfacing actionable insights faster",
+   "Identify the business problems that can be solved by using AI and build prototypes to demonstrate success",
+   "Identity the next big opportunities upGrad can unlock and built prototypes, gtm strategy for them. What you should bring",
+   "Builder Mindset: Business curiosity and first-principles thinking, one who is AI first and thinks of solving the problems in an AI native manner",
+   "0–3 years of experience. Fresh graduates are welcome with strong self-directed projects, research or practical builds",
+   "Confident use of Claude, ChatGPT and AI-assisted coding",
+   "Ability to build with Python or JavaScript, work with basic SQL and spreadsheets, and connect APIs. A simple working app or dashboard is strong evidence; a specific framework is not required"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "ai",
+   "security"
+  ]
+ },
+ {
   "id": "li-4489735845",
   "source": "LinkedIn",
   "title": "AI Program & Governance Specialist",
