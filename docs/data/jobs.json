@@ -108,8 +108,8 @@
   "flags": [
    "+AI",
    "+BFSI",
-   "Outside first-preference cities",
-   "Pay not disclosed"
+   "Pay not disclosed",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "BFSI",
@@ -162,6 +162,34 @@
   "themes": [
    "ai",
    "cloud"
+  ]
+ },
+ {
+  "id": "li-4492290442",
+  "source": "LinkedIn",
+  "title": "Senior Technical Customer Program Manager - AI Datacenter",
+  "company": "NVIDIA",
+  "location": "Pune Division, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "2 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4492290442",
+  "score": 63,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on data, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Outside first-preference cities",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-19",
+  "themes": [
+   "ai"
   ]
  },
  {
