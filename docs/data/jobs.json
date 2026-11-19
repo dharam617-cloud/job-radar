@@ -1,5 +1,202 @@
 [
  {
+  "id": "li-4491836663",
+  "source": "LinkedIn",
+  "title": "Senior Manager, ITP Program Management, AI and Agentic Platform",
+  "company": "Micron Technology",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4491836663",
+  "score": 93,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; asks 12+ yrs, in line with your 14; overlaps on SAFe, agile, Jira, data, LLMs.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-19",
+  "jd_points": [
+   "Own end-to-end delivery of the ITP agentic AI platform roadmap, from intake and scoping through production and scaled adoption",
+   "Make delivery predictable through clear milestones, dependency and risk management, and executive decision points",
+   "Track support tickets and service health in Jira, and use operational insights to drive continuous improvement in the platform",
+   "Build Jira-based dashboards and OKR scorecards that give leadership a single, trusted view of adoption and value delivered",
+   "Experience building Jira dashboards, OKR scorecards, or executive reporting for adoption and productivity metrics",
+   "Familiarity with Agile at scale, Confluence, and portfolio management; PMP, SAFe, or equivalent certification is a plus",
+   "Predictable delivery of AI and agentic platform roadmap milestones"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "transformation",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4491854874",
+  "source": "LinkedIn",
+  "title": "Senior Delivery Lead, Data Analytics",
+  "company": "Stryker",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4491854874",
+  "score": 81,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Healthcare & Pharma GCC; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "Lower experience ask",
+   "+SAFe",
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Healthcare & Pharma",
+  "first_seen": "2026-11-19",
+  "jd_points": [
+   "Lead the end-to-end delivery of Data & Analytics initiatives, ensuring successful planning, execution, testing, deployment, and adoption of business solutions",
+   "Manage project schedules, dependencies, risks, and resource allocation to deliver high-quality outcomes on time and within scope",
+   "Drive Agile delivery practices, including backlog management, sprint planning, progress tracking, and continuous improvement of our solutions",
+   "8+ years of experience in Technical Delivery Management, Program Management, or Agile Delivery within Data & Analytics environments",
+   "Strong expertise in leading Agile teams, including backlog management, sprint planning, release management, and delivery governance",
+   "Experience managing delivery schedules, dependencies, risks, resource planning, and stakeholder expectations across complex initiatives",
+   "Proficiency with Agile delivery and work management tools such as Azure DevOps, Jira, or similar platforms, along with data-driven delivery metrics and continuous improvement practices"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "data",
+   "cloud",
+   "transformation",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4475839877",
+  "source": "LinkedIn",
+  "title": "Senior Vice President, Agile Coach",
+  "company": "BNY",
+  "location": "Pune/Pimpri-Chinchwad Area",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "10 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4475839877",
+  "score": 80,
+  "family": "Agile leadership",
+  "why": "Agile leadership role at a BFSI GCC; asks 15+ yrs, in line with your 14; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, AI.",
+  "flags": [
+   "+AI",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-19",
+  "jd_points": [
+   "We’re seeking a future team member for the role of Senior Vice President, Agile Coach to join our ENTERPRISE TRANSFORMATION OFFICE team. This role is located in Pune. In this role, you’ll make an impact in the…",
+   "act as servant leaders to the team, to support and evangelize best practices for agile and ways of working",
+   "Possesses experience and expertise acquired by supporting a business line with expertise in cross functional team leadership",
+   "Proposes and facilitates implementation of long-term strategy roadmap across the entire line of business before the pilot project",
+   "Serves in a mentoring or coaching role only and is not part of the scrum team by providing objective guidance, without personal or political considerations",
+   "Certification in agile methodologies (e.g., Certified ScrumMaster, PMI-ACP) is preferred",
+   "Strong leadership and communication skills to effectively guide and support Scrum teams"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "planning",
+   "people",
+   "transformation"
+  ]
+ },
+ {
+  "id": "nk-181126506133",
+  "source": "Naukri",
+  "title": "Delivery Lead / Development Manager - Amazon Connect & AWS",
+  "company": "Independent Recruitment Consultant (freelancer)",
+  "location": "Remote",
+  "city": "Remote",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-delivery-lead-development-manager-amazon-connect-aws-dyne-remote-10-to-15-years-181126506133",
+  "score": 66,
+  "family": "Delivery Manager",
+  "why": "Delivery Manager role; 10-15 Yrs fits your 14 years; overlaps on AI, AWS.",
+  "flags": [
+   "+AI",
+   "+Remote",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-19",
+  "jd_points": [
+   "Required Skills Must be authorized to work in the USA (no sponsorship available)",
+   "The focus is migrating legacy platforms to Amazon Connect and embedding AI-driven capabilities into the customer experience. 10+ years in software engineering or technical delivery leadership",
+   "Strong hands-on experience with Amazon Connect and AWS cloud services"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "ai",
+   "cloud"
+  ]
+ },
+ {
+  "id": "nk-181126505001",
+  "source": "Naukri",
+  "title": "Technical project Manager (TPM)",
+  "company": "Clifyx Technology",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-tpm-clifyx-technology-bengaluru-10-to-15-years-181126505001",
+  "score": 61,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 10-15 Yrs fits your 14 years; overlaps on scrum.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-19",
+  "jd_points": [
+   "Minimum 10+ years of total professional experience",
+   "Must have end-to-end Project Management experience",
+   "Must have operated as a dedicated Project Manager / TPM,not in an ad-hoc or backup capacity",
+   "Overall Project Management Experience Role Expectations"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "planning",
+   "resourcing"
+  ]
+ },
+ {
   "id": "li-4491442509",
   "source": "LinkedIn",
   "title": "Technical Delivery Lead (Java / Big Data and AI)",
