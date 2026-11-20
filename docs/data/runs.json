@@ -1,5 +1,33 @@
 [
  {
+  "at": "2026-11-20T07:30:18+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 403,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 82,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 485,
+  "added": 8,
+  "not_gcc_dropped": 6,
+  "not_gcc_top": [
+   "Evalueserve",
+   "Globex Digital",
+   "Brillio",
+   "Birlasoft",
+   "Diverse Lynx",
+   "Bristlecone"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-19T14:47:38+05:30",
   "sources": {
    "LinkedIn": {

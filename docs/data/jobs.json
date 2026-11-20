@@ -1,5 +1,267 @@
 [
  {
+  "id": "nk-191126504924",
+  "source": "Naukri",
+  "title": "Program Manager",
+  "company": "Birlasoft",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-program-manager-birlasoft-india-limited-hyderabad-12-to-17-years-191126504924",
+  "score": 85,
+  "family": "Program Manager",
+  "why": "Program Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, AI.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "jd_points": [
+   "This role requires operating at both the strategic and execution levels , ensuring effective portfolio governance while supporting Project Managers with the resources, guidance, and escalation mechanisms needed to…",
+   "Required Experience Mandatory 12+ years of experience in IT or software delivery. 5+ years of experience in Program Management or Project Management roles",
+   "Solid understanding of Agile, Scrum, and other delivery methodologies",
+   "Experience in resource planning and capacity management",
+   "Experience in BFSI, Financial Services, or other regulated industries",
+   "Experience leading application modernization or cloud transformation programs",
+   "Experience driving AI-enabled delivery transformation initiatives"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "planning",
+   "ai",
+   "cloud",
+   "security",
+   "transformation",
+   "resourcing",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "nk-191126500449",
+  "source": "Naukri",
+  "title": "Project Manager",
+  "company": "Brillio",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-brillio-2-bengaluru-10-to-15-years-191126500449",
+  "score": 74,
+  "family": "Project Manager",
+  "why": "Project Manager role; 10-15 Yrs fits your 14 years; overlaps on scrum, agile, Jira, data, analytics.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "jd_points": [
+   "Drive end-to-end project delivery for service management initiatives, ensuring alignment with organizational objectives and ITIL best practices 2",
+   "Develop, execute, and monitor project plans, schedules, budgets, and resource allocations to achieve successful outcomes 3",
+   "Manage stakeholder relationships by facilitating effective communication and ensuring satisfaction throughout the project lifecycle 4",
+   "Ensure compliance with ITIL frameworks and organizational standards, continuously improving service delivery processes and performance metrics 7",
+   "Enable rapid, reliable, and scalable service delivery by fostering a culture of high velocity IT in dynamic environments Required Skills: 1",
+   "Proficient in risk management and change control within IT service projects Preferred Skills: 1",
+   "PMP or PRINCE2 certification We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "security",
+   "people",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-191126502416",
+  "source": "Naukri",
+  "title": "Project Manager Gen AI",
+  "company": "Diverse Lynx",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-gen-ai-diverse-lynx-hyderabad-12-to-17-years-191126502416",
+  "score": 70,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-17 Yrs fits your 14 years; overlaps on agile, data, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "jd_points": [
+   "Strong technical project / program management experience Experience delivering cloud-based AI / technology projects"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "ai",
+   "cloud"
+  ]
+ },
+ {
+  "id": "nk-191126503528",
+  "source": "Naukri",
+  "title": "Technical Program Manager",
+  "company": "Bristlecone",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-program-manager-bristlecone-bengaluru-10-to-15-years-191126503528",
+  "score": 69,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 10-15 Yrs fits your 14 years; overlaps on SAFe, AWS.",
+  "flags": [
+   "+SAFe",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "jd_points": [
+   "AWS Certified Cloud Practitioner or working toward AWS certification",
+   "PMP or SAFe Agilist certification",
+   "Proven experience managing cross-functional programs involving engineering,product,and stakeholders"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "stakeholders",
+   "cloud"
+  ]
+ },
+ {
+  "id": "li-4491602353",
+  "source": "LinkedIn",
+  "title": "Data & AI Delivery Governance Lead",
+  "company": "Evalueserve",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4491602353",
+  "score": 65,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "jd_tries": 1,
+  "jd_status": "unavailable",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
+  "id": "nk-191126501008",
+  "source": "Naukri",
+  "title": "Program Manager, Cybersecurity, Metrics and Reporting",
+  "company": "Solventum",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-program-manager-cybersecurity-metrics-and-reporting-solventum-bengaluru-10-to-15-years-191126501008",
+  "score": 63,
+  "family": "Program Manager",
+  "why": "Program Manager role at a Healthcare & Pharma GCC; 10-15 Yrs fits your 14 years; overlaps on data, analytics.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Healthcare & Pharma",
+  "first_seen": "2026-11-20",
+  "jd_points": [
+   "Bachelors degree in Cybersecurity,Information Systems,Data Analytics,Computer Science,Engineering,Business Analytics,or a related discipline,or equivalent practical experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "metrics",
+   "data",
+   "security"
+  ]
+ },
+ {
+  "id": "li-4492406714",
+  "source": "LinkedIn",
+  "title": "Technical Program Management - Vice President",
+  "company": "Morgan Stanley",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4492406714",
+  "score": 61,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work.",
+  "flags": [
+   "Experience not stated",
+   "+BFSI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-20",
+  "themes": []
+ },
+ {
+  "id": "li-4492170463",
+  "source": "LinkedIn",
+  "title": "AI Delivery Lead",
+  "company": "Globex Digital",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "10 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4492170463",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
   "id": "li-4491836663",
   "source": "LinkedIn",
   "title": "Senior Manager, ITP Program Management, AI and Agentic Platform",
@@ -181,9 +443,9 @@
   "flags": [
    "Experience not stated",
    "+AI",
-   "Outside first-preference cities",
    "Pay not disclosed",
-   "JD not read yet"
+   "JD not read yet",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "Technology",
