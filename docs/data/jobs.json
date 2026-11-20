@@ -210,6 +210,65 @@
   ]
  },
  {
+  "id": "nk-201126014614",
+  "source": "Naukri",
+  "title": "Senior Program Manager",
+  "company": "Arcelormittal Global Capability Center Private Limited",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "12-15 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-senior-program-manager-arcelormittal-global-capability-center-private-limited-hyderabad-12-to-15-years-201126014614",
+  "score": 63,
+  "family": "Program Manager",
+  "why": "Program Manager role at a GCC; 12-15 Yrs fits your 14 years; overlaps on SAFe, agile.",
+  "flags": [
+   "+SAFe",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "Other GCC",
+  "first_seen": "2026-11-20",
+  "jd_points": [
+   "Bachelors degree in Computer Science,Engineering,Technology or a related discipline Preferred Certifications ITIL 4 / ServiceNow certification SAFe / Agile certification Qualifications & Experience 1215 years of…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe"
+  ]
+ },
+ {
+  "id": "nk-201126018942",
+  "source": "Naukri",
+  "title": "Senior Technical Project Manager",
+  "company": "CES Information Technologies & BPS",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "13-21 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-senior-technical-project-manager-ces-information-technologies-bps-hyderabad-13-to-21-years-201126018942",
+  "score": 62,
+  "family": "Project Manager",
+  "why": "Project Manager role; 13-21 Yrs fits your 14 years; overlaps on machine learning, generative.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "jd_points": [
+   "Technical Manager Python & AI",
+   "Employment Type: Full Time,Permanent AI & Machine Learning Integration: Practical experience integrating AI / ML solutions,Generative AI APIs (e.g.,OpenAI,Anthropic,open-source LLMs),or RAG (Retrieval-Augmented…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
   "id": "li-4492406714",
   "source": "LinkedIn",
   "title": "Technical Program Management - Vice President",
@@ -259,6 +318,32 @@
   "first_seen": "2026-11-20",
   "themes": [
    "ai"
+  ]
+ },
+ {
+  "id": "li-4492552568",
+  "source": "LinkedIn",
+  "title": "Scrum Master – Oil & Gas or Agile Scrum Master (Energy & Petroleum)",
+  "company": "Cenergy International Services",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "25 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4492552568",
+  "score": 60,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; overlaps on scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-20",
+  "themes": [
+   "scrum"
   ]
  },
  {
