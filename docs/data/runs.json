@@ -1,5 +1,31 @@
 [
  {
+  "at": "2026-11-21T07:30:28+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 386,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 84,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 470,
+  "added": 6,
+  "not_gcc_dropped": 4,
+  "not_gcc_top": [
+   "NTT DATA North America",
+   "Infosys",
+   "Embitel Technologies",
+   "EY"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-20T14:29:05+05:30",
   "sources": {
    "LinkedIn": {
@@ -1294,22 +1320,5 @@
   },
   "scanned": 186,
   "added": 1
- },
- {
-  "at": "2026-10-25T12:00:49+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 222,
-    "error": null
-   },
-   "Naukri": {
-    "ok": false,
-    "fetched": 0,
-    "error": "no results (the site may be blocking cloud servers)"
-   }
-  },
-  "scanned": 222,
-  "added": 4
  }
 ]

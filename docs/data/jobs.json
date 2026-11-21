@@ -1,5 +1,192 @@
 [
  {
+  "id": "nk-201126502592",
+  "source": "Naukri",
+  "title": "DE-Delivery Lead",
+  "company": "EY",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-de-delivery-lead-ernst-young-bengaluru-10-to-15-years-201126502592",
+  "score": 77,
+  "family": "Delivery Manager",
+  "why": "Delivery Manager role; 10-15 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on agile, data.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-21",
+  "jd_points": [
+   "Bachelor s or Master s degree in Computer Science,Engineering,or related field. . 10+ years of experience in software development and delivery,with at least 4 years in a leadership role",
+   "Join us and build an exceptional experience for yourself,and a better working world for all Experience with CI / CD pipelines and DevOps practices"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "release"
+  ]
+ },
+ {
+  "id": "nk-201126501663",
+  "source": "Naukri",
+  "title": "Project Manager/Program manager",
+  "company": "Embitel Technologies",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "9-14 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-project-manager-program-manager-embitel-bengaluru-9-to-14-years-201126501663",
+  "score": 74,
+  "family": "Program Manager",
+  "why": "Program Manager role; 9-14 Yrs fits your 14 years; overlaps on scrum, agile, Jira.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-21",
+  "jd_points": [
+   "Job Summary We are looking for an experienced Project Manager to lead end-to-end delivery of digital solutions projects",
+   "The candidate will be responsible for project planning, execution, stakeholder management, resource allocation, and ensuring timely delivery within agreed scope, budget, and quality standards",
+   "Manage end-to-end project delivery, including planning, scheduling, execution, monitoring, and closure",
+   "Coordinate with cross-functional teams, including development, QA, DevOps, architecture, and business stakeholders",
+   "Manage client expectations, project milestones, deliverables, and regular status reporting",
+   "Proficiency in project management tools such as Jira, MS Project, or Azure DevOps",
+   "Excellent communication, leadership, stakeholder management, and problem-solving skills"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "stakeholders",
+   "planning",
+   "release",
+   "cloud",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "nk-201126921639",
+  "source": "Naukri",
+  "title": "Senior Scrum Master",
+  "company": "Infosys",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-senior-scrum-master-infosys-limited-hyderabad-10-to-15-years-201126921639",
+  "score": 73,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 10-15 Yrs fits your 14 years; overlaps on scrum, agile, kanban.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-21",
+  "jd_points": [
+   "Excellent stakeholder management,communication,and facilitation skills",
+   "Foundational->Development Methodology->Scrum",
+   "Service Line Seeking a Senior Scrum Master (10+ years of experience) to lead Agile delivery across complex,enterprise-scale initiatives Digital Experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "stakeholders"
+  ]
+ },
+ {
+  "id": "li-4492946669",
+  "source": "LinkedIn",
+  "title": "Agile Scrum Master_4+Yrs_Pune",
+  "company": "Global Payments Inc.",
+  "location": "Pune/Pimpri-Chinchwad Area",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4492946669",
+  "score": 68,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-21",
+  "jd_tries": 1,
+  "jd_status": "unavailable",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "li-4492940936",
+  "source": "LinkedIn",
+  "title": "Agile Delivery Manager - Finance AI Strategy & Innovation",
+  "company": "NTT DATA North America",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4492940936",
+  "score": 66,
+  "family": "Agile leadership",
+  "why": "Agile leadership role; overlaps on agile, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-21",
+  "jd_tries": 1,
+  "jd_status": "unavailable",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
+  "id": "li-4467734350",
+  "source": "LinkedIn",
+  "title": "Program Manager/Principal Manager, Program Management (GAI Tech)",
+  "company": "D. E. Shaw India Private Limited",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4467734350",
+  "score": 63,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work.",
+  "flags": [
+   "Experience not stated",
+   "+BFSI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-21",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
   "id": "nk-191126504924",
   "source": "Naukri",
   "title": "Program Manager",
