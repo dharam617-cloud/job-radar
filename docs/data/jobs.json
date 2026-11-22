@@ -1,5 +1,94 @@
 [
  {
+  "id": "nk-211126503169",
+  "source": "Naukri",
+  "title": "Scrum Master",
+  "company": "Valuelabs",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "5-14 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-scrum-master-valuelabs-hyderabad-5-to-14-years-211126503169",
+  "score": 73,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; 5-14 Yrs fits your 14 years; overlaps on scrum, agile, Jira.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-22",
+  "jd_points": [
+   "Facilitate daily stand-up meetings, sprint planning sessions, and retrospectives to ensure team alignment and continuous improvement",
+   "Develop and manage project plans, resource allocation, and risk mitigation strategies",
+   "Coach team members on Agile principles, best practices, and process improvements",
+   "Ensure effective communication among team members, stakeholders, and clients"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-211126504024",
+  "source": "Naukri",
+  "title": "Senior Staff Technical Program Manager",
+  "company": "JioHotstar",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-senior-staff-technical-program-manager-disney-hotstar-bengaluru-12-to-17-years-211126504024",
+  "score": 65,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 12-17 Yrs fits your 14 years; overlaps on agile, analytics.",
+  "flags": [
+   "+Data",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-22",
+  "jd_points": [
+   "A Bachelors / Master s degree with a minimum of 12 years of experience,including 3 to 4 years in a Program Management role within the consumer technology sector"
+  ],
+  "jd_status": "ok",
+  "themes": []
+ },
+ {
+  "id": "li-4473745721",
+  "source": "LinkedIn",
+  "title": "Director - AI Delivery Product",
+  "company": "Firstsource",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "17 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4473745721",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-22",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
   "id": "nk-201126502592",
   "source": "Naukri",
   "title": "DE-Delivery Lead",
