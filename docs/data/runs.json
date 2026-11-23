@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-23T15:06:57+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 359,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 36,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 395,
+  "added": 2,
+  "not_gcc_dropped": 2,
+  "not_gcc_top": [
+   "Kore.ai",
+   "ERM Placement Services"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-23T07:30:20+05:30",
   "sources": {
    "LinkedIn": {
@@ -1318,23 +1342,5 @@
   },
   "scanned": 227,
   "added": 1
- },
- {
-  "at": "2026-10-26T07:28:10+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 194,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 13,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 207,
-  "added": 0
  }
 ]

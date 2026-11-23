@@ -1,5 +1,48 @@
 [
  {
+  "id": "li-4492367917",
+  "source": "LinkedIn",
+  "title": "Technical Project Lead / Manager – Enterprise AI & Software Delivery",
+  "company": "Kore.ai",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "3 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4492367917",
+  "score": 81,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on scrum, agile, sprint, data, generative.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-23",
+  "jd_points": [
+   "Develop project plans, delivery milestones, resource plans, timelines and execution strategies",
+   "Build customer confidence through effective communication, proactive problem-solving and predictable execution. 3.",
+   "Act as the bridge between customer-facing teams and engineering teams to ensure alignment and accountability. 4.",
+   "Drive Agile ceremonies, sprint planning, backlog tracking and delivery reviews",
+   "Drive UAT, production readiness, release planning and go-live execution",
+   "Maintain project plans, status reports, risk registers and relevant delivery documentation",
+   "Strong experience in customer-facing roles involving requirement discussions, project reviews, escalations and stakeholder management"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "resourcing"
+  ]
+ },
+ {
   "id": "nk-161026026680",
   "source": "Naukri",
   "title": "Delivery Leadership - QE",
@@ -39,6 +82,45 @@
    "security",
    "people",
    "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-231126012851",
+  "source": "Naukri",
+  "title": "Technical Project Manager with BFSI experience",
+  "company": "ERM Placement Services",
+  "location": "Hybrid - Pune, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-with-bfsi-experience-erm-placement-services-pune-bengaluru-12-to-17-years-231126012851",
+  "score": 61,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on data.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-23",
+  "jd_points": [
+   "Required Qualifications Bachelor's degree in Computer Science, Engineering, Information Technology, Finance, Business, or a related field. 12+ years of project or program management experience, including at least 3…",
+   "Demonstrated ownership of project budgets, forecasts, actuals, financial variances, resource costs, and vendor commercials",
+   "Proven experience developing funding requests, investment proposals, business cases, or annual and quarterly budget submissions",
+   "Strong understanding of the software development lifecycle (SDLC), release management, change management, and production readiness",
+   "Proven ability to proactively manage complex risks, issues, dependencies, and executive escalations",
+   "Excellent executive stakeholder management, written communication, presentation, negotiation, and influencing skills",
+   "Ability to manage multiple initiatives simultaneously and operate independently in a fast-paced, matrixed environment"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "release",
    "resourcing"
   ]
  },
