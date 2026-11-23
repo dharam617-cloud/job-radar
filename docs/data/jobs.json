@@ -1,5 +1,48 @@
 [
  {
+  "id": "nk-161026026680",
+  "source": "Naukri",
+  "title": "Delivery Leadership - QE",
+  "company": "Valuelabs",
+  "location": "Hybrid - Gurugram",
+  "city": "Delhi NCR",
+  "exp": "12-22 Yrs",
+  "salary": "",
+  "posted": "Today",
+  "url": "https://www.naukri.com/job-listings-delivery-leadership-qe-valuelabs-gurugram-12-to-22-years-161026026680",
+  "score": 71,
+  "family": "Delivery Manager",
+  "why": "Delivery Manager role; 12-22 Yrs fits your 14 years; overlaps on sprint, agentic, AI.",
+  "flags": [
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-23",
+  "jd_points": [
+   "The Offshore Delivery Manager (ODM) will provide senior delivery leadership for a large-scale, enterprise engagement, operating within a complex ecosystem, with multiple vendor partners, and captive / internal client…",
+   "Each ODM is responsible for onshore and offshore resources across multiple portfolios and is accountable for delivery excellence, governance, people leadership, automation maturity, and AI-led transformation",
+   "This role requires a seasoned, delivery leader who can operate effectively in a multi-vendor, matrixed environment, mentor leaders, manage executive stakeholders, and drive outcomes at scale",
+   "Governance & Compliance Lead daily/weekly operational sync-ups with client and internal senior managers to align on priorities, risks, and dependencies",
+   "Prepare and circulate weekly portfolio health reports covering delivery status, risks, and key metrics",
+   "Ensure compliance with defined QE standards, intake workflows, governance processes, and time tracking mechanisms",
+   "Ensure alignment across internal teams, captive units, and multiple vendor partners on scope, timelines, and deliverables"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "security",
+   "people",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
   "id": "nk-211126503169",
   "source": "Naukri",
   "title": "Scrum Master",
@@ -214,9 +257,24 @@
   "sector": "BFSI",
   "first_seen": "2026-11-21",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "scrum"
+   "safe",
+   "scrum",
+   "risk",
+   "metrics",
+   "release",
+   "people",
+   "transformation"
+  ],
+  "jd_points": [
+   "The Scrum Master is a servant leader who enables our Agile teams to self-organize, self-manage, and deliver via effective Lean-Agile practices",
+   "You will be educating and mentoring the teams in Scrum, Kanban, SAFe and other Agile methods ensuring that the agreed upon Agile process is being followed to deliver value to customers",
+   "You will be responsible for facilitating the team-level events and assisting the Release Train Engineer (RTE) for train-level events",
+   "Removing impediments and foster an environment for high-performing team dynamics, continuous flow, and relentless improvement",
+   "The Scrum Master also helps the team coordinate with other teams on the Agile Release Train (ART) and communicates status to management as needed",
+   "Strong mentoring, coaching and leadership skills",
+   "Good working experience in an Agile environment, preferably in SAFe, Scrum and/or Kanban"
   ]
  },
  {
@@ -243,9 +301,25 @@
   "sector": "",
   "first_seen": "2026-11-21",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "ai"
+   "scrum",
+   "risk",
+   "stakeholders",
+   "planning",
+   "ai",
+   "transformation",
+   "resourcing",
+   "tools"
+  ],
+  "jd_points": [
+   "Lead end-to-end delivery of Finance AI initiatives from discovery through implementation, adoption, and outcome tracking",
+   "Translate ambiguous business and AI opportunities into prioritized roadmaps, backlogs, milestones, and delivery plans",
+   "Manage scope, capacity, risks, dependencies, blockers, and trade-offs, providing clear recommendations and escalation where required",
+   "Drive stakeholder alignment across Finance, Product, Data, Architecture, Engineering, Risk, and external partners",
+   "Maintain delivery transparency through Jira, reporting dashboards, governance updates, and outcome tracking",
+   "Proven experience leading complex technology, transformation, data, or AI-enabled delivery programs with measurable business outcomes",
+   "Expertise in delivery management, including planning, governance, risk management, dependency management, and execution"
   ]
  },
  {
@@ -449,9 +523,23 @@
   "sector": "",
   "first_seen": "2026-11-20",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "ai"
+   "metrics",
+   "release",
+   "ai",
+   "cloud",
+   "security",
+   "resourcing"
+  ],
+  "jd_points": [
+   "Design landing zones and multi-project foundations: organization policies, resource hierarchy, Shared VPC, VPC Service Controls, Cloud NAT, Cloud Interconnect and hybrid connectivity",
+   "Implement cross-cloud connectivity, identity federation, centralised logging and cost reporting, and security posture tooling such as Security Command Center, AWS Security Hub / GuardDuty and Microsoft Defender for Cloud",
+   "Design and standardise CI/CD pipelines using Cloud Build, GitHub Actions, GitLab CI, Jenkins or Argo CD, with progressive delivery (canary, blue-green)",
+   "GDPR / India DPDP.Track and optimise cloud spend through budgets, committed use discounts",
+   "into senior or lead roles while staying hands-on in day-to-day engineering.5+ years of hands-on, production experience on GCP, including GKE, Cloud Run",
+   "Data and AI platform experience on GCP: BigQuery, Dataflow, Dataproc, Composer, Gemini platform and MLOps pipelines",
+   "Proven track record designing for high availability, disaster recovery and performance on cloud at scale.Strong knowledge of cloud security, IAM design, network security, secrets management and DevSecOps practices"
   ]
  },
  {

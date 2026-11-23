@@ -1,5 +1,28 @@
 [
  {
+  "at": "2026-11-23T07:30:20+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 356,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 17,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 373,
+  "added": 1,
+  "not_gcc_dropped": 1,
+  "not_gcc_top": [
+   "Valuelabs"
+  ],
+  "jd_backfilled": 3
+ },
+ {
   "at": "2026-11-22T14:08:38+05:30",
   "sources": {
    "LinkedIn": {
@@ -1313,23 +1336,5 @@
   },
   "scanned": 207,
   "added": 0
- },
- {
-  "at": "2026-10-26T07:24:00+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 194,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 13,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 207,
-  "added": 3
  }
 ]
