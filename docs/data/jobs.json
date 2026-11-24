@@ -1,5 +1,34 @@
 [
  {
+  "id": "li-4494046249",
+  "source": "LinkedIn",
+  "title": "Specialist Scrum Master",
+  "company": "Nationwide",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "7 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4494046249",
+  "score": 66,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum.",
+  "flags": [
+   "Experience not stated",
+   "+BFSI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-24",
+  "jd_tries": 1,
+  "jd_status": "unavailable",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
   "id": "li-4492367917",
   "source": "LinkedIn",
   "title": "Technical Project Lead / Manager – Enterprise AI & Software Delivery",
