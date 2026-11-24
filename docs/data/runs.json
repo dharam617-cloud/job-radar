@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-24T16:59:56+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 359,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 84,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 443,
+  "added": 2,
+  "not_gcc_dropped": 2,
+  "not_gcc_top": [
+   "UsefulBI Corporation",
+   "Tanisha Systems"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-24T07:35:41+05:30",
   "sources": {
    "LinkedIn": {
@@ -1327,23 +1351,5 @@
   },
   "scanned": 259,
   "added": 1
- },
- {
-  "at": "2026-10-26T18:09:46+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 213,
-    "error": "rate-limited by LinkedIn"
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 58,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 271,
-  "added": 8
  }
 ]
