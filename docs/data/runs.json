@@ -1,5 +1,35 @@
 [
  {
+  "at": "2026-11-25T15:46:59+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 377,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 87,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 464,
+  "added": 8,
+  "not_gcc_dropped": 8,
+  "not_gcc_top": [
+   "IBM",
+   "LTM",
+   "Royal Cyber",
+   "Covasant Technologies",
+   "Anaptyss",
+   "Bounteous",
+   "Allegis Group",
+   "Associated Broadcasting"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-25T07:30:14+05:30",
   "sources": {
    "LinkedIn": {
@@ -1338,23 +1368,5 @@
   },
   "scanned": 267,
   "added": 0
- },
- {
-  "at": "2026-10-28T07:31:01+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 205,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 53,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 258,
-  "added": 6
  }
 ]
