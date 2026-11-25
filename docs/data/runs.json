@@ -1,5 +1,28 @@
 [
  {
+  "at": "2026-11-25T07:30:14+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 364,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 43,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 407,
+  "added": 2,
+  "not_gcc_dropped": 1,
+  "not_gcc_top": [
+   "EY"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-24T16:59:56+05:30",
   "sources": {
    "LinkedIn": {
@@ -1333,23 +1356,5 @@
   },
   "scanned": 258,
   "added": 6
- },
- {
-  "at": "2026-10-27T10:46:47+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 191,
-    "error": "rate-limited by LinkedIn"
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 68,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 259,
-  "added": 1
  }
 ]

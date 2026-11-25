@@ -1,5 +1,67 @@
 [
  {
+  "id": "li-4474442697",
+  "source": "LinkedIn",
+  "title": "EY - GDS Consulting - AI And DATA - Insurance Delivery SM - Senior Manager",
+  "company": "EY",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4474442697",
+  "score": 75,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; BFSI domain like your CBA and JPMorgan work; overlaps on data, AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-25",
+  "jd_tries": 1,
+  "jd_status": "unavailable",
+  "themes": [
+   "ai",
+   "bfsi"
+  ]
+ },
+ {
+  "id": "li-4494708819",
+  "source": "LinkedIn",
+  "title": "Manager-Data Analytics (Qualtrics survey programmer and market research)",
+  "company": "American Express",
+  "location": "Gurugram, Haryana, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "1 hour ago",
+  "url": "https://www.linkedin.com/jobs/view/4494708819",
+  "score": 75,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on data, analytics.",
+  "flags": [
+   "Experience not stated",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-25",
+  "jd_tries": 1,
+  "jd_status": "unavailable",
+  "themes": [
+   "ai",
+   "data"
+  ]
+ },
+ {
   "id": "nk-241126000350",
   "source": "Naukri",
   "title": "Technical Program Manager",
