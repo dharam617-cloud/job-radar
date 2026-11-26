@@ -44,6 +44,47 @@
   ]
  },
  {
+  "id": "nk-151026031262",
+  "source": "Naukri",
+  "title": "Technical Project Manager",
+  "company": "Bounteous",
+  "location": "Hybrid - Gurugram, Chennai, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "9-14 Yrs",
+  "salary": "",
+  "posted": "Few Hours Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-bounteous-gurugram-chennai-bengaluru-9-to-14-years-151026031262",
+  "score": 70,
+  "family": "Project Manager",
+  "why": "Project Manager role; 9-14 Yrs fits your 14 years; overlaps on scrum, agile, kanban, AWS.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "jd_points": [
+   "We are seeking a seasoned Technical Project Manager (TPM) in India to drive cloud-based software delivery for our higher education client",
+   "Coach teams on best practices, ownership, and continuous improvement",
+   "Align priorities and facilitate smooth handoffs with U.S. engineering and product leaders",
+   "Assist with code reviews and troubleshooting Java/ Kotlin with spring or Python or Next JS React PostgreSQL / MySQL AWS Oversee project lifecycle: planning, backlog grooming, estimation, sprint execution, and release…",
+   "Monitor milestones and proactively resolve risks",
+   "Report on KPIs to U.S. engineering leadership Contribute to hiring, onboarding, and skill development",
+   "Java/Kotlin with spring or Python or Next JS React PostgreSQL / MySQL AWS Deep understanding of Agile methodologies (Scrum/Kanban)"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "risk",
+   "metrics",
+   "planning",
+   "release",
+   "cloud",
+   "people",
+   "transformation"
+  ]
+ },
+ {
   "id": "nk-051225029309",
   "source": "Naukri",
   "title": "Technical Project Manager",
@@ -70,6 +111,36 @@
   "jd_status": "ok",
   "themes": [
    "release"
+  ]
+ },
+ {
+  "id": "nk-261126500788",
+  "source": "Naukri",
+  "title": "Project Manager For TraydStream implementation",
+  "company": "Paraminfo",
+  "location": "Hyderabad",
+  "city": "Hyderabad",
+  "exp": "14-16 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-project-manager-for-traydstream-implementation-param-info-computer-services-pvt-ltd-hyderabad-14-to-16-years-261126500788",
+  "score": 65,
+  "family": "Project Manager",
+  "why": "Project Manager role; 14-16 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on agile, analytics.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "jd_points": [
+   "Previous experience in a similar Project Manager \\/ PMO role within financial services (Technology & Business)"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "bfsi"
   ]
  },
  {
