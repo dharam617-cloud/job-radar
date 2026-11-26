@@ -1,5 +1,191 @@
 [
  {
+  "id": "li-4493432774",
+  "source": "LinkedIn",
+  "title": "Scrum Master",
+  "company": "Barclays",
+  "location": "Pune Division, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4493432774",
+  "score": 64,
+  "family": "Scrum Master",
+  "why": "Scrum Master role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum.",
+  "flags": [
+   "Experience not stated",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "li-4494657804",
+  "source": "LinkedIn",
+  "title": "Scrum Master in Agile delivery",
+  "company": "CGI",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "9 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4494657804",
+  "score": 62,
+  "family": "Agile leadership",
+  "why": "Agile leadership role; overlaps on scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "li-4494642011",
+  "source": "LinkedIn",
+  "title": "Program Manager, AI Governance Enablement",
+  "company": "Amazon",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4494642011",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
+  "id": "li-4494628602",
+  "source": "LinkedIn",
+  "title": "Program Manager, AI Enablement",
+  "company": "Amazon",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4494628602",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "ai"
+  ]
+ },
+ {
+  "id": "li-4494620355",
+  "source": "LinkedIn",
+  "title": "Scrum Master (Agile Program Management)",
+  "company": "Innova ESI",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "14 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4494620355",
+  "score": 60,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; overlaps on scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "li-4494632099",
+  "source": "LinkedIn",
+  "title": "Senior Associate Agile Program Management L2_Scrum Master",
+  "company": "Innova ESI",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "14 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4494632099",
+  "score": 60,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; overlaps on scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "li-4494616404",
+  "source": "LinkedIn",
+  "title": "Agile Program Management – Scrum Master",
+  "company": "Innova ESI",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4494616404",
+  "score": 60,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; overlaps on scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
   "id": "li-4474442697",
   "source": "LinkedIn",
   "title": "EY - GDS Consulting - AI And DATA - Insurance Delivery SM - Senior Manager",

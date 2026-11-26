@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-26T07:30:37+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 368,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": false,
+    "fetched": 0,
+    "error": "no results (the site may be blocking cloud servers)",
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'; senior scrum master/bangalore: page 200, api [406], ''; senior scrum master/hyderabad: page 200, api [406], ''; senior scrum master/delhi-ncr: page 200, api [406], ''"
+   }
+  },
+  "scanned": 368,
+  "added": 7,
+  "not_gcc_dropped": 4,
+  "not_gcc_top": [
+   "Innova ESI",
+   "CGI"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-25T15:46:59+05:30",
   "sources": {
    "LinkedIn": {
@@ -1350,23 +1374,5 @@
   },
   "scanned": 274,
   "added": 9
- },
- {
-  "at": "2026-10-28T11:14:05+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 211,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 56,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 267,
-  "added": 0
  }
 ]
