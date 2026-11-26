@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-26T10:44:11+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 359,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 96,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 455,
+  "added": 3,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "Innova ESI",
+   "Nest Digital",
+   "Artizent"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-26T07:30:37+05:30",
   "sources": {
    "LinkedIn": {
@@ -1356,23 +1381,5 @@
   },
   "scanned": 274,
   "added": 1
- },
- {
-  "at": "2026-10-29T07:30:44+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 224,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 50,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 274,
-  "added": 9
  }
 ]

@@ -1,5 +1,78 @@
 [
  {
+  "id": "nk-251126035345",
+  "source": "Naukri",
+  "title": "Program Manager/Program Director",
+  "company": "Artizent",
+  "location": "Pune, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "14-23 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-program-manager-program-director-artizent-pune-bengaluru-14-to-23-years-251126035345",
+  "score": 95,
+  "family": "Program Manager",
+  "why": "Program Manager role; 14-23 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, data, analytics.",
+  "flags": [
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "jd_points": [
+   "Designation :- Program Manager/ Program Director Location: Bengaluru Experience: 1422 years Education: BE/B.Tech/MCA Role Overview We are looking for an experienced Technical Program Manager to lead the end-to-end…",
+   "Own project scope, schedules, budgets, resources, quality, risks, and delivery commitments",
+   "Identify and manage risks related to scope, data readiness, model performance, security, compliance, dependencies, and resource availability",
+   "Manage client expectations, delivery escalations, and scope changes while maintaining project profitability and customer satisfaction",
+   "Required Experience and Skills 15 years of overall IT experience, with significant experience in project and delivery management",
+   "Excellent client-facing, stakeholder-management, negotiation, and escalation-management skills",
+   "Experience using Jira, Azure DevOps, Confluence, MS Project, or similar tools"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "ai",
+   "cloud",
+   "security",
+   "resourcing",
+   "tools"
+  ]
+ },
+ {
+  "id": "nk-051225029309",
+  "source": "Naukri",
+  "title": "Technical Project Manager",
+  "company": "Nest Digital",
+  "location": "Kochi, Bengaluru",
+  "city": "Bengaluru",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-project-manager-nest-digital-kochi-bengaluru-12-to-17-years-051225029309",
+  "score": 65,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on agile.",
+  "flags": [
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "jd_points": [
+   "12 to 18 years of experience,with at least 2 years in a Technical Project Manager or Engineering Manager role Proven experience managing fixed-bid software development projects from planning through production Strong…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "release"
+  ]
+ },
+ {
   "id": "li-4493432774",
   "source": "LinkedIn",
   "title": "Scrum Master",
@@ -16,9 +89,9 @@
   "flags": [
    "Experience not stated",
    "+BFSI",
-   "Outside first-preference cities",
    "Pay not disclosed",
-   "JD not read yet"
+   "JD not read yet",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "BFSI",
@@ -170,6 +243,32 @@
   "salary": "",
   "posted": "15 hours ago",
   "url": "https://www.linkedin.com/jobs/view/4494616404",
+  "score": 60,
+  "family": "Scrum Master",
+  "why": "Scrum Master role; overlaps on scrum, agile.",
+  "flags": [
+   "Experience not stated",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-26",
+  "themes": [
+   "scrum"
+  ]
+ },
+ {
+  "id": "li-4495254473",
+  "source": "LinkedIn",
+  "title": "Agile Program manager || Scrum Master|| 6+ Yrs || Bengalore",
+  "company": "Innova ESI",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "10 minutes ago",
+  "url": "https://www.linkedin.com/jobs/view/4495254473",
   "score": 60,
   "family": "Scrum Master",
   "why": "Scrum Master role; overlaps on scrum, agile.",
