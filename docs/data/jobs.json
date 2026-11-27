@@ -65,8 +65,8 @@
    "+SAFe",
    "+AI",
    "+BFSI",
-   "Outside first-preference cities",
-   "Pay not disclosed"
+   "Pay not disclosed",
+   "Outside first-preference cities"
   ],
   "gcc": true,
   "sector": "BFSI",
@@ -92,6 +92,46 @@
    "data",
    "transformation",
    "resourcing"
+  ]
+ },
+ {
+  "id": "nk-271126011581",
+  "source": "Naukri",
+  "title": "Program Manager: (Procurement+Logistics+SCM)",
+  "company": "Mstack Chemicals",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "9-14 Yrs",
+  "salary": "",
+  "posted": "Few Hours Ago",
+  "url": "https://www.naukri.com/job-listings-program-manager-procurement-logistics-scm-mstack-chemicals-bengaluru-9-to-14-years-271126011581",
+  "score": 84,
+  "family": "Program Manager",
+  "why": "Program Manager role; 9-14 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, data, analytics.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-27",
+  "jd_points": [],
+  "jd_status": "thin",
+  "themes": [
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "ai",
+   "data",
+   "cloud",
+   "security",
+   "transformation",
+   "resourcing",
+   "bfsi"
   ]
  },
  {
@@ -174,6 +214,42 @@
    "ai",
    "people",
    "resourcing"
+  ]
+ },
+ {
+  "id": "nk-271126500775",
+  "source": "Naukri",
+  "title": "Project Manager- P",
+  "company": "Exavalu",
+  "location": "Remote",
+  "city": "Remote",
+  "exp": "12-16 Yrs",
+  "salary": "",
+  "posted": "Just Now",
+  "url": "https://www.naukri.com/job-listings-project-manager-p-exavalu-remote-12-to-16-years-271126500775",
+  "score": 64,
+  "family": "Project Manager",
+  "why": "Project Manager role; 12-16 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, data.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "+Remote",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-27",
+  "jd_points": [
+   "Experience with Guidewire,Duck Creek,Majesco,or similar insurance platforms",
+   "PMP,PMI-ACP,Scrum Master,or equivalent certification",
+   "Required Skills Preferred Skills This is a remote position",
+   "Project Manager - PC Insurance Overview: Seeking an experienced Project Manager with strong PC Insurance domain expertise and insurance platform implementation experience"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "cloud",
+   "bfsi"
   ]
  },
  {

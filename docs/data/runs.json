@@ -1,5 +1,29 @@
 [
  {
+  "at": "2026-11-27T15:30:56+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 426,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 119,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 545,
+  "added": 2,
+  "not_gcc_dropped": 2,
+  "not_gcc_top": [
+   "Exavalu",
+   "Mstack Chemicals"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-27T07:30:48+05:30",
   "sources": {
    "LinkedIn": {
@@ -1376,23 +1400,5 @@
   },
   "scanned": 247,
   "added": 4
- },
- {
-  "at": "2026-10-30T11:20:59+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 218,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 73,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 291,
-  "added": 2
  }
 ]
