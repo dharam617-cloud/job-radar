@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-27T07:30:48+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 407,
+    "error": null
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 86,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 493,
+  "added": 5,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "Cognizant",
+   "Pismo",
+   "Oddball"
+  ],
+  "jd_backfilled": 3
+ },
+ {
   "at": "2026-11-26T15:26:22+05:30",
   "sources": {
    "LinkedIn": {
@@ -1369,23 +1394,5 @@
   },
   "scanned": 291,
   "added": 2
- },
- {
-  "at": "2026-10-30T07:30:19+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 218,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 52,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 270,
-  "added": 8
  }
 ]

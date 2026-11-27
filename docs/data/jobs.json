@@ -1,5 +1,214 @@
 [
  {
+  "id": "nk-261126504500",
+  "source": "Naukri",
+  "title": "Technical Program Manager",
+  "company": "Pismo",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "12-17 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-program-manager-pismo-bengaluru-12-to-17-years-261126504500",
+  "score": 97,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 12-17 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, machine learning.",
+  "flags": [
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-27",
+  "jd_points": [
+   "These critical processes include managing expenses, compliance, vendors and reporting and of course, making payments",
+   "The VCS PMO team has responsibility for driving transformation, enabling and orchestrating the end-to-end delivery on Fiscal year OKRs and organizational strategy",
+   "Manage resource rosters for their Portfolios or Team of Agentic Squads in Jira, Jira Align and Polaris Manage program forecasts, budgets, labor capitalization and asset depreciation/amortization",
+   "Act as a coach and mentor to the Engineering, PMO and Product teams on adopting agile best practices and a cadence of portfolio, program & team level ceremonies",
+   "Generate and improve the agility metrics (performance, predictability, and persistency) by optimizing and governing the Visa processes for planning, budgeting, prioritization, delivery, release management, workforce…",
+   "Essential Qualifications: 12+ years of work experience in technical program management or software development with a Bachelor s Degree or at least 8 years of work experience with an Advanced Degree (e.g.,…",
+   "Experience developing plugins & agents using Claude Code, cline or other AI Agentic tools Enterprise Program Management Tools (Jira, Jira Align, (Clarity, Primavera, HP PPM etc.)"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "metrics",
+   "planning",
+   "release",
+   "ai",
+   "security",
+   "people",
+   "transformation",
+   "resourcing",
+   "bfsi",
+   "tools"
+  ]
+ },
+ {
+  "id": "li-4493846018",
+  "source": "LinkedIn",
+  "title": "Release Train Engineer",
+  "company": "Barclays",
+  "location": "Pune Division, Maharashtra, India",
+  "city": "Pune",
+  "exp": "",
+  "salary": "",
+  "posted": "8 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4493846018",
+  "score": 89,
+  "family": "Release Train Engineer",
+  "why": "Release Train Engineer role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on SAFe, scrum, agile, data, analytics.",
+  "flags": [
+   "Experience not stated",
+   "+SAFe",
+   "+AI",
+   "+BFSI",
+   "Outside first-preference cities",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-27",
+  "jd_points": [
+   "Expertise in Enterprise Agile (SAFE) ways of working and experience of leading ARTs with cross-location scrum teams",
+   "Strong analytical and problem-solving skills. Good communication and leadership skills. Strong stakeholder management skills",
+   "Facilitate Agile Planning and Events: Accountable to ensure readiness across scope, content and logistics to deliver value through facilitation of team of teams events",
+   "Stakeholder Management: Facilitate stakeholder collaboration (e.g., business stakeholders, product teams, vendors), build trust with stakeholders, and drive stakeholder alignment",
+   "Coordinate Interlock and Dependency Management: Drive partnership and synchronization across teams to facilitate release management across stakeholder groups. Accountable for effective readiness and communication",
+   "Optimize Flow: Drive towards relentless improvement and ensure value delivery by monitoring delivery status, ensuring technology use and data quality, addressing bottlenecks, and serving as a point of escalation",
+   "Metrics and Reporting: Track and report key metrics to provide representation at required leadership and governance forums and to ensure continuous delivery improvement"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "safe",
+   "scrum",
+   "risk",
+   "stakeholders",
+   "metrics",
+   "planning",
+   "release",
+   "data",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4495506002",
+  "source": "LinkedIn",
+  "title": "Vice President Product Delivery Lead Instruments Reference Data",
+  "company": "HSBC",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "12 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4495506002",
+  "score": 83,
+  "family": "Delivery Manager",
+  "why": "Delivery Manager role at a BFSI GCC; BFSI domain like your CBA and JPMorgan work; overlaps on scrum, agile, Jira, data, Tableau.",
+  "flags": [
+   "Lower experience ask",
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": true,
+  "sector": "BFSI",
+  "first_seen": "2026-11-27",
+  "jd_points": [
+   "Manage contending priorities across multiple stakeholders and consumers to ensure appropriate prioritization aligned to the strategy of the business",
+   "Drive forward trusted source functional enhancements in partnership with platform lead to promote trusted source adoption strategy and roadmap, via participation and oversight of problem statement articulation,…",
+   "Drive the Rapid Application Development (RAD) agenda as required, understanding and documenting linkages to trusted source gaps as an input to strategic product roadmap",
+   "Articulation of current state inefficiencies and risks in a consistent, structured manner to enable data led design thinking and support continuous improvement, including the management of these through…",
+   "Experience of Enterprise Data Management (EDM) solutions such as Bloomberg Data Management Services (BDMS), Golden Source, Alveo; Experience of mainstream data vendors such as DTCC Alert, Bloomberg and Refinitiv",
+   "Product Delivery and time management skills; excellent knowledge of the Agile Project Lifecycle; Strong technical aptitude with excellent knowledge in Microsoft Office, SharePoint and project management tools…"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "risk",
+   "stakeholders",
+   "planning",
+   "data",
+   "cloud",
+   "transformation",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "li-4486702199",
+  "source": "LinkedIn",
+  "title": "Head of Delivery, AI & Automation",
+  "company": "Cognizant",
+  "location": "Hyderabad, Telangana, India",
+  "city": "Hyderabad",
+  "exp": "",
+  "salary": "",
+  "posted": "7 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4486702199",
+  "score": 70,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role; overlaps on data, agentic.",
+  "flags": [
+   "Lower experience ask",
+   "+AI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-27",
+  "jd_points": [
+   "Own a portfolio of client programmes, each landing its committed outcome on time and on budget",
+   "Guide your squad leads from planning through delivery to handover",
+   "Own the delivery budget, P&L and business case, and keep leadership in the loop",
+   "Own hiring end to end, from deciding what the team needs to the final interview, and keep raising the bar with Cognizant recruiters and partners",
+   "Coach and grow your squad leads and team through 1-1s, mentoring and real career paths, and hold everyone, yourself included, to high standards. Connecting with product and go-to-market",
+   "8+ years in client-facing delivery, including 3+ years leading delivery teams",
+   "Early-adopter experience with agentic AI, using it regularly to improve your own work"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "scrum",
+   "planning",
+   "ai",
+   "people",
+   "resourcing"
+  ]
+ },
+ {
+  "id": "nk-261126501007",
+  "source": "Naukri",
+  "title": "Delivery Manager",
+  "company": "Oddball",
+  "location": "Remote",
+  "city": "Remote",
+  "exp": "10-14 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-delivery-manager-oddball-remote-10-to-14-years-261126501007",
+  "score": 62,
+  "family": "Delivery Manager",
+  "why": "Delivery Manager role; 10-14 Yrs fits your 14 years; overlaps on agile, AI.",
+  "flags": [
+   "+AI",
+   "+Remote",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-27",
+  "jd_points": [
+   "Bachelors Degree Applicants must be authorized to work in the United States Experience managing software delivery in an Agile environment,ideally on federal programs",
+   "Experience coordinating across multiple teams or vendors",
+   "Strong facilitation skills to keep a room moving"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "resourcing"
+  ]
+ },
+ {
   "id": "nk-251126035345",
   "source": "Naukri",
   "title": "Program Manager/Program Director",
@@ -380,10 +589,26 @@
   "sector": "",
   "first_seen": "2026-11-25",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
+   "risk",
+   "metrics",
    "ai",
+   "data",
+   "cloud",
+   "security",
+   "people",
+   "transformation",
    "bfsi"
+  ],
+  "jd_points": [
+   "Define and execute enterprise-wide Data, Analytics & AI strategies aligned to business objectives and transformation priorities",
+   "Design and implement scalable insurance data ecosystems, analytical platforms, KPI frameworks, reporting solutions, and AI-ready data foundations",
+   "Drive insurance data modernization programs involving legacy transformation, cloud migration, enterprise data platforms, and next-generation analytics solutions",
+   "Mentor and develop high-performing teams while strengthening organizational capabilities across Data, Analytics, Cloud, and AI. Insurance Domain Expertise Candidates must possess strong functional knowledge across…",
+   "Risk & Compliance Management The candidate should have a deep understanding of insurance data models, business metrics, operational reporting, analytical reporting, regulatory requirements, and performance management…",
+   "Experience supporting modernization programs involving core insurance platforms, data migration, data conversion, enterprise reporting, and analytics transformation",
+   "Proven experience leading and managing large-scale Insurance Data, Analytics & AI Managed Services engagements, with accountability for service delivery, SLAs, operational performance, governance, and continuous…"
   ]
  },
  {
@@ -411,10 +636,26 @@
   "sector": "BFSI",
   "first_seen": "2026-11-25",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "ai",
-   "data"
+   "scrum",
+   "risk",
+   "stakeholders",
+   "planning",
+   "release",
+   "data",
+   "security",
+   "people",
+   "resourcing"
+  ],
+  "jd_points": [
+   "New Program Implementation and Delivery: Lead end-to-end delivery of new survey initiatives, overseeing solution design, programming, testing, deployment, and integration with downstream reporting capabilities, while…",
+   "Risk, Controls, and Governance: Collaborate with Control Management, Technology, and cross-functional stakeholders to support key enterprise initiatives, including Project Guardian, Fusion, and other risk and control…",
+   "Understanding of technology risk management, operational controls, and governance processes, with the ability to support enterprise-level compliance and control initiatives",
+   "Proven ability to oversee multiple technical projects, manage competing priorities, and deliver high-quality solutions within established timelines",
+   "People Leadership & Coaching: Demonstrated ability to guide, mentor, and develop team members, provide constructive feedback, and foster accountability, collaboration, and high performance",
+   "Stakeholder & Vendor Management: Strong relationship management skills with the ability to collaborate effectively across business, Technology, Control Management, and external vendor teams to drive shared outcomes",
+   "Communication & Executive Presence: Strong written, verbal, and presentation skills, with the ability to communicate technical concepts, operational risks, and strategic recommendations clearly to diverse stakeholders"
   ]
  },
  {
@@ -715,9 +956,26 @@
   "sector": "BFSI",
   "first_seen": "2026-11-24",
   "jd_tries": 1,
-  "jd_status": "unavailable",
+  "jd_status": "ok",
   "themes": [
-   "scrum"
+   "scrum",
+   "risk",
+   "metrics",
+   "release",
+   "ai",
+   "data",
+   "security",
+   "people",
+   "transformation"
+  ],
+  "jd_points": [
+   "Coaches and mentor team members on Agile practices and principles",
+   "Removes impediments to the team’s progress; escalate obstacles requiring outside resolution. Identifies risks and issues that might have an impact on delivery and facilitates a mitigation strategy",
+   "Applies secure software and systems engineering practices throughout the delivery lifecycle to ensure our data and technology solutions are protected from threats and vulnerabilities",
+   "Guides and enables DevOps, DataOps, AI/MLOps through the adoption and refinement of Agile practices",
+   "Monitors and reports on team progress and performance through enterprise and industry metrics while maintaining data quality supporting metric accuracy",
+   "Mentoring and coaching abilities to guide associates",
+   "Strong candidates will understand Agile practices and frameworks, including Scrum, Kanban and Lean, Ability to coach team members and have team first mindset. Effective communication, solid problem-solving skills and…"
   ]
  },
  {
