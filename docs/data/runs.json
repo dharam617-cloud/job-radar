@@ -1,5 +1,30 @@
 [
  {
+  "at": "2026-11-28T07:30:13+05:30",
+  "sources": {
+   "LinkedIn": {
+    "ok": true,
+    "fetched": 400,
+    "error": "rate-limited by LinkedIn"
+   },
+   "Naukri": {
+    "ok": true,
+    "fetched": 86,
+    "error": null,
+    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
+   }
+  },
+  "scanned": 486,
+  "added": 5,
+  "not_gcc_dropped": 3,
+  "not_gcc_top": [
+   "Happiest Minds Technologies",
+   "Arctic Wolf Networks",
+   "Avanseus"
+  ],
+  "jd_backfilled": 0
+ },
+ {
   "at": "2026-11-27T15:30:56+05:30",
   "sources": {
    "LinkedIn": {
@@ -1382,23 +1407,5 @@
   },
   "scanned": 255,
   "added": 0
- },
- {
-  "at": "2026-10-31T10:18:14+05:30",
-  "sources": {
-   "LinkedIn": {
-    "ok": true,
-    "fetched": 199,
-    "error": null
-   },
-   "Naukri": {
-    "ok": true,
-    "fetched": 48,
-    "error": null,
-    "diag": "home 200 'Jobs - Recruitment - Job Search - Employ'"
-   }
-  },
-  "scanned": 247,
-  "added": 4
  }
 ]

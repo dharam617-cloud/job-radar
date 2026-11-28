@@ -1,5 +1,148 @@
 [
  {
+  "id": "nk-271126506218",
+  "source": "Naukri",
+  "title": "PROGRAM MANAGER - Insurance",
+  "company": "Happiest Minds Technologies",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-program-manager-insurance-happiest-minds-technologies-pvt-ltd-bengaluru-10-to-15-years-271126506218",
+  "score": 69,
+  "family": "Program Manager",
+  "why": "Program Manager role; 10-15 Yrs fits your 14 years; BFSI domain like your CBA and JPMorgan work; overlaps on analytics.",
+  "flags": [
+   "+Data",
+   "+BFSI",
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-28",
+  "jd_points": [
+   "Bachelors degree in Business Administration,Information Technology,or a related field A Masters degree is a plus Project Management Professional (PMP) certification or equivalent is highly desirable Preferred Skills"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "bfsi"
+  ]
+ },
+ {
+  "id": "nk-271126502589",
+  "source": "Naukri",
+  "title": "Senior Product Program Manager",
+  "company": "Arctic Wolf Networks",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "10-15 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-senior-product-program-manager-arctic-wolf-networks-bengaluru-10-to-15-years-271126502589",
+  "score": 63,
+  "family": "Program Manager",
+  "why": "Program Manager role; 10-15 Yrs fits your 14 years; overlaps on agile, Jira.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-28",
+  "jd_points": [
+   "10-15 years experience in a technical or product role managing large-scale software deployments. 10-15 years of experience in program / project/ product management,with at least 6 years in software development",
+   "Bachelors degree required in Computer Science,Cybersecurity,Business,or related field",
+   "Understanding of project and program management skills and methodologies"
+  ],
+  "jd_status": "ok",
+  "themes": [
+   "release",
+   "security"
+  ]
+ },
+ {
+  "id": "li-4493885438",
+  "source": "LinkedIn",
+  "title": "Program Manager AI SDLC Transformation",
+  "company": "Nokia",
+  "location": "Bengaluru, Karnataka, India",
+  "city": "Bengaluru",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4493885438",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-28",
+  "themes": [
+   "ai",
+   "transformation"
+  ]
+ },
+ {
+  "id": "li-4493893200",
+  "source": "LinkedIn",
+  "title": "AI Transformation Program Manager",
+  "company": "Nokia",
+  "location": "Noida, Uttar Pradesh, India",
+  "city": "Delhi NCR",
+  "exp": "",
+  "salary": "",
+  "posted": "15 hours ago",
+  "url": "https://www.linkedin.com/jobs/view/4493893200",
+  "score": 61,
+  "family": "AI/Data Program",
+  "why": "AI/Data Program role at a Technology GCC; overlaps on AI.",
+  "flags": [
+   "Experience not stated",
+   "+AI",
+   "Pay not disclosed",
+   "JD not read yet"
+  ],
+  "gcc": true,
+  "sector": "Technology",
+  "first_seen": "2026-11-28",
+  "themes": [
+   "ai",
+   "transformation"
+  ]
+ },
+ {
+  "id": "nk-271126921015",
+  "source": "Naukri",
+  "title": "Technical Program Manager",
+  "company": "Avanseus",
+  "location": "Bengaluru",
+  "city": "Bengaluru",
+  "exp": "12-16 Yrs",
+  "salary": "",
+  "posted": "1 Day Ago",
+  "url": "https://www.naukri.com/job-listings-technical-program-manager-avanseus-bengaluru-12-to-16-years-271126921015",
+  "score": 61,
+  "family": "Technical Program Manager",
+  "why": "Technical Program Manager role; 12-16 Yrs fits your 14 years; overlaps on agile.",
+  "flags": [
+   "Pay not disclosed"
+  ],
+  "gcc": false,
+  "sector": "",
+  "first_seen": "2026-11-28",
+  "jd_points": [
+   "Certifications (Preferred): PMP,PRINCE2 Foundation / Practitioner,Agile with Atlassian Tools"
+  ],
+  "jd_status": "ok",
+  "themes": []
+ },
+ {
   "id": "nk-261126504500",
   "source": "Naukri",
   "title": "Technical Program Manager",
